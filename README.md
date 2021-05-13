@@ -1,12 +1,10 @@
 # Douglas Neuroinformatics Platform Documentation
 
-Hello
-
 ## To build locally
 
 Follow these steps.
 
-1. install `requirements.txt`
+1. `pip install -r requirements.txt`
 2. `cd docs` and then `make html`
 3. open `docs/_build/index.html`
 
