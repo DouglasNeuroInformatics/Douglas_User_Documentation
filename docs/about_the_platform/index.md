@@ -17,3 +17,15 @@ scheduling on workstations.
 
 Entry-level GPU computation is available on workstations to provide CUDA
 and OpenCL acceleration suitable applications.
+
+# Filesystem layout
+
+Each computer in the system has access to two system-wide network filesystems.
+User home directories `$HOME` are mounted from the user server (currently `cicus03`).
+Home directories are suitable for storing the regular confiugration files, as well
+as papers and similar files, it should not be used to store data. The high performace
+filesystem (currently hosted on `cicss03`) is available under the `/data` path.
+All users have access to scratch storage at `/data/scratch`, which is suitable
+for storing data during processing. Scratch does not keep any historical versions
+and is not backed up, so it should not be relied upon for long-term storage. In
+the future it is expected a date-based deletion policy will be implemented.
