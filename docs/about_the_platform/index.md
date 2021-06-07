@@ -29,3 +29,11 @@ All users have access to scratch storage at `/data/scratch`, which is suitable
 for storing data during processing. Scratch does not keep any historical versions
 and is not backed up, so it should not be relied upon for long-term storage. In
 the future it is expected a date-based deletion policy will be implemented.
+
+## Accessing Human MRI Scanner DICOMS
+
+The Siemens MAGNETOM Prisma Human MRI scanner sends collected data to `cicus03`
+which acts a pseudo-PACS system, collecting the files and storing them at
+`/home/cic/dicom/transfers` accessible for 14 calendar days before being moved
+to long-term cold storage. Users are expected to access their data during that
+time and copy it to appropriate long term storage.
