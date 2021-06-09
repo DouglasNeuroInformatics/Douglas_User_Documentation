@@ -1,3 +1,4 @@
 sphinx==3.5.4
 myst-parser==0.14.0
-groundwork-sphinx-theme
+sphinx-rtd-dark-mode
+sphinx-rtd-theme
