@@ -136,7 +136,7 @@ To load a module, use the load command, `module load <modulename>` which will lo
 system, otherwise it will load the latest version. To load a specific version of a module, specify the version during loading,
 `module load <modulename>/<moduleversion>`.
 
-:::{note}
+```{admonition} Module Dependencies
 If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencie and
 modules available that would satisfy it, each missing depndency stops the module loading so this may occur several times as you load all dependencies:
 ```bash
@@ -144,4 +144,4 @@ $ module load pyminc
 pyminc/0.51(7):ERROR:151: Module 'pyminc/0.51' depends on one of the module(s) 'anaconda/miniconda3 anaconda/5.1.0-python3 anaconda/5.0.1-python3 anaconda/4.3.0-python2.7 anaconda/4.2.0-python3 anaconda/4.1.1 anaconda/2019.03-python3 anaconda/2.5 anaconda/2.3 anaconda/2.1.0 anaconda/2.0.1'
 pyminc/0.51(7):ERROR:102: Tcl command execution failed: prereq anaconda
 ```
-:::
+```
