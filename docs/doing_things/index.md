@@ -3,15 +3,18 @@
 ## Accessing the System
 
 The platform can be accessed in a number of ways:
+
 1. Physical access
 2. Remote access within the Douglas.
 3. Remote access outside the Douglas.
 
 ### Physical Access
+
 Physical access to a suite of workstations is available inside the Douglas CIC,
 contact the CIC Administrative Assistant (Louis Théroux) for keycard access.
 
 ### Remote Access within the Douglas
+
 All platform hardware is acccessible within the Douglas Research Center network
 via `ssh`. The main userserver is available at `cicus03`, the storage server
 at `cicss03` and workstations are available in the range `cicws[01..41]`.
@@ -25,6 +28,7 @@ a graphical display of the current state of CPU and Memory utilization.
 ```
 
 ### Remote Access outside the Douglas
+
 Remote access from outside the Douglas is provided by authorization only.
 Please contact the platform to request access.
 
@@ -68,7 +72,9 @@ between software to be specified, and for conflicting versions to be specified.
 
 The obtain a list of available software, run `module avail`, below is an example generated
 on 2021-06-09, the format of the naming below is `<modulename>/<moduleversion>`:
-```
+
+```{code-block}
+
 -------------------------------------------------------------------------------------------- /opt/quarantine/modules ---------------------------------------------------------------------------------------------
 ACVD/20161025                                        jmrui/6.0beta                                        pyminc/0.41
 AFNI/2014.09.08.21.47EDT                             mango/3.8                                            pyminc/0.42b
@@ -154,9 +160,13 @@ system, otherwise it will load the latest version. To load a specific version of
 ```{admonition} Module Dependencies
 If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencie and
 modules available that would satisfy it, each missing depndency stops the module loading so this may occur several times as you load all dependencies:
-```bash
+
+```{code-block} bash
+
 $ module load pyminc
 pyminc/0.51(7):ERROR:151: Module 'pyminc/0.51' depends on one of the module(s) 'anaconda/miniconda3 anaconda/5.1.0-python3 anaconda/5.0.1-python3 anaconda/4.3.0-python2.7 anaconda/4.2.0-python3 anaconda/4.1.1 anaconda/2019.03-python3 anaconda/2.5 anaconda/2.3 anaconda/2.1.0 anaconda/2.0.1'
 pyminc/0.51(7):ERROR:102: Tcl command execution failed: prereq anaconda
+
 ```
+
 ```
