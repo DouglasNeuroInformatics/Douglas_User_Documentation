@@ -28,6 +28,21 @@ a graphical display of the current state of CPU and Memory utilization.
 Remote access from outside the Douglas is provided by authorization only.
 Please contact the platform to request access.
 
+## Transferring Data
+
+Access to filesystems is enabled via the `scp/sftp` functionality of `ssh`, as
+well as the `rsync` program over `ssh`. For data transfers, please connect
+directly to `cicss03` to bypass any round-trip data would need to travel if
+performing transfers to workstations. Linux and OSX users can find the `sftp`
+`scp` and `rsync` commands in their terminal. Windows users can use
+[WinSCP](https://winscp.net/) or [FileZilla](https://filezilla-project.org/)
+for a graphical tool to access data.
+
+```{admonition} Real time data access
+The [sshfs](https://github.com/libfuse/sshfs) project allows for filesystems to be mounted remotely via ssh. See the site for details and for windows see [here](https://github.com/billziss-gh/sshfs-win).
+
+```
+
 ## Accessing Human MRI Scanner DICOMS
 
 The Siemens MAGNETOM Prisma Human MRI scanner sends collected data to `cicus03`
