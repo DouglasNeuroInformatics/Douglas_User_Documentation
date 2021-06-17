@@ -9,3 +9,4 @@ caption: Things we know about
 ---
 about_the_platform/index.md
 getting_started/index.md
+doing_things/index.md
