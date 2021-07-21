@@ -1,6 +1,6 @@
 # Doing Things
 
-## Accessing the System
+## <a name="systemAccess"></a>Accessing the System
 
 The platform can be accessed in a number of ways:
 
@@ -32,7 +32,7 @@ a graphical display of the current state of CPU and Memory utilization.
 Remote access from outside the Douglas is provided by authorization only.
 Please contact the platform to request access.
 
-## Transferring Data
+## <a name="dataTransfer"></a>Transferring Data
 
 Access to filesystems is enabled via the `scp/sftp` functionality of `ssh`, as
 well as the `rsync` program over `ssh`. For data transfers, please connect
@@ -55,6 +55,27 @@ which acts a pseudo-PACS system, collecting the files and storing them at
 to long-term cold storage. Users are expected to access their data during that
 time and copy it to appropriate long term storage. Recovery from cold storage
 is available with delayed access and a recovery fee associated with staff time.
+
+
+## Accessing Animal MRI Scanner Raw Data
+
+The Bruker BioSpec 70/30 scanner produces data in the raw Bruker data format. 
+The data sets are accessible on the Bruker controlling computer for 14 calendar
+days from the date of the acquisition in `/opt/<PV version>/data/<username>`, 
+with <PV version> the ParaVision software version (PV5.1 or PV6.0.1) and <username> 
+the login of the user performing the scans. Users are expected to access their data 
+during that time and copy it to appropriate long term storage. Recovery is available 
+with delayed access and a recovery fee associated with staff time. You can access 
+the data by 1) accessing the [Neuroinformatics Platform](#systemAccess) and then 2) 
+accessing the bruker7t computer. The [tools for data transfer](#dataTransfer) will 
+work.
+
+Conversion to other formats (dicom and nifti) is availaible upon request.
+  
+  
+
+
+
 
 ## Accessing Scientific Software (quarantine aka modules)
 
