@@ -70,7 +70,7 @@ by 1) accessing the [Neuroinformatics Platform](#systemAccess) and then 2)
 accessing the bruker7t computer. The [tools for data transfer](#dataTransfer) will 
 work, provided you take into account you need to connect to an additional computer (the bruker7t).
 
-Conversion to other formats (dicom and nifti) is availaible upon request.
+Conversion to other formats (dicom and nifti) is available upon request.
 
 
 ## Accessing Scientific Software (quarantine aka modules)
