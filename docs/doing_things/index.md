@@ -62,7 +62,7 @@ is available with delayed access and a recovery fee associated with staff time.
 The Bruker BioSpec 70/30 scanner produces data in the raw Bruker data format. 
 The data sets are accessible on the Bruker controlling computer for 14 calendar
 days from the date of the acquisition in `/opt/<PV version>/data/<username>`, 
-with <PV version> the ParaVision software version (PV5.1 or PV6.0.1) and <username> 
+with `<PV version>` the ParaVision software version (PV5.1 or PV6.0.1) and `<username>` 
 the login of the user performing the scans. Users are expected to access their data 
 during that time and copy it to appropriate long term storage. Recovery is available 
 with delayed access and a recovery fee associated with staff time. You can access 
