@@ -13,6 +13,18 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "gdevenyi",
+      "name": "Gabriel A. Devenyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3001850?v=4",
+      "profile": "https://github.com/gdevenyi",
+      "contributions": [
+        "ideas",
+        "content",
+        "doc",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
