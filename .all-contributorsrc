@@ -25,6 +25,18 @@
         "doc",
         "projectManagement"
       ]
+    },
+    {
+      "login": "surchs",
+      "name": "Sebastian Urchs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1302022?v=4",
+      "profile": "https://github.com/surchs",
+      "contributions": [
+        "ideas",
+        "content",
+        "doc",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
