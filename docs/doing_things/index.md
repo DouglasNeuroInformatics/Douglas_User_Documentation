@@ -1,6 +1,6 @@
 # Doing Things
 
-## <a name="systemAccess"></a>Accessing the System
+## Accessing the System
 
 The platform can be accessed in a number of ways:
 
@@ -32,7 +32,7 @@ a graphical display of the current state of CPU and Memory utilization.
 Remote access from outside the Douglas is provided by authorization only.
 Please contact the platform to request access.
 
-## <a name="dataTransfer"></a>Transferring Data
+## Transferring Data
 
 Access to filesystems is enabled via the `scp/sftp` functionality of `ssh`, as
 well as the `rsync` program over `ssh`. For data transfers, please connect
@@ -66,11 +66,11 @@ with `<PV version>` the ParaVision software version (PV5.1 or PV6.0.1) and `<use
 the login of the user performing the scans. Users are expected to access their data 
 during that time and copy it to appropriate long term storage. Recovery is available 
 with delayed access and a recovery fee associated with staff time. Data can be accessed
-by 1) accessing the [Neuroinformatics Platform](#systemAccess) and then 2) 
-accessing the bruker7t computer. The [tools for data transfer](#dataTransfer) will 
+by 1) accessing the {ref}`Neuroinformatics Platform<doing_things/index:accessing the system>` and then 2) 
+accessing the bruker7t computer. The {ref}`tools for data transfer<doing_things/index:transferring data>` will 
 work, provided you take into account you need to connect to an additional computer (the bruker7t).
 
-Conversion to other formats (dicom and nifti) is available upon request.
+Conversion to other formats (DICOM and NIFTI) is available upon request.
 
 
 ## Accessing Scientific Software (quarantine aka modules)
