@@ -1,6 +1,6 @@
 # Douglas Neuroinformatics Platform Documentation
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## To build locally
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/isabelbacellar"><img src="https://avatars.githubusercontent.com/u/87087618?v=4?s=100" width="100px;" alt=""/><br /><sub><b>isabelbacellar</b></sub></a><br /><a href="#ideas-isabelbacellar" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/gdevenyi"><img src="https://avatars.githubusercontent.com/u/3001850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gabriel A. Devenyi</b></sub></a><br /><a href="#ideas-gdevenyi" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-gdevenyi" title="Content">🖋</a> <a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/commits?author=gdevenyi" title="Documentation">📖</a> <a href="#projectManagement-gdevenyi" title="Project Management">📆</a></td>
   </tr>
 </table>
 
