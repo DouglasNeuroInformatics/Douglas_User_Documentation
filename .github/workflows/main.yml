@@ -11,3 +11,11 @@ jobs:
       with:
         docs-folder: "docs/"
         build-command: "sphinx-build -n -W -b html . _build"
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
+        build-command: "sphinx-build -W -b linkcheck . _build"
