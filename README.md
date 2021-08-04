@@ -7,9 +7,10 @@
 
 Follow these steps.
 
-1. `pip install -r requirements.txt`
-2. `cd docs` and then `make html`
-3. open `docs/_build/index.html`
+1. `cd docs`
+2. `pip install -r requirements.txt`
+3. `make html`
+4. open `docs/_build/index.html`
 
 To make changes, edit the markdown files.
 If you have done a major refactor (renaming files or directory structures), 
