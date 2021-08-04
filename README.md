@@ -12,11 +12,22 @@ Follow these steps.
 3. open `docs/_build/index.html`
 
 To make changes, edit the markdown files.
+If you have done a major refactor (renaming files or directory structures), 
+you can use `make clean html` to create a fresh build directory for local testing.
 
 Also check out
 
 - [MyST docs](https://myst-parser.readthedocs.io/en/latest/)
 - [SPHINX docs](https://www.sphinx-doc.org/en/master/usage/quickstart.html)
+
+## Contributing
+
+If you want to contribute your expertise to this documentation,
+the best place to start would be to 
+[create a new issue](https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/issues)
+and describe the content you plan on adding. 
+This will allow other contributors to discuss with you 
+and is a good way to check if someone else is already working on a similar idea that you can collaborate on.
 
 ## Contributors ✨
 
