@@ -19,6 +19,6 @@ Once accounts have been created new users will be invited to meet in person
 ## Ask a support question
 
 Support for the Douglas Neuroinformatics platform is provided on the forum
-located at [https://discuss.douglasneuroinformatics.ca](https://discuss.douglasneuroinformatics.ca)
+located at [https://discourse.douglasneuroinformatics.ca/](https://discourse.douglasneuroinformatics.ca/)
 
 Invite-only access is provided during initial sign-up.
