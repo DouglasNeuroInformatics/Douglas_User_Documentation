@@ -25,7 +25,7 @@ and OpenCL acceleration suitable applications.
 The platform workstations run Ubuntu Linux variants, with full productivity
 software (LibreOffice, GIMP, Inkscape, etc), modern web browsers (Chrome, Firefox),
 and a large suite of scientific software. Scientific software is avaialble in the
-{ref}`software quarantine<doing_things/index:accessing scientific software (quarantine aka modules)>`.
+{ref}`software quarantine<using_the_system/access_to_software:accessing scientific software (quarantine aka modules)>`.
 
 ## Filesystem layout
 

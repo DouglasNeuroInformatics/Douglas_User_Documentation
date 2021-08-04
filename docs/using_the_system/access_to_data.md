@@ -34,8 +34,8 @@ with `<PV version>` the ParaVision software version (PV5.1 or PV6.0.1) and `<use
 the login of the user performing the scans. Users are expected to access their data 
 during that time and copy it to appropriate long term storage. Recovery is available 
 with delayed access and a recovery fee associated with staff time. Data can be accessed
-by 1) accessing the {ref}`Neuroinformatics Platform<doing_things/index:accessing the system>` and then 2) 
-accessing the bruker7t computer. The {ref}`tools for data transfer<doing_things/index:transferring data>` will 
+by 1) accessing the {ref}`Neuroinformatics Platform<using_the_system/access_to_system:accessing the system>` and then 2) 
+accessing the bruker7t computer. The {ref}`tools for data transfer<using_the_system/access_to_data:transferring data>` will 
 work, provided you take into account you need to connect to an additional computer (the bruker7t).
 
 Conversion to other formats (DICOM and NIFTI) is available upon request.
