@@ -34,8 +34,19 @@ extensions = [
     "myst_parser",
     "sphinx.ext.githubpages",
     "sphinx_rtd_dark_mode",
-    "sphinx.ext.autosectionlabel"
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.todo"
 ]
+
+# Choose to generate TOOD notices or not. Defaults to False
+todo_include_todos = False
+
+# Set MyST specific extensions
+myst_enable_extensions = [
+    "tasklist"
+]
+
+
 
 # Make sure the target is unique
 autosectionlabel_prefix_document = True
@@ -64,6 +75,15 @@ html_static_path = ['_static']
 
 # -- Options for sphinx_rtd_dark_mode -------
 default_dark_mode = False
+
+# Set some RTD theme config.  This includes the entire navigation structure
+# into the sidebar of all pages.  However, expanding the sections isn't
+# provided yet on the RTD theme (see
+# https://github.com/readthedocs/sphinx_rtd_theme/issues/455).
+html_theme_options = {
+    'collapse_navigation': False,
+    'navigation_depth': 3,
+}
 
 # Set some RTD theme config.  This includes the entire navigation structure
 # into the sidebar of all pages.  However, expanding the sections isn't
