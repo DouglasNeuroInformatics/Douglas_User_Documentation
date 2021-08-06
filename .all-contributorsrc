@@ -24,7 +24,8 @@
         "content",
         "doc",
         "projectManagement",
-        "test"
+        "test",
+        "review"
       ]
     },
     {
