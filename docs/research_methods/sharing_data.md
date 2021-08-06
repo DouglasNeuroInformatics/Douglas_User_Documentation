@@ -26,7 +26,11 @@ we provide you with good external resources that provide answers.
 
 ## Check data sharing constraints 
 Your first step should be to ensure that you **can** in fact share the raw or derivative data you intend to share. 
-Here are some reasons you may be constrained in your ability to share your data:
+Here are some reasons you may be constrained in your ability to share your data. 
+Most of the time this **does not mean that you cannot share any data**!
+Often it just means that someone has already made a decision on **how** you should share data.
+
+Here are some scenarios that could suggest that there are constraints on how you share data:
 
 - there is already a [**data management plan**](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
 that describes 
