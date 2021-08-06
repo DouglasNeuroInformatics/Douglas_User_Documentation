@@ -1,7 +1,7 @@
 # Sharing data
 
 Publishing research data is an important step in ensuring that your research outputs are following
-the [**F**indable **A**ccessible **I**nteroperable **R**eusable principles](https://www.go-fair.org/fair-principles/)
+the [**F**indable **A**ccessible **I**nteroperable **R**eusable (FAIR) principles](https://www.go-fair.org/fair-principles/)
 for scientific data management. 
 Although making your work accessible to others involves costs (effort and time, mostly), it 
 [considerably increases the reach of your work](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416) 
@@ -82,7 +82,7 @@ Your goal here is that someone else might want to find these data useful, will r
 Your goal here is to support your findings and figures with the data that support your analyses - 
 and possibly to fulfill the requirements of the journal.
 
-The main difference between these two options is that option 2. is a specification of 1. 
+The main difference between these two options is that option 2. is a special case of 1. 
 That is, to share data in support of a publication, 
 you should follow the same steps and rigour in sharing a standalone dataset
 but you will also want to consider providing your data in a way 
@@ -174,7 +174,8 @@ Here are some questions to get you started
   - If you do share code with your paper, each step should ideally map to a specific command or script
   - For each step, make a note of the input and output data required
 - What intermediate data do you want to share?
-  - Some analyses steps take too long or require too many resources for a reader to reasonably re-run them
+  - Some analyses steps take too long, results are too large, 
+  or require too many resources for a reader to reasonably re-run them
   - Other times, raw data may not be possible to share due to privacy concerns, 
   whereas derivative summary data may be uncomplicated
   - In these cases it may make sense to just share intermediate data
