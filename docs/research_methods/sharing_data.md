@@ -6,6 +6,14 @@ for scientific data management.
 Although making your work accessible to others involves costs (effort and time, mostly), it 
 [considerably increases the reach of your work](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416) 
 and thus also benefits your academic career.
+You can make the process of sharing your work, data, and code substantially easier
+if you [plan it right from the start of your project](https://the-turing-way.netlify.app/project-design/project-design.html).
+A data management plan,
+good organization of your data,
+and good documentation of your actions
+will all help make this process much easier,
+and are also essential for you to be able to reproduce and understand your own work.
+In practice, your closest collaborator is often you from 6 months ago!
 
 ```{admonition} How to read this document
 :class: tip
