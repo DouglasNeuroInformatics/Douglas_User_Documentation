@@ -4,13 +4,15 @@
 
 All computer systems have installed a standard suite of desktop productivity software
 (office, image maniupuation, web browser, etc.). If a readily available productivity
-software package is not installed and you wish to use it, please contact us to request
+software package is not installed and you wish to use it,
+[open a support ticket](https://discourse.douglasneuroinformatics.ca/) to request
 installation.
 
 Scientific sofware is deployed across all computers in the platform via shared network
 drive, ensuring the same version of software is run on all machines during any kind of
 cluster processing. To make multiple versions of software available, software is isolated
-in seperate installation directories and access is managed via the `module` system.
+in seperate installation directories and access is managed via the
+[`module`](https://modules.readthedocs.io/en/latest/) system.
 The `module` system allows for multiple versions to live side-by-side, for dependencies
 between software to be specified, and for conflicting versions to be specified.
 

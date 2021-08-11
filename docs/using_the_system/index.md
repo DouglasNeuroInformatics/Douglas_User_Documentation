@@ -4,7 +4,8 @@
 :class: warning
 
 In order to access and use the Douglas Neuroinformatics Platform,
-first ensure that you have completed the [Getting Started](../getting_started/index.md) section.
+first ensure that you have completed the {ref}`Getting Started<getting_started/index:Getting Started>`
+section.
 ```
 
 ```{toctree}
