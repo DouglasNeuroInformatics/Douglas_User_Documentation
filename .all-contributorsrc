@@ -50,6 +50,16 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "LuceroGG",
+      "name": "LuceroGG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43321220?v=4",
+      "profile": "https://github.com/LuceroGG",
+      "contributions": [
+        "userTesting",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
