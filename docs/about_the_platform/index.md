@@ -24,17 +24,7 @@ and OpenCL acceleration suitable applications.
 
 The platform workstations run Ubuntu Linux variants, with full productivity
 software (LibreOffice, GIMP, Inkscape, etc), modern web browsers (Chrome, Firefox),
-and a large suite of scientific software. Scientific software is avaialble in the
+and a large suite of scientific software. Servers run Ubuntu Linux server, as well as
+compute nodes. Limited Windows workstations are available to provide access to proprietary
+software such as E-Prime. Scientific software is available in the
 {ref}`software quarantine<using_the_system/access_to_software:accessing scientific software (quarantine aka modules)>`.
-
-## Filesystem layout
-
-Each computer in the system has access to two system-wide network filesystems.
-User home directories `$HOME` are mounted from the user server (currently `cicus03`).
-Home directories are suitable for storing the regular confiugration files, as well
-as papers and similar files, it should not be used to store data. The high performace
-filesystem (currently hosted on `cicss03`) is available under the `/data` path.
-All users have access to scratch storage at `/data/scratch`, which is suitable
-for storing data during processing. Scratch does not keep any historical versions
-and is not backed up, so it should not be relied upon for long-term storage. In
-the future it is expected a date-based deletion policy will be implemented.
