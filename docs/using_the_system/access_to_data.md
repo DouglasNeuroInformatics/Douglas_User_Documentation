@@ -1,17 +1,63 @@
 # Access to Data
 
+## Filesystem Layout
+
+Each computer in the system has access to two system-wide network filesystems.
+User home directories `$HOME` are mounted from the user server (currently `cicus03`)
+on `/home/cic/<username>`. Home directories are suitable for storing the regular configuration files, as well
+as papers and similar files, it should not be used to store data.
+
+The high performance filesystem (currently hosted on `cicss03`) is available under the `/data` path.
+All users have access to scratch storage at `/data/scratch`, which is suitable
+for storing data during processing. Scratch does not keep any historical versions
+and is not backed up, so it should not be relied upon for long-term storage. In
+the future it is expected a age-based deletion policy will be implemented to
+maintain sufficient free space and encourage users to use storage properly.
+
+Paid storage for individual lab groups is also available under the `/data/` path,
+the exact name depends upon what the group decided during creation.
+
+```{admonition} Mounting on demand
+Network filesystems are not automatically mounted on boot-up on machines, but
+rather mounted lazily on-demand. As such, `/data` will appear empty before
+attempts are made to access a specific filesystem. GUI file managers do
+not work particularly well in this scenario, as there will be no folders
+to interact with. It is recommended to perform file management using the
+command line tools.
+```
+
 ## Transferring Data
 
 Access to filesystems is enabled via the `scp/sftp` functionality of `ssh`, as
-well as the `rsync` program over `ssh`. For data transfers, please connect
-directly to `cicss03` to bypass any round-trip data would need to travel if
-performing transfers to workstations. Linux and OSX users can find the `sftp`
+well as the `rsync` program over `ssh`. Linux and OSX users can find the `sftp`
 `scp` and `rsync` commands in their terminal. Windows users can use
 [WinSCP](https://winscp.net/) or [FileZilla](https://filezilla-project.org/)
-for a graphical tool to access data.
+for a graphical tool to access data or [MobaXterm](https://mobaxterm.mobatek.net/)
+for a proper Linux-like terminal.
+
+Here are few example commands for data transfer, note that these commands assume that
+you are within the Douglas:
+
+```bash
+# Copying a directory of files to cicss03 in /data/scratch/<username>
+$ rsync -avz directory <username>@cicss03:/data/scratch/<username>
+# Copying another directory from cicss03 to your local system
+$ rsync -avz <username>@cicss03:/data/scratch/<username>/another_dir .
+```
+
+```{admonition} Resumable file transfers
+`rsync` is strongly recommended for all data transfers, as it supports resuming interrupted transfers
+```
+
+```{admonition} Bulk data transfer
+For bulk data transfers, please connect directly to `cicss03` to bypass any round-trip data would need to travel if
+performing transfers to workstations.
+```
 
 ```{admonition} Real time data access
-The [sshfs](https://github.com/libfuse/sshfs) project allows for filesystems to be mounted remotely via ssh. See the site for details and for windows see [here](https://github.com/billziss-gh/sshfs-win).
+The [sshfs](https://github.com/libfuse/sshfs) project allows for filesystems to be mounted remotely via ssh.
+This allows you to access files without having to explicitly transfer them back-and-forth.
+See the site for details and for windows see [here](https://github.com/billziss-gh/sshfs-win).
 
 ```
 
