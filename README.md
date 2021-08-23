@@ -1,6 +1,6 @@
 # Douglas Neuroinformatics Platform Documentation
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## To build locally
@@ -44,7 +44,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/surchs"><img src="https://avatars.githubusercontent.com/u/1302022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sebastian Urchs</b></sub></a><br /><a href="#ideas-surchs" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-surchs" title="Content">🖋</a> <a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/commits?author=surchs" title="Documentation">📖</a> <a href="#projectManagement-surchs" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/jeremie-fouquet"><img src="https://avatars.githubusercontent.com/u/6575734?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeremie Fouquet</b></sub></a><br /><a href="#content-jeremie-fouquet" title="Content">🖋</a> <a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/commits?author=jeremie-fouquet" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/LuceroGG"><img src="https://avatars.githubusercontent.com/u/43321220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LuceroGG</b></sub></a><br /><a href="#userTesting-LuceroGG" title="User Testing">📓</a> <a href="#ideas-LuceroGG" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/devdinie"><img src="https://avatars.githubusercontent.com/u/54685871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swapna</b></sub></a><br /><a href="#userTesting-devdinie" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://github.com/devdinie"><img src="https://avatars.githubusercontent.com/u/54685871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swapna</b></sub></a><br /><a href="#userTesting-devdinie" title="User Testing">📓</a> <a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/issues?q=author%3Adevdinie" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
