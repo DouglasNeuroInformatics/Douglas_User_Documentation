@@ -71,6 +71,15 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "raihaan",
+      "name": "raihaan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7913859?v=4",
+      "profile": "https://github.com/raihaan",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
