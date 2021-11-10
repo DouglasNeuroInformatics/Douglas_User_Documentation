@@ -7,8 +7,7 @@ Hello. Happy to get you started
 User account creation is handled by-request via email to
 [contact@douglasneuroinformatics.ca](mailto:contact@douglasneuroinformatics.ca).
 
-Requests must be submitted by the supervising principal investigator for any
-accounts affiliated with a research group.
+Requests must be submitted by the **supervising principal investigator**.
 
 Principal investigators may also request creation of a lab group if one does
 not already exist.
