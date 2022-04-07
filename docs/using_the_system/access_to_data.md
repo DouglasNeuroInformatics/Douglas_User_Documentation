@@ -7,8 +7,8 @@ User home directories `$HOME` are mounted from the user server (currently `cicus
 on `/home/cic/<username>`. Home directories are suitable for storing the regular configuration files, as well
 as papers and similar files, it should not be used to store data.
 
-The high performance filesystem (currently hosted on `cicss03`) is available under the `/data` path.
-All users have access to scratch storage at `/data/scratch`, which is suitable
+The high performance filesystem (currently hosted on `cicss05`) is available under the `/data` path.
+All users have access to scratch storage at `/data/scratch2`, which is suitable
 for storing data during processing. Scratch does not keep any historical versions
 and is not backed up, so it should not be relied upon for long-term storage. In
 the future it is expected a age-based deletion policy will be implemented to
@@ -39,10 +39,10 @@ Here are few example commands for data transfer, note that these commands assume
 you are within the Douglas:
 
 ```bash
-# Copying a directory of files to cicss03 in /data/scratch/<username>
-$ rsync -avz directory <username>@cicss03:/data/scratch/<username>
-# Copying another directory from cicss03 to your local system
-$ rsync -avz <username>@cicss03:/data/scratch/<username>/another_dir .
+# Copying a directory of files to cicss05 in /data/scratch/<username>
+$ rsync -avz directory <username>@cicss05:/data/scratch/<username>
+# Copying another directory from cicss05 to your local system
+$ rsync -avz <username>@cicss05:/data/scratch/<username>/another_dir .
 ```
 
 ```{admonition} Resumable file transfers
@@ -50,7 +50,7 @@ $ rsync -avz <username>@cicss03:/data/scratch/<username>/another_dir .
 ```
 
 ```{admonition} Bulk data transfer
-For bulk data transfers, please connect directly to `cicss03` to bypass any round-trip data would need to travel if
+For bulk data transfers, please connect directly to `cicss05` to bypass any round-trip data would need to travel if
 performing transfers to workstations.
 ```
 
