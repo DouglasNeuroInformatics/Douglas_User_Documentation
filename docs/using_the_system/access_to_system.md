@@ -13,7 +13,7 @@ contact the CIC Administrative Assistant (Louis Théroux) for keycard access.
 
 ## Remote Access within the Douglas
 
-All platform hardware is acccessible within the Douglas Research Center network
+All platform hardware is acccessible within the Douglas Research Centre network
 via `ssh`. The main userserver is available at `cicus03`, the storage server
 at `cicss03` and workstations are available in the range `cicws[01..41]`.
 

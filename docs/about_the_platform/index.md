@@ -2,8 +2,8 @@
 
 The Douglas Neuroinformatics Platform is a single-sign-on Ubuntu Linux based
 computer system. Originally the computing platform of the Douglas Cerebral
-Imaging Center (CIC), it has grown and generalized to meet the informatics
-needs of the Douglas Research Center as a whole.
+Imaging Centre (CIC), it has grown and generalized to meet the informatics
+needs of the Douglas Research Centre as a whole.
 
 ## Hardware
 
