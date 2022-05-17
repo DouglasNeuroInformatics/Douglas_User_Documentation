@@ -16,6 +16,14 @@ in seperate installation directories and access is managed via the
 The `module` system allows for multiple versions to live side-by-side, for dependencies
 between software to be specified, and for conflicting versions to be specified.
 
+```{admonition} On which machines is the quarnantine available?
+The software quarantine (aka modules) is available on workstation systems (`cicwsNN`) and the compute nodes (`ciccsNN`).
+
+It is not available on the login or storage servers as scientific processing should not take place there.
+```
+
+
+
 The obtain a list of available software, run `module avail`, below is an example generated
 on 2021-06-09, the format of the naming below is `<modulename>/<moduleversion>`:
 
