@@ -43,7 +43,8 @@ todo_include_todos = False
 
 # Set MyST specific extensions
 myst_enable_extensions = [
-    "tasklist"
+    "tasklist",
+    "linkify"
 ]
 
 
