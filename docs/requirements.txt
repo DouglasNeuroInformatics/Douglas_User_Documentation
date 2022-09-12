@@ -3,3 +3,4 @@ myst-parser==0.17.2
 sphinx-rtd-dark-mode
 sphinx-rtd-theme
 jinja2==3.1.1
+linkify-it-py
