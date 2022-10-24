@@ -5,7 +5,7 @@ Hello. Happy to get you started
 ## Set up a user account
 
 User account creation is handled by-request via email to
-[contact@douglasneuroinformatics.ca](mailto:contact@douglasneuroinformatics.ca).
+[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca).
 
 Requests must be submitted by the **supervising principal investigator**.
 
