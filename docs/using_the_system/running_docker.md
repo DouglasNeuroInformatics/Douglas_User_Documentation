@@ -41,14 +41,11 @@ Docker provides a tutorial image that we can use to test the above configuration
 $ systemctl --user start docker
 ```
 
-Then, using the following command, you can pull the tutorial image, specifying the flags `-d` to run the container in detached mode (i.e., in the background), and `-p` to map port 80 of the container to the non-privileged port 8080. If everything works correctly, you should see the ID for the container printed to stdout.
+Now, docker should be ready for use. You can test this as follows:
 
 ```
-$ docker run -d -p 8080:80 docker/getting-started
-816cf0803527656228a85e0a379a54a0086a4885dd0fa9b2dc42c0b7b6cc1c9b`
+$ docker run hello-world
 ```
-
-If you are new to docker, navigate to `localhost:8080` and follow the tutorial in your browser.
 
 ## Troubleshooting
 
