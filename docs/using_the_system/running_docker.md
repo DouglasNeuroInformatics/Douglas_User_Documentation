@@ -14,6 +14,13 @@ Next, it is necessary to specify an alternative path for docker to store data. T
 
 This is set in the file `.config/docker/daemon.json`, which for a new user should not exist. If it does exist, adjust the following procedure as needed. Otherwise, we can create a new directory in `/scratch` as follows:
 
+```{admonition} Before Continuing
+:class: warning
+
+Be aware that /scratch only exists on the local system you're using and it will therefore not be accessible from other workstations. 
+
+```
+
 ```
 $ export DOCKER_DATA_ROOT=/scratch/$(whoami)/docker/data
 $ mkdir -p $DOCKER_DATA_ROOT
@@ -24,13 +31,6 @@ Please note, if for any reason, the docker was already running on your user acco
 
 ```
 $ systemctl --user stop docker
-```
-
-```{admonition} Before Continuing
-:class: warning
-
-Be aware that /scratch only exists on the local system you're using and it will therefore not be accessible from other workstations. 
-
 ```
 
 ## Usage
