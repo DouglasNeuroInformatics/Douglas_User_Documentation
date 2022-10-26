@@ -26,6 +26,13 @@ Please note, if for any reason, the docker was already running on your user acco
 $ systemctl --user stop docker
 ```
 
+```{admonition} Before Continuing
+:class: warning
+
+Be aware that /scratch only exists on the local system you're using and it will therefore not be accessible from other workstations. 
+
+```
+
 ## Usage
 
 Docker provides a tutorial image that we can use to test the above configuration. First, start the docker daemon:
