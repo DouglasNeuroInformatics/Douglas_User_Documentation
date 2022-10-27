@@ -14,10 +14,3 @@ not already exist.
 
 Once accounts have been created new users will be invited to meet in person
 (or via video chat) to set a password for their accounts.
-
-## Ask a support question
-
-Support for the Douglas Neuroinformatics platform is provided on the forum
-located at [https://discourse.douglasneuroinformatics.ca/](https://discourse.douglasneuroinformatics.ca/)
-
-Invite-only access is provided during initial sign-up.

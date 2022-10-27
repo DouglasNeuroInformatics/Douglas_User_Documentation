@@ -21,7 +21,8 @@ You can use `less` to browse a log file and `/` inside `less` to search. Use the
 
 ## Asking for help
 
-When asking for help, it's important to fully explain the problem you're having, this means explaining
+If you are unable to solve the issue yourself, please contact us at [support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca). When
+contacting us for help, it is important to fully explain the problem you're having, this means explaining:
 
 - what you're doing, including anything out of the ordinary
 - where you're doing it (what computer, and how you're accessing it, i.e. locally/remotely, SSH, X2Go, wifi, ethernet, inside/outside Douglas network)
