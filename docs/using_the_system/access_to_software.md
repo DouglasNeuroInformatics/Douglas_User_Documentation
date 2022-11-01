@@ -59,7 +59,12 @@ modules available that would satisfy it, each missing dependency stops the modul
 ```{code-block} bash
 
 $ module load pyminc
-pyminc/0.51(7):ERROR:151: Module 'pyminc/0.51' depends on one of the module(s) 'anaconda/miniconda3 anaconda/5.1.0-python3 anaconda/5.0.1-python3 anaconda/4.3.0-python2.7 anaconda/4.2.0-python3 anaconda/4.1.1 anaconda/2019.03-python3 anaconda/2.5 anaconda/2.3 anaconda/2.1.0 anaconda/2.0.1'
-pyminc/0.51(7):ERROR:102: Tcl command execution failed: prereq anaconda
+Lmod has detected the following error:  Cannot load module "pyminc/v0.56" without these module(s) loaded:
+minc-toolkit-v2
+
+While processing the following module(s):
+Module fullname  Module Filename
+---------------  ---------------
+pyminc/v0.56     /opt/quarantine/modulefiles/Linux/pyminc/v0.56.lua
 
 ```
