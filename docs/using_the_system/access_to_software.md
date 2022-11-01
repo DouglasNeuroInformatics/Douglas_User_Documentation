@@ -4,8 +4,8 @@
 
 All computer systems have installed a standard suite of desktop productivity software
 (office, image manipulation, web browser, etc.). If a readily available productivity
-software package is not installed and you wish to use it,
-[open a support ticket](https://discourse.douglasneuroinformatics.ca/) to request
+software package is not installed and you wish to use it, please contact us at 
+[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca) to request
 installation.
 
 Scientific software is deployed across all computers in the platform via shared network
