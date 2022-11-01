@@ -94,7 +94,7 @@ that facilitates reproduction of the analyses described in your publication.
 
 All shared data should have a DOI and be citable.
 But there are also dedicated data journals that will allow you to make an in depth description of your data
-and clearly show your contibution.
+and clearly show your contribution.
 [Here is an overview of some data sharing journals](https://www.fosteropenscience.eu/foster-taxonomy/open-data-journals).
 
 ```
@@ -192,7 +192,7 @@ Here are some questions to get you started
   - They should also be described in the documentation of your shared data
 - Do the data really work with my analysis code or descriptions
   - Once you have all of this, you should review it
-  - If you have code to be shared with the publication and data, make sure it runs and produces the expected oomes
+  - If you have code to be shared with the publication and data, make sure it runs and produces the expected outcomes
   - Go over your data sharing plan with a colleague to check if it makes sense or things are missing
   - Ask someone to review the documents to see if they can follow your analyses given the data and documentation
 
@@ -243,7 +243,7 @@ Here is a [Creative Commons License selector tool](https://chooser-beta.creative
 
 There may also be constraints on the type of license you can choose.
 - your data may be based on data that already came with a license and you may be bound to re-share under the same terms
-- your group, or the project you work on may have a data management plan that specifices a license
+- your group, or the project you work on may have a data management plan that specifies a license
 - your data repository may require that you use a certain type of license
 - the journal you are publishing to may require a certain license
 

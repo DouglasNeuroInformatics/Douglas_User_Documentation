@@ -3,20 +3,20 @@
 ## Accessing Scientific Software (quarantine aka modules)
 
 All computer systems have installed a standard suite of desktop productivity software
-(office, image maniupuation, web browser, etc.). If a readily available productivity
+(office, image manipulation, web browser, etc.). If a readily available productivity
 software package is not installed and you wish to use it,
 [open a support ticket](https://discourse.douglasneuroinformatics.ca/) to request
 installation.
 
-Scientific sofware is deployed across all computers in the platform via shared network
+Scientific software is deployed across all computers in the platform via shared network
 drive, ensuring the same version of software is run on all machines during any kind of
 cluster processing. To make multiple versions of software available, software is isolated
-in seperate installation directories and access is managed via the
+in separate installation directories and access is managed via the
 [`module`](https://modules.readthedocs.io/en/latest/) system.
 The `module` system allows for multiple versions to live side-by-side, for dependencies
 between software to be specified, and for conflicting versions to be specified.
 
-```{admonition} On which machines is the quarnantine available?
+```{admonition} On which machines is the quarantine available?
 The software quarantine (aka modules) is available on workstation systems (`cicwsNN`) and the compute nodes (`ciccsNN`).
 
 It is not available on the login or storage servers as scientific processing should not take place there.
@@ -48,13 +48,13 @@ PLS/6.15.1                         gift/4.0.3.0                  tapas/6.0.1
 PyQC/3.0                           imagej/20220414-1745
 ```
 
-To load a module, use the load command, `module load <modulename>` which will load the deafault version `(D)` if it is specified in the module
+To load a module, use the load command, `module load <modulename>` which will load the default version `(D)` if it is specified in the module
 system, otherwise it will load the latest version. To load a specific version of a module, specify the version during loading,
 `module load <modulename>/<moduleversion>`.
 
 ```{admonition} Module Dependencies
-If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencie and
-modules available that would satisfy it, each missing depndency stops the module loading so this may occur several times as you load all dependencies:
+If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencies and
+modules available that would satisfy it, each missing dependency stops the module loading so this may occur several times as you load all dependencies:
 
 ```{code-block} bash
 
