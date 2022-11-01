@@ -3,20 +3,20 @@
 ## Accessing Scientific Software (quarantine aka modules)
 
 All computer systems have installed a standard suite of desktop productivity software
-(office, image maniupuation, web browser, etc.). If a readily available productivity
-software package is not installed and you wish to use it,
-[open a support ticket](https://discourse.douglasneuroinformatics.ca/) to request
+(office, image manipulation, web browser, etc.). If a readily available productivity
+software package is not installed and you wish to use it, please contact us at 
+[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca) to request
 installation.
 
-Scientific sofware is deployed across all computers in the platform via shared network
+Scientific software is deployed across all computers in the platform via shared network
 drive, ensuring the same version of software is run on all machines during any kind of
 cluster processing. To make multiple versions of software available, software is isolated
-in seperate installation directories and access is managed via the
+in separate installation directories and access is managed via the
 [`module`](https://modules.readthedocs.io/en/latest/) system.
 The `module` system allows for multiple versions to live side-by-side, for dependencies
 between software to be specified, and for conflicting versions to be specified.
 
-```{admonition} On which machines is the quarnantine available?
+```{admonition} On which machines is the quarantine available?
 The software quarantine (aka modules) is available on workstation systems (`cicwsNN`) and the compute nodes (`ciccsNN`).
 
 It is not available on the login or storage servers as scientific processing should not take place there.
@@ -25,100 +25,46 @@ It is not available on the login or storage servers as scientific processing sho
 
 
 The obtain a list of available software, run `module avail`, below is an example generated
-on 2021-06-09, the format of the naming below is `<modulename>/<moduleversion>`:
+on 2022-11-01, the format of the naming below is `<modulename>/<moduleversion>`:
 
 ```{code-block}
 
--------------------------------------------------------------------------------------------- /opt/quarantine/modules ---------------------------------------------------------------------------------------------
-ACVD/20161025                                        jmrui/6.0beta                                        pyminc/0.41
-AFNI/2014.09.08.21.47EDT                             mango/3.8                                            pyminc/0.42b
-AFNI/2017.03.30.07.57EDT                             mango/4.0.1                                          pyminc/0.46
-AllenGeneMNI/dev                                     matlab/R2012a                                        pyminc/0.47
-anaconda/2.0.1                                       matlab/R2014a                                        pyminc/0.48
-anaconda/2019.03-python3                             matlab/R2015aSP1                                     pyminc/0.49
-anaconda/2.1.0                                       matlab/R2016a                                        pyminc/0.51
-anaconda/2.3                                         matlab/R2018b                                        PyQC/1.0
-anaconda/2.5                                         mi-brain/2020.04.09                                  qbatch/2.1.3
-anaconda/4.1.1                                       MIDER/v2                                             qbatch/2.1.5
-anaconda/4.2.0-python3                               minclaplace/a280379ff13d8265a9ca342cfa6f4510c24d26b8 qbatch/2.2
-anaconda/4.3.0-python2.7(default)                    minc-stuffs/0.1.12^minc-toolkit-1.9.10               quarantine
-anaconda/5.0.1-python3                               minc-stuffs/0.1.12^minc-toolkit-1.9.11               R/3.1.1
-anaconda/5.1.0-python3                               minc-stuffs/0.1.15a^minc-toolkit-1.9.11              R/3.2.1
-anaconda/miniconda3                                  minc-stuffs/0.1.16^minc-toolkit-1.9.11               R/3.2.4
-ANTs/20190211                                        minc-stuffs/0.1.20^minc-toolkit-1.9.11               R/3.3.3
-ANTs/20191007                                        minc-stuffs/0.1.20^minc-toolkit-1.9.15               R/3.4.0
-ANTs/20191119                                        minc-stuffs/0.1.21^minc-toolkit-1.9.15               R/3.5.0
-ANTs/20200104                                        minc-stuffs/0.1.22^minc-toolkit-1.9.16               R/3.5.1
-ANTs/20200227                                        minc-stuffs/0.1.24^minc-toolkit-1.9.16               remotemesa/1.0
-ANTs/20200410                                        minc-stuffs/0.1.24^minc-toolkit-1.9.17               R-extras/3.1.1
-ANTs/2.1.0                                           minc-stuffs/0.1.4^minc-toolkit-1.0.01                R-extras/3.2.1
-ANTs/2.1.0rc3                                        minc-stuffs/0.1.7^minc-toolkit-1.0.01                R-extras/3.2.3
-ANTs/2.2                                             minc-stuffs/0.1.9^minc-toolkit-1.9.10                R-extras/3.2.4
-ANTs/2.3.1                                           minc-toolkit/1.0.01                                  R-extras/3.3.3
-bpipe/0.9.8.6                                        minc-toolkit/1.0.04                                  R-extras/3.4.0
-bpipe/0.9.8.7                                        minc-toolkit/1.0.07                                  RMINC/1.2.4.5^minc-toolkit-1.0.01^R-3.1.1
-bpipe/0.9.9                                          minc-toolkit/1.9.10                                  RMINC/1.2.4.7^minc-toolkit-1.0.01^R-3.1.1
-bpipe/0.9.9.2                                        minc-toolkit/1.9.10.1                                RMINC/1.2.4.9^minc-toolkit-1.9.10^R-3.2.1
-bpipe/0.9.9.3                                        minc-toolkit/1.9.11                                  RMINC/1.3.0.0^minc-toolkit-1.9.10^R-3.2.1
-bpipe/0.9.9.4                                        minc-toolkit/1.9.15                                  RMINC/1.3.0.0^minc-toolkit-1.9.11^R-3.2.4
-bpipe/0.9.9.5                                        minc-toolkit/1.9.16                                  RMINC/1.4.0.0^minc-toolkit-1.9.11^R-3.2.4
-bpipe/0.9.9.6                                        minc-toolkit/1.9.17                                  RMINC/1.4.0.3^minc-toolkit-1.9.11^R-3.2.4
-BrainExplorer/2                                      minc-toolkit-extras/1.0                              RMINC/1.4.1.1^minc-toolkit-1.9.11^R-3.2.4
-braingl/0.0-1                                        miniconda/2020-03                                    RMINC/1.4.2.0^minc-toolkit-1.9.11^R-3.2.4
-braingl/dev                                          MIPAV/6.0.1                                          RMINC/1.4.3.0^minc-toolkit-1.9.11^R-3.2.4
-brain-view2/1.0^minc-toolkit-1.0.01                  MIPAV/7.1.1                                          RMINC/1.4.3.1^minc-toolkit-1.9.11^R-3.2.4
-brain-view2/1.0^minc-toolkit-1.9.10                  MIPAV/7.2.0                                          RMINC/1.4.3.2^minc-toolkit-1.9.11^R-3.2.4
-Bru2Nii/1.0.20170707                                 mni.cortical.statistics/0.9.4                        RMINC/1.4.3.3^minc-toolkit-1.9.11^R-3.2.4
-c3d/2015.06.22                                       mountainlab/20171005                                 RMINC/1.4.3.4^minc-toolkit-1.9.11^R-3.2.4
-CIVET/1.1.10                                         mricrogl/12-February-2016                            RMINC/1.4.4.0^minc-toolkit-1.9.15^R-3.3.3
-CIVET/1.1.12                                         mricrogl/12-June-2015                                RMINC/1.5.0.0^minc-toolkit-1.9.15^R-3.4.0
-CIVET/2.1.0                                          mricron/1JUNE2015                                    RMINC/1.5.1.0^minc-toolkit-1.9.16^R-3.4.0
-CIVET-extras/1.0                                     mricron/22DEC2015                                    RMINC/1.5.2.0^minc-toolkit-1.9.16^R-3.5.0
-cmake/3.10.2                                         MRO/3.2.3                                            RMINC/1.5.2.1^minc-toolkit-1.9.16^R-3.5.0
-cmake/3.13.1                                         mrtrix3/3.0_rc3_30c24e3                              RMINC/1.5.2.1^minc-toolkit-1.9.16^R-3.5.1
-dcm2niix/1.0.20171215                                mrtrix3/d861bbe6                                     RMINC/1.5.2.2^minc-toolkit-1.9.17^R-3.5.1
-dcm2niix/1.0.20181125                                MVGC/1.0                                             RMINC/1.5.2.3^minc-toolkit-1.9.17^R-3.5.1
-dcm2niix/1.0.20190902                                niak/v0.13.5                                         rstudio/0.98.1103
-dcm2niix/1.0.20200331                                niftimatlib/1.2                                      rstudio/0.99.491
-DKE/2015.10.28                                       NODDI_toolbox/0.9                                    rstudio/0.99.896
-DKE-ft/2015.10.26                                    octave/4.0.2                                         rstudio/0.99.903
-fmristat/2006.06.06                                  paraview/5.0.0                                       rstudio/1.0.136
-freesurfer/5.3.0                                     PLINK/1.0.7                                          rstudio/1.0.143
-freesurfer/6.0                                       PLINK/201502                                         rstudio/1.1.383
-FSL/5.0.6                                            PLS/6.1311050                                        rstudio/1.1.453
-FSL/5.0.7                                            PLS/6.15                                             rstudio/1.1.463
-FSL/5.0.8                                            pvconv/0.57                                          SGE-extras/1.0
-FSL/5.0.9                                            pycharm/2017.2.1                                     shapeit/2r790
-FSL/6.0.2                                            pydpiper/1.10                                        singularity/2.6.1
-gcc/4.1.2                                            pydpiper/1.11                                        snptest/2.5
-gift/4.0a                                            pydpiper/1.13.1                                      SPAMS/2.5
-git/2.1.0                                            pydpiper/1.14-beta1                                  SPM/12b_r6080
-git/2.3.0                                            pydpiper/1.14-beta2                                  SPM/12b_r6225
-gradunwarp/1.0.2                                     pydpiper/1.15                                        SPM/8_r5236
-GreatApes/dev                                        pydpiper/1.18                                        SPM12/r6080
-GTOOL/0.7.5                                          pydpiper/2.0.1                                       SPM12/r6225
-HCP_ConnectomeWorkbench/1.3.2                        pydpiper/2.0.10                                      SPM12/r6685
-ilastik/1.3.3post3                                   pydpiper/2.0.12                                      SPM12/r7219
-ILT/4bc2d846                                         pydpiper/2.0.13                                      SPM8/r5236
-impute/2.3.2                                         pydpiper/2.0.3                                       SPM8/r6313
-itksnap/3.2.0                                        pydpiper/2.0.5                                       torch/d3b017d2aba6a865f44caf1b8e5f07996c26d4c0
-itksnap/3.4.0-minc                                   pydpiper/2.0.6                                       webp/1.1.0
-itksnap/3.6.0                                        pydpiper/2.0.8
-java/8u171-32bit                                     pyminc/0.4
+--------------------------------- /opt/quarantine/modulefiles/Linux ---------------------------------
+AFNI/20220609                      R/4.1.3                       itksnap/4.0.0-20220623-nightly
+ANTs/2.4.0                  (D)    RMINC/v1.5.3.0                julia/1.8.2
+ANTs/20220513                      SDM/6.22                      mango/4.1
+CAT12/r2043                        SPM12/r7771                   minc-stuffs/v0.1.25
+CIVET/2.1.1                        anaconda/2022.05              minc-toolkit-extras/1.0
+FID-A/1.2                          bart/0.7.00                   minc-toolkit-v2/1.9.18.2
+FSL/6.0.5.1                        bpipe/0.9.11                  mrtrix3/3.0.3
+GlobusConnectPersonal/3.1.6        brkraw/0.3.5           (D)    mrtrix3tissue/5.2.9
+INSPECTOR/20201115                 brkraw/20220210               plink/1.07
+MATLAB/R2021a                      dcm2niix/v1.0.20211006        pydpiper/v2.0.16
+MATLAB/R2022a               (D)    fiji/20220414-1745            pyminc/v0.56
+MRIcroGL/v1.2.20211007             fmriprep/20.2.7               qbatch/2.3
+MRIcron/v1.2.20211006              fmriprep/22.0.0        (D)    remotemesa/1.0
+MVGC/1.3                           freesurfer/7.2.0              rstudio/2022.02.3+492
+PLS/6.15.1                         gift/4.0.3.0                  tapas/6.0.1
+PyQC/3.0                           imagej/20220414-1745
 ```
 
-To load a module, use the load command, `module load <modulename>` which will load the deafault version `(D)` if it is specified in the module
+To load a module, use the load command, `module load <modulename>` which will load the default version `(D)` if it is specified in the module
 system, otherwise it will load the latest version. To load a specific version of a module, specify the version during loading,
 `module load <modulename>/<moduleversion>`.
 
 ```{admonition} Module Dependencies
-If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencie and
-modules available that would satisfy it, each missing depndency stops the module loading so this may occur several times as you load all dependencies:
+If you try to load a module which has dependencies you have not yet satisfied, you will receive an error that will specify the dependencies and
+modules available that would satisfy it, each missing dependency stops the module loading so this may occur several times as you load all dependencies:
 
 ```{code-block} bash
 
 $ module load pyminc
-pyminc/0.51(7):ERROR:151: Module 'pyminc/0.51' depends on one of the module(s) 'anaconda/miniconda3 anaconda/5.1.0-python3 anaconda/5.0.1-python3 anaconda/4.3.0-python2.7 anaconda/4.2.0-python3 anaconda/4.1.1 anaconda/2019.03-python3 anaconda/2.5 anaconda/2.3 anaconda/2.1.0 anaconda/2.0.1'
-pyminc/0.51(7):ERROR:102: Tcl command execution failed: prereq anaconda
+Lmod has detected the following error:  Cannot load module "pyminc/v0.56" without these module(s) loaded:
+minc-toolkit-v2
+
+While processing the following module(s):
+Module fullname  Module Filename
+---------------  ---------------
+pyminc/v0.56     /opt/quarantine/modulefiles/Linux/pyminc/v0.56.lua
 
 ```

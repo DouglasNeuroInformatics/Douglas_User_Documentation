@@ -13,8 +13,8 @@ contact the CIC Administrative Assistant (Louis Théroux) for keycard access.
 
 ## Remote Access within the Douglas
 
-All platform hardware is acccessible within the Douglas Research Centre network
-via `ssh`. The main userserver is available at `cicus03`, the storage server
+All platform hardware is accessible within the Douglas Research Centre network
+via `ssh`. The main user server is available at `cicus03`, the storage server
 at `cicss03` and workstations are available in the range `cicws[01..41]`.
 
 ```{admonition} Playing nice
@@ -26,7 +26,7 @@ currently logged-in users, while [`htop`](https://htop.dev/) will show
 a graphical display of the current state of CPU and Memory utilization.
 
 In general, fewer users is better, as well as low CPU and
-memory utilization (represented by the length of the horizonal coloured bars
+memory utilization (represented by the length of the horizontal coloured bars
 in `htop`)
 
 ```
