@@ -92,5 +92,5 @@ html_theme_options = {
 # https://github.com/readthedocs/sphinx_rtd_theme/issues/455).
 html_theme_options = {
     'collapse_navigation': False,
-    'navigation_depth': 2,
+    'navigation_depth': 4,
 }
