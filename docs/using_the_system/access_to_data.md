@@ -82,6 +82,17 @@ during that time and copy it to appropriate long term storage. Recovery is avail
 with delayed access and a recovery fee associated with staff time. Data can be accessed
 by 1) accessing the {ref}`Neuroinformatics Platform<using_the_system/access_to_system:accessing the system>` and then 2) 
 accessing the bruker7t computer. The {ref}`tools for data transfer<using_the_system/access_to_data:transferring data>` will 
-work, provided you take into account you need to connect to an additional computer (the bruker7t).
+work, provided you take into account you need to connect to an additional computer (the bruker7t). 
+The bruker7t ssh version is old (OpenSSH_4.3p2, OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008). 
+Depending on your local ssh version, you might need to add these options to ssh calls:
+`-oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss`.
+We suggest that you add these lines to your `~/.ssh/config` file:
+```
+Host bruker7t
+    KexAlgorithms diffie-hellman-group1-sha1
+    HostKeyAlgorithms ssh-rsa
+```
+This way, you can use the host `bruker7t` in your ssh and rsync calls without 
+specifying additional options.
 
 Conversion to other formats (DICOM and NIFTI) is available upon request.
