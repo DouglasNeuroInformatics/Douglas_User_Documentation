@@ -73,6 +73,16 @@ html_theme = 'groundwork'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Here, we can inject our (privacy respecting) tracking script
+html_js_files = [
+    (
+        'http://analytics.douglasneuroinformatics.ca/js/script.js',
+        {
+            "data-domain": "docs.douglasneuroinformatics.ca" ,
+            "defer": "defer"
+        }
+    )
+]
 
 # -- Options for sphinx_rtd_dark_mode -------
 default_dark_mode = False
