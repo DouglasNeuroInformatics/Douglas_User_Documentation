@@ -3,19 +3,19 @@
 The platform can be accessed in a number of ways:
 
 1. Physical access
-2. Remote access within the Douglas.
-3. Remote access outside the Douglas.
+2. Remote access within the Douglas
 
 ## Physical Access
 
 Physical access to a suite of workstations is available inside the Douglas CIC,
-contact the CIC Administrative Assistant (Louis Théroux) for keycard access.
+contact the CIC Administrative Assistant (Louis Théroux) <louis.theroux.comtl@ssss.gouv.qc.ca> for keycard access.
 
 ## Remote Access within the Douglas
 
 All platform hardware is accessible within the Douglas Research Centre network
 via `ssh`. The main user server is available at `cicus03`, the storage server
-at `cicss03` and workstations are available in the range `cicws[01..41]`.
+at `cicss05` and workstations are available in the range `cicws[01..48]` and
+`dnpws[01..12]`.
 
 ```{admonition} Playing nice
 Neuroinformatics workstations all allow for multiple simultaneous users, please
@@ -31,7 +31,10 @@ in `htop`)
 
 ```
 
-## Remote Access outside the Douglas
+### Graphical Access
 
-Remote access from outside the Douglas is provided by authorization only.
-Please contact the platform to request access.
+In addition to shell access on workstations via SSH, access to a full graphical
+desktop is available via [X2GO](https://wiki.x2go.org/doku.php) which rides on SSH.
+Install the local client, create a connection to a workstation and specify
+the LXDE desktop type for a minimal-graphical-features remote desktop
+with features equivalent to sitting at a workstation.
