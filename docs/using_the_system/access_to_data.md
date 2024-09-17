@@ -18,12 +18,15 @@ Paid storage for individual lab groups is also available under the `/data/` path
 the exact name depends upon what the group decided during creation.
 
 ```{admonition} Mounting on demand
-Network filesystems are not automatically mounted on boot-up on machines, but
-rather mounted lazily on-demand. As such, `/data` will appear empty before
-attempts are made to access a specific filesystem. GUI file managers do
-not work particularly well in this scenario, as there will be no folders
-to interact with. It is recommended to perform file management using the
-command line tools.
+Network filesystems are not automatically mounted at boot. Instead, they are mounted lazily, on-demand.
+This means that when you first check the `/data` directory (e.g., by running `ls /data`), 
+it may appear empty because no filesystems have been accessed yet. However, 
+once you attempt to access a specific folder (e.g., `ls /data/<your_folder_name>`), 
+the corresponding network filesystem will be mounted automatically, and its contents will become visible.
+
+Note that GUI file managers might not handle this behavior well, as they may not display any folders 
+before the network filesystem is mounted. Therefore, it's recommended to use command-line tools 
+for managing files in these directories.
 ```
 
 ## Transferring Data
