@@ -12,4 +12,6 @@ getting_started/index.md
 using_the_system/index.md
 research_methods/index.md
 getting_help/index.md
+resources/index.md
 terms_of_service/index.md
+
