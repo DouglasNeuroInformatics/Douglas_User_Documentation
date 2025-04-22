@@ -38,3 +38,31 @@ desktop is available via [X2GO](https://wiki.x2go.org/doku.php) which rides on S
 Install the local client, create a connection to a workstation and specify
 the LXDE desktop type for a minimal-graphical-features remote desktop
 with features equivalent to sitting at a workstation.
+
+
+### Connecting via VS CODE
+
+To use VS Code’s **Remote-SSH** feature to connect to internal hosts, it is **imperative that you avoid connecting directly to** `cicus03`.
+
+```{admonition} Notes on Connecting via the Gateway
+When connecting to the gateway directly, you are automatically redirected to `cicus03`.  
+To access a different host (e.g., `cicws01`), you **must** use the jump host flag (`-J`) and explicitly specify the desired destination in your SSH command.
+```
+
+Please Follow these steps to properly configure VS Code’s Remote SSH extension:
+
+1. Open **Visual Studio Code**
+2. Press `F1` (or `Ctrl+Shift+P`) to open the command palette
+3. Type and select: `Remote-SSH: Connect to Host...`
+4. Click on: `Configure SSH Hosts...`
+5. When prompted, enter the following command:
+   ```
+   ssh yourUserName@cicWorkstation
+   ```
+   OR
+   ```
+   ssh -A -J yourUserName@GatewayHost:portNumber yourUserName@cicWorkstation
+   ```
+   > Replace `yourUser`, `GatewayHost`, and `portNumber` with your actual username
+6. Click **Connect**
+7. When prompted, select **Linux** as the platform, and follow the prompts for the fingerprints and passwords.
