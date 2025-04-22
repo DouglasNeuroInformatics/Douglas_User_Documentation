@@ -63,6 +63,6 @@ Please Follow these steps to properly configure VS Code’s Remote SSH extension
    ```
    ssh -A -J yourUserName@GatewayHost:portNumber yourUserName@cicWorkstation
    ```
-   > Replace `yourUser`, `GatewayHost`, and `portNumber` with your desired values
+   > Replace `yourUserName`, `GatewayHost`, and `portNumber` with your desired values
 6. Click **Connect**
 7. When prompted, select **Linux** as the platform, and follow the prompts for the fingerprints and passwords.
