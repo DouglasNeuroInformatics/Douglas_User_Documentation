@@ -66,9 +66,9 @@ See the site for details and for windows see [here](https://github.com/billziss-
 
 ## Accessing Human MRI Scanner DICOMS
 
-The Siemens MAGNETOM Prisma Human MRI scanner sends collected data to `cicus03`
+The Siemens MAGNETOM Prisma Human MRI scanner sends collected data to `cicss05`
 which acts a pseudo-PACS system, collecting the files and storing them at
-`/dicom` accessible for 14 calendar days before being moved
+`/data/dicom/incoming` accessible for 14 calendar days before being moved
 to long-term cold storage. Users are expected to access their data during that
 time and copy it to appropriate long term storage. Recovery from cold storage
 is available with delayed access and a recovery fee associated with staff time.
