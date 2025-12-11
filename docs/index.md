@@ -1,6 +1,6 @@
 # Douglas Neuroinformatics Platform Documentation
 Welcome to the [**Douglas Neuroinformatics Platform (DNP)**](about_the_platform/index.md) documentation.
-```{warning}
+```{Important}
 **Home folder quota: 300 GB**
 <br/>Home folders should be used for code, configuration files, and small test files.  
 <br/>**All imaging and project data must be stored in shared/project storage locations, _not_ in your home folder.**
