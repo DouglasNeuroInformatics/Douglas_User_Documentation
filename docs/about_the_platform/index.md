@@ -1,9 +1,9 @@
 # About the platform
 
 The Douglas Neuroinformatics Platform is a single-sign-on Ubuntu Linux based
-computer system. Originally the computing platform of the Douglas Cerebral
-Imaging Centre (CIC), it has grown and generalized to meet the informatics
-needs of the Douglas Research Centre as a whole.
+computer system. Originally the computing platform of the Douglas **Cerebral
+Imaging Centre** (CIC), it has grown and generalized to meet the informatics
+needs of the **Douglas Research Centre** (DRC) as a whole.
 
 ## Hardware
 
@@ -28,3 +28,9 @@ and a large suite of scientific software. Servers run Ubuntu Linux server, as we
 compute nodes. Limited Windows workstations are available to provide access to proprietary
 software such as E-Prime. Scientific software is available in the
 {ref}`software quarantine<using_the_system/access_to_software:accessing scientific software (quarantine aka modules)>`.
+
+## Services
+
+Beyond core computing, the platform hosts a suite of specialized web-based services designed to streamline data collection and management. These include **ChatDNP**, a privacy-focused local AI assistant; the **Open Data Bank (ODB)** for versioning and sharing tabular datasets; and **Open Data Capture (ODC)** for the digital administration of clinical research instruments. 
+
+For more details on these tools and how to access them, please see the {ref}`Available Services <available_services/index:Available Services>` section.
