@@ -1,5 +1,8 @@
 # ChatDNP  
+```{Important}
+This AI chatbot service is currently free and in beta / demo mode. In the future, it will be a paid service. Your chat prompts will be used for our internal research to improve the DNP's offerings. We do not use or analyze any scientific data you share.
 
+```
 ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat service, powered by Open WebUI and accessible on our on-premise GPU server. It is equipped with:
 
 - 2 × NVIDIA RTX A6000 (each with 48 GB VRAM)
@@ -38,10 +41,12 @@ Your chat prompts and responses are recorded so we can improve the platform. **P
 
 ### Open WebUI Quick Start Usage
 
-- Start a new chat by clicking the **New chat** button (top left pane).
-- **Select a model** from the drop-down list (top centre of the chat window).
-- Ask one thing at a time using short, specific prompts.
-- Provide context for the chat by describing your task or attaching files.
-- Iterate. If the answer isn’t right, say what to change (e.g., “Make it 100 words and simpler”).
+1. Start a new chat by clicking the **New chat** button (top left pane).
+2. **Select a model** from the drop-down list (top centre of the chat window).
+3. Ask one thing at a time using short, specific prompts.
+4. Provide context for the chat by describing your task or **attaching files**.
+5. Toggle the **web search** integration on/off depending on if your model needs it.
+6. Iterate. If the answer isn’t right, ask it to try again (e.g. "Simplify and summarize it in 100 words").
+![Alt text](chatdnp-howto.png "ChatDNP Overview")
 
 **For a deeper look into all of Open WebUI’s features, consult their docs:** https://docs.openwebui.com
