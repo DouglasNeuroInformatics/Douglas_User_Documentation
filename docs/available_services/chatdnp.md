@@ -31,13 +31,12 @@ ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat service
 
 Your chat prompts and responses are recorded so we can improve the platform. **Please do not paste credentials, tokens, or personal passwords.** Some important things to consider:
 
-- **Recorded:** We store chat history and usage analytics for quality, security, and capacity planning.
-- **Visible to others:** The platform uses a single shared account and your chats are visible to other users.
-- **Retention:** Chats are automatically deleted every hour. Please save your outputs immediately.
+- **Recorded:** We store chat prompts for usage analytics for quality, security, and capacity planning.
+- **No History:** We use temporary guest accounts, meaning your chat history is not saved. Once you leave this page, your previous conversations will be gone.
 - **Research data:** We do not use or analyze your scientific datasets. You may discuss patient-sensitive or confidential topics because the service runs entirely inside the Douglas network.
 - **Future billing:** The service is free in beta, and will become paid later.
 - **API access:** Disabled by default, it is only available to authorized projects.
-- **Private chat account:** Should you require your own private chat, please contact us detailing the specifics.
+- **Private chat account:** Should you require your own private chat (with history), please contact us detailing the specifics.
 
 ### Open WebUI Quick Start Usage
 
