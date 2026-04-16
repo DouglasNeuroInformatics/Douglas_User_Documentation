@@ -7,18 +7,13 @@ needs of the **Douglas Research Centre** (DRC) as a whole.
 
 ## Hardware
 
-The system itself consists (as of mid-2021) of Linux-based single-sign-on
-user management system, along with a 1 PB storage system, ~40 8-12 core
-workstations with 16-32 GB of RAM, and a 10-node compute cluster of
-12-core 48 GB RAM compute nodes. Primary servers are replicated across
-two sites for disaster recovery. Unified storage across systems is
-provided via NFS from the primary storage server to all systems.
-A heterogenous cluster compute environment is provided via a SLURM
-batch system providing access to the compute cluster as well as opportunistic
-scheduling on workstations.
+As of early 2026, the platform infrastructure consists of a Linux-based environment featuring single-sign-on (SSO) user management and the following core components:
+- **Storage**: A 1 PB primary storage system providing unified access across the network via NFS.
+- **Workstations**: Over 60 machines, each ranging from 8-24 CPU cores and 32-128 GB of RAM. These systems provide entry to mid-level GPU acceleration for CUDA and OpenCL applications.
+- **Compute Nodes**: 13 nodes, with 12–24 CPU cores and 24–48 GB of RAM.
+- **GPU Server**: A dual NVIDIA RTX A6000 (48 GB VRAM each) server equipped with a Dual Intel Xeon Gold 6526Y CPU (32 cores / 64 threads) and 500 GB of RAM.
 
-Entry-level GPU computation is available on workstations to provide CUDA
-and OpenCL acceleration suitable applications.
+Primary servers are replicated across two sites for disaster recovery. Unified storage across systems is provided via NFS from the primary storage server to all systems. A heterogeneous cluster compute environment is provided via a SLURM batch system providing access to the compute cluster as well as opportunistic scheduling on workstations.
 
 ## Software
 
