@@ -49,12 +49,14 @@ When connecting to the gateway directly, you are automatically redirected to `ci
 To access a different host (e.g., `cicws01`), you **must** use the jump host flag (`-J`) and explicitly specify the desired destination in your SSH command.
 ```
 
-Please Follow these steps to properly configure VS Code’s Remote SSH extension:
+Please follow these steps to properly configure VS Code’s Remote SSH extension:
 
 1. Open **Visual Studio Code**
-2. Press `F1` (or `Ctrl+Shift+P`) to open the command palette
+2. Press `F1` (or `Ctrl+Shift+P`) to open the **Command Palette**
 3. Type and select: `Remote-SSH: Connect to Host...`
-4. Click on: `Configure SSH Hosts...`
+![Alt text](vscode_command_palette.png "VSCODE command palette")
+4. Click on: `Add New SSH Host...`
+![Alt text](vscode_add_new_host.png "VSCODE configure host")
 5. When prompted, enter the following command:
    ```
    ssh yourUserName@cicWorkstation
@@ -63,6 +65,17 @@ Please Follow these steps to properly configure VS Code’s Remote SSH extension
    ```
    ssh -A -J yourUserName@GatewayHost:portNumber yourUserName@cicWorkstation
    ```
-   > Replace `yourUserName`, `GatewayHost`, and `portNumber` with your desired values
-6. Click **Connect**
-7. When prompted, select **Linux** as the platform, and follow the prompts for the fingerprints and passwords.
+```{Important}
+Replace `yourUserName`, `GatewayHost`, and `portNumber` with your desired values.
+```
+6. Select a file to store this configuration to.
+![Alt text](vscode_config_file.png "VSCODE file config")
+7. Click on the **Open a Remote Window** icon located at the bottom left of the editor.
+![Alt text](vscode_open_remote.png "VSCODE open remote connection")
+8. Select **Connect to Host...**
+![Alt text](vscode_connect_host.png "VSCODE connect to host")
+9. When prompted, select **Linux** as the platform, and answer fingerprint and password prompts.
+![Alt text](vscode_fingerprint.png "VSCODE fingerprint")
+10. You can verify that you are connected to a host in the bottom left-hand corner.
+![Alt text](vscode_connected.png "VSCODE connected")
+
