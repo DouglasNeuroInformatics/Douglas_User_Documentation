@@ -97,14 +97,14 @@ Note: Regular globbing (`*`) and other shell tricks work as expected over `rsync
 
 Do not log into an external system, such as a [Digital Research Alliance of Canada (DRAC)](https://www.alliancecan.ca/en) server, and PUSH data to DNP using rsync or similar tools.
 
-Any data transfer between an external system (e.g. Niagara/Beluga/Trillium) and the DNP must be initiated from a DNP computer. **In practice, this means you should log into a DNP workstation or server and run the transfer from there**.
+Any data transfer between an external system and the DNP must be initiated from a DNP computer. **In practice, this means you should log into a DNP workstation or server and run the transfer from there**.
 
 ```{code-block} bash
 # COPY data (PUSH) from a DNP machine to a DRAC server
-$ rsync -avz /path/to/files/on/cic <username>@niagara.computecanada.ca:/path/to/save
+$ rsync -avz /path/to/files/on/cic <username>@trillium.scinet.utoronto.ca:/path/to/save
 
 # RETRIEVE data (PULL) from a DRAC server to a DNP machine 
-$ rsync -avz <username>@niagara.computecanada.ca:/path/to/files/on/drac /path/to/save
+$ rsync -avz <username>@trillium.scinet.utoronto.ca:/path/to/files/on/drac /path/to/save
 ```
 ````
 ```{admonition} Graphical transfer tools (Windows)
@@ -214,15 +214,6 @@ environment:
 Personal machines vary enormously, so support is limited. **Most neuroscience software
 is not available on Windows**. Email [support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca) to get help finding software.
 ```
-
-## Staying in touch with the lab
-
-Labs function better with everyday communication/banter and regular contact with your supervisor.
-
-- **Slack** and **Mattermost** are great tools for day-to-day chat (alternatives: Microsoft Teams & Discord).
-- For group video meetings, **Zoom** has tested best in practice. Note the free tier
-  limits group meetings to 40 minutes.
-
 ## Verify your setup
 
 As a quick test that everything is working end to end:
@@ -241,7 +232,7 @@ As a quick test that everything is working end to end:
 If your lab has a DRAC / Compute Canada account, remote work can also be done there
 using the Alliance modules; access and data copying use the same `ssh`/`rsync` tools described above.
 
-CIC-like tools are hosted on Niagara and Trillium via the `mchakrav` group. For access and assistance in getting software set up there, contact
+CIC-like tools are hosted on Trillium via the `mchakrav` group. For access and assistance in getting software set up there, contact
 [support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)
 
 
