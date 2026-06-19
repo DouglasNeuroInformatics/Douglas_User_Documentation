@@ -10,24 +10,24 @@ ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat service
 - Dual Intel Xeon Gold 6526Y (32 cores / 54 threads)
 - 2 NUMA nodes
 
-### Why have a local (Institution) chat?
+## Why have a local (Institution) chat?
 
 - **Privacy:** Keeps sensitive discussion inside the institutional boundary. Ability to include anonymized participant info and files in chats.
 - **Performance:** Dedicated GPUs for low-latency responses.
 - **Control:** Model selection, updates, and administration are managed by DNP.
 
-### Who can use it
+## Who can use it
 
 - Anyone on the Douglas Research Centre internal network.
 - External access is not available.
 
-### How to sign in
+## How to sign in
 
 1. Navigate to chatDNP: https://chatdnp.douglas.rtss.qc.ca
 2. Accept the privacy warning of the site not being secure (we use self-signed certs not open to the web)
 2. Read the disclaimer and accept our terms of use.
 
-### Privacy & Data Use
+## Privacy & Data Use
 
 Your chat prompts and responses are recorded so we can improve the platform. **Please do not paste credentials, tokens, or personal passwords.** Some important things to consider:
 
@@ -38,7 +38,7 @@ Your chat prompts and responses are recorded so we can improve the platform. **P
 - **API access:** Disabled by default, it is only available to authorized projects.
 - **Private chat account:** Should you require your own private chat (with history), please contact us detailing the specifics.
 
-### Open WebUI Quick Start Usage
+## Open WebUI Quick Start Usage
 
 1. Start a new chat by clicking the **New chat** button (top left pane).
 2. **Select a model** from the drop-down list (top centre of the chat window).
