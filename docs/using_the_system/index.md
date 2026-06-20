@@ -16,5 +16,4 @@ access_to_system.md
 remote_access.md
 access_to_data.md
 access_to_software.md
-running_docker.md
 security.md

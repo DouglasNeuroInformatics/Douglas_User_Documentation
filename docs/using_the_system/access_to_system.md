@@ -46,7 +46,7 @@ To use VS Code’s **Remote-SSH** feature to connect to internal hosts, it is **
 
 ```{admonition} Notes on Connecting via the Gateway
 When connecting to the gateway directly, you are automatically redirected to `cicus03`.  
-To access a different host (e.g., `cicws01`), you **must** use the jump host flag (`-J`) and explicitly specify the desired destination in your SSH command.
+To access a different host (e.g., `cicwsXX`), you **must** use the jump host flag (`-J`) and explicitly specify the desired destination in your SSH command.
 ```
 
 Please follow these steps to properly configure VS Code’s Remote SSH extension:

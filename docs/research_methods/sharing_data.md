@@ -131,7 +131,7 @@ To prepare your data for sharing, you should:
 
 ### Sharing data in support of a published manuscript
 
-Let's assume you have just finished the manuscript for an exciting research project (✨ congrats ✨)
+Let's assume you have just finished the manuscript for an exciting research project (congrats!)
 and now you want to share the data that support your central findings and figures together
 with the manuscript.
 This is not only a great way to ensure that other can follow and re-use your research 
