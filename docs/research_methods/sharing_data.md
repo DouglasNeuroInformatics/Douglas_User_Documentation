@@ -95,7 +95,7 @@ that facilitates reproduction of the analyses described in your publication.
 All shared data should have a DOI and be citable.
 But there are also dedicated data journals that will allow you to make an in depth description of your data
 and clearly show your contribution.
-[Here is an overview of some data sharing journals](https://www.fosteropenscience.eu/foster-taxonomy/open-data-journals).
+[Here is an overview of some data sharing journals](https://web.archive.org/web/20240417090406/https://www.fosteropenscience.eu/foster-taxonomy/open-data-journals).
 
 ```
 This is a major scientific contribution that stands on its own.
@@ -217,7 +217,7 @@ Say more things about ways to choose and differences in scope of platforms
 
 The Nature Publishing Group maintains a repository of recommended 
 [subfield specific](https://www.nature.com/sdata/policies/repositories) and 
-[domain general data repositories](https://www.nature.com/sdata/policies/repositories#general) that you can take a look at.
+[domain general data repositories](https://www.nature.com/sdata/policies/repositories) that you can take a look at.
 
 Another great resource is the 
 [data publishing guideline of the F1000 publishing platform](https://f1000research.com/for-authors/data-guidelines).
@@ -239,7 +239,7 @@ Generally you should share your data with as open and permissive a license as yo
 A good starting point are the Creative Common Licenses, 
 e.g. [CC BY 4](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
 You can make choices on permissions for commercial use, how data users should cite you and so on. 
-Here is a [Creative Commons License selector tool](https://chooser-beta.creativecommons.org/).
+Here is a [Creative Commons License selector tool](https://creativecommons.org/chooser/).
 
 There may also be constraints on the type of license you can choose.
 - your data may be based on data that already came with a license and you may be bound to re-share under the same terms
@@ -258,5 +258,5 @@ These are good things to check with your PI or lab manager.
 
 ## Additional resources
 - [OSF guidelines](https://help.osf.io/hc/en-us)
-- [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
-- [Data sharing resources of the McGill library](https://www.mcgill.ca/library/services/data-services/sharing)
+- [The Turing Way](https://book.the-turing-way.org/)
+- [Data sharing resources of the McGill library](https://www.mcgill.ca/libraries/research-services/data-services/sharing)
