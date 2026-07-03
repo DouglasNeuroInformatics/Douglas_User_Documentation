@@ -10,15 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: ammaraskar/sphinx-action@master
+    - uses: actions/setup-python@v5
       with:
-        docs-folder: "docs/"
-        build-command: "sphinx-build -n -W -b html . _build"
+        python-version: "3.12"
+    - name: Install dependencies
+      run: pip install -r docs/requirements.txt
+    - name: Build HTML docs
+      run: sphinx-build -n -W -b html docs docs/_build
   linkcheck:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: ammaraskar/sphinx-action@master
+    - uses: actions/setup-python@v5
       with:
-        docs-folder: "docs/"
-        build-command: "sphinx-build -W -b linkcheck . _build"
+        python-version: "3.12"
+    - name: Install dependencies
+      run: pip install -r docs/requirements.txt
+    - name: Check links
+      run: sphinx-build -W -b linkcheck docs docs/_build

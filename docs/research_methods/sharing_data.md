@@ -7,7 +7,7 @@ Although making your work accessible to others involves costs (effort and time, 
 [considerably increases the reach of your work](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416) 
 and thus also benefits your academic career.
 You can make the process of sharing your work, data, and code substantially easier
-if you [plan it right from the start of your project](https://the-turing-way.netlify.app/project-design/project-design.html).
+if you [plan it right from the start of your project](https://book.the-turing-way.org/project-design/project-design/).
 A data management plan,
 good organization of your data,
 and good documentation of your actions
@@ -32,7 +32,7 @@ Often it just means that someone has already made a decision on **how** you shou
 
 Here are some scenarios that could suggest that there are constraints on how you share data:
 
-- there is already a [**data management plan**](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
+- there is already a [**data management plan**](https://book.the-turing-way.org/reproducible-research/rdm/rdm-dmp/)
 that describes 
 how work derived from a dataset or project are going to be shared.
 If a data management plan exists,
@@ -95,7 +95,7 @@ that facilitates reproduction of the analyses described in your publication.
 All shared data should have a DOI and be citable.
 But there are also dedicated data journals that will allow you to make an in depth description of your data
 and clearly show your contribution.
-[Here is an overview of some data sharing journals](https://www.fosteropenscience.eu/foster-taxonomy/open-data-journals).
+[Here is an overview of some data sharing journals](https://web.archive.org/web/20240417090406/https://www.fosteropenscience.eu/foster-taxonomy/open-data-journals).
 
 ```
 This is a major scientific contribution that stands on its own.
@@ -105,7 +105,7 @@ with as detailed a description as possible.
 To prepare your data for sharing, you should:
 - provide a detailed explanation of the data in a README file.
   - Include information on acquisition, processing, inclusion, and exclusion criteria
-  - [Turing way documentation guidelines](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-metadata.html)
+  - [Turing way documentation guidelines](https://book.the-turing-way.org/reproducible-research/rdm/rdm-metadata/)
   - [How to make data accessible](https://www.software.ac.uk/how-can-you-make-research-data-accessible)
 - For derivative data, include a reference to the raw data detailed descriptions of any processing you have done
   - Provide a reference to the raw data that your dataset is derived from (publication, DOI, or URL)
@@ -122,7 +122,7 @@ To prepare your data for sharing, you should:
   - Use common data formats, ideally text based ones like `.csv` (comma separated files) or `.tsv` (tab separated files)
   - Provide the name of variables in the first row of a table (header row)
   - Use human readable variable names (and explain them in data dictionaries)
-  - [Turing way guidelines on tabular data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html)
+  - [Turing way guidelines on tabular data](https://book.the-turing-way.org/reproducible-research/rdm/rdm-spreadsheets/)
 - Provide explanations for all variables used, e.g. with data dictionaries
   - data dictionaries are tables that map each variable name to a human readable definition and also provide
   additional information on things like allowable values, range of values, unit types.
@@ -157,7 +157,7 @@ you have described in your publication.
 Sharing data even with the best annotations and descriptions
 is not as easy to understand and reproduce as when you also
 share your analysis code. 
-See this [great overview of "The Turing Way"](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
+See this [great overview of "The Turing Way"](https://book.the-turing-way.org/reproducible-research/reproducible-research/)
 ```
 
 Here are some questions to get you started
@@ -217,7 +217,7 @@ Say more things about ways to choose and differences in scope of platforms
 
 The Nature Publishing Group maintains a repository of recommended 
 [subfield specific](https://www.nature.com/sdata/policies/repositories) and 
-[domain general data repositories](https://www.nature.com/sdata/policies/repositories#general) that you can take a look at.
+[domain general data repositories](https://www.nature.com/sdata/policies/repositories) that you can take a look at.
 
 Another great resource is the 
 [data publishing guideline of the F1000 publishing platform](https://f1000research.com/for-authors/data-guidelines).
@@ -239,7 +239,7 @@ Generally you should share your data with as open and permissive a license as yo
 A good starting point are the Creative Common Licenses, 
 e.g. [CC BY 4](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
 You can make choices on permissions for commercial use, how data users should cite you and so on. 
-Here is a [Creative Commons License selector tool](https://chooser-beta.creativecommons.org/).
+Here is a [Creative Commons License selector tool](https://creativecommons.org/chooser/).
 
 There may also be constraints on the type of license you can choose.
 - your data may be based on data that already came with a license and you may be bound to re-share under the same terms
@@ -251,12 +251,12 @@ These are good things to check with your PI or lab manager.
 
 ```{admonition} Additional resources for selecting a license
 :class: tip
-- [Turing Way data licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html)
+- [Turing Way data licenses](https://book.the-turing-way.org/reproducible-research/licensing/licensing-data/)
 - [Guide to Open Data Licensing](http://opendefinition.org/guide/data/)
 - [OSF guide on licenses](https://help.osf.io/hc/en-us/articles/360019739014-Licensing)
 ```
 
 ## Additional resources
 - [OSF guidelines](https://help.osf.io/hc/en-us)
-- [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
-- [Data sharing resources of the McGill library](https://www.mcgill.ca/library/services/data-services/sharing)
+- [The Turing Way](https://book.the-turing-way.org/)
+- [Data sharing resources of the McGill library](https://www.mcgill.ca/libraries/research-services/data-services/sharing)

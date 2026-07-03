@@ -72,6 +72,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.venv']
 # (e.g. GitHub Actions runners), so the linkcheck builder can't verify them.
 linkcheck_ignore = [
     r'https://chatdnp\.douglas\.rtss\.qc\.ca.*',
+    # ethics.gc.ca serves a cert chain not trusted by the CI runner's
+    # store (SSLCertVerificationError), though it resolves fine in browsers.
+    r'https://ethics\.gc\.ca.*',
+    # These hosts return 403 to non-browser clients (anti-bot).
+    r'https://linux\.die\.net.*',
+    r'https://www\.mathworks\.com.*',
 ]
 
 
