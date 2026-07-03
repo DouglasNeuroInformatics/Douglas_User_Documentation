@@ -66,7 +66,13 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.venv']
+
+# Internal DNP services that are not reachable from the public internet
+# (e.g. GitHub Actions runners), so the linkcheck builder can't verify them.
+linkcheck_ignore = [
+    r'https://chatdnp\.douglas\.rtss\.qc\.ca.*',
+]
 
 
 # -- Options for HTML output -------------------------------------------------
