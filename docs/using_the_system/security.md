@@ -13,11 +13,21 @@ No data is stored directly on workstations, ensuring data-exfiltration risk from
 
 Servers are physically separated across the Douglas campus with continuous backups between them for disaster recovery.
 
+## System Security
+
+DNP compute infrastructure within the Douglas Research Centre is separate from DNP web services, which are hosted
+externally. All DNP systems run Ubuntu Long Term Support (LTS) releases, and root access on all machines is restricted
+to authorized DNP system administration staff.
+
+DNP has an active project to harden default system configurations toward alignment with ISO/IEC 27001. This work is
+ongoing and is not yet complete.
+
 ## Data Safety and Security
 
-Access to storage servers is restricted via hostname and IP, relying on the access controls to the network managed
-by Douglas IT. Storage allocations are mounted on-demand providing some obfuscation for mount names. All mount exports
-are exported with `root_squash` to enforce minimal permissions to workstations in the event of local compromise.
+Network File System (NFS) security is managed via IP limits that restrict access to authorized DNP workstations,
+relying on the access controls to the network managed by Douglas IT. Storage allocations are mounted on-demand
+providing some obfuscation for mount names. All mount exports are exported with `root_squash` to enforce minimal
+permissions to workstations in the event of local compromise.
 
 Permissions for all storage allocations are user and research-group based (UNIX users/groups), with default
 permissions for newly created files owned by the user and group, and default read-only access for research group
@@ -32,6 +42,7 @@ All data storage has fine-to-coarse historical snapshots enabled, allowing recov
 User accounts are password protected with minimum complexity requirements based on entropy measurements of passwords.
 Passwords are regularly audited for weaknesses against compromised password wordlists.
 User accounts on creation are set to expire on timeframes appropriate with the student or employment position of the
-users.
+users. Accounts are regularly audited for inactivity and disabled when idle.
 
-Authentication is achieved via centralized NIS services with restricted access based on IP and user level.
+Authentication is achieved via centralized Network Information Service (NIS).
+NIS security is similarly managed via IP limits that restrict access to authorized DNP workstations.
