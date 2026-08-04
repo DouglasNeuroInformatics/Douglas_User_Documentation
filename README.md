@@ -6,11 +6,11 @@
 ## To build locally
 
 Follow these steps.
-
-1. `cd docs`
-2. `pip install -r requirements.txt`
-3. `make html`
-4. open `docs/_build/index.html`
+1. `uv venv`
+2. `cd docs`
+3. `uv pip install -r requirements.txt`
+4. `uv run make html`
+5. `open _build/html/index.html`
 
 To make changes, edit the markdown files.
 If you have done a major refactor (renaming files or directory structures), 
