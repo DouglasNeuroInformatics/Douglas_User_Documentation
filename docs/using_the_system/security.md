@@ -57,4 +57,4 @@ NIS security is similarly managed via IP limits that restrict access to authoriz
 * **Approved Remote Access Methods**\
   All remote connections to DNP systems must be established exclusively through official, approved channels:
   * **SSH (Secure Shell):** Standard command-line terminal access. Refer to our [DNP remote access instructions](remote_access.md) for setup and host details.
-  * **X2Go Client:** Graphical desktop access. Download the client installer from the official [X2Go Download Page](https://wiki.x2go.org/doku.php/download:start) or review our [DNP X2Go Configuration Guide](remote_access.md#remote-desktop-access-with-x2go).
+  * **X2Go Client:** Graphical desktop access. Download the client installer from the official [X2Go Download Page](https://wiki.x2go.org/doku.php/download:start) or review our {ref}`DNP X2Go Configuration Guide <remote-desktop-access-with-x2go>`.

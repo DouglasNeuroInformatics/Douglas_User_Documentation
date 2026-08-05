@@ -162,6 +162,7 @@ X11 forwarding sends rendering instructions over the network and will be slow re
 of your connection. For an interactive desktop, use **X2Go** instead.
 ```
 
+(remote-desktop-access-with-x2go)=
 ## Remote desktop access with X2Go
 
 [X2Go](https://wiki.x2go.org/doku.php) gives you a full graphical desktop on your

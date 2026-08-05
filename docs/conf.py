@@ -79,6 +79,8 @@ linkcheck_ignore = [
     r'https://ethics\.gc\.ca.*',
     # These hosts return 403 to non-browser clients (anti-bot).
     r'https://linux\.die\.net.*',
+    r'https://stackoverflow\.com.*',
+    r'https://superuser\.com.*',
     r'https://www\.mathworks\.com.*',
 ]
 
