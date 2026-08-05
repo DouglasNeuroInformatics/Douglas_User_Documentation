@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "thomasbeaudry",
+      "name": "Thomas Beaudry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7085398?v=4",
+      "profile": "https://github.com/thomasbeaudry",
+      "contributions": [
+        "doc",
+        "content"
+      ]
+    },
+    {
       "login": "isabelbacellar",
       "name": "isabelbacellar",
       "avatar_url": "https://avatars.githubusercontent.com/u/87087618?v=4",
