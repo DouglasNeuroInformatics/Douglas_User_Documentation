@@ -46,3 +46,15 @@ users. Accounts are regularly audited for inactivity and disabled when idle.
 
 Authentication is achieved via centralized Network Information Service (NIS).
 NIS security is similarly managed via IP limits that restrict access to authorized DNP workstations.
+
+## Administrative Access and Remote Access Policy
+* **No `sudo` Access**\
+  Administrative privileges (`sudo`) are strictly prohibited on all DNP machines. Users must run software within their own user space or load required packages via the environment module system / software quarantine.
+<br><br>
+* **Prohibited Software**\
+  Installing or running unapproved third-party remote access tools (such as AnyDesk, TeamViewer, Chrome Remote Desktop, or VNC servers) is not permitted under any circumstances.
+<br><br>
+* **Approved Remote Access Methods**\
+  All remote connections to DNP systems must be established exclusively through official, approved channels:
+  * **SSH (Secure Shell):** Standard command-line terminal access. Refer to our [DNP remote access instructions](remote_access.md) for setup and host details.
+  * **X2Go Client:** Graphical desktop access. Download the client installer from the official [X2Go Download Page](https://wiki.x2go.org/doku.php/download:start) or review our [DNP X2Go Configuration Guide](remote_access.md#remote-desktop-access-with-x2go).

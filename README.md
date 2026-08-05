@@ -3,6 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+This repository contains documentation for the Douglas Neuroinformatics Platform, including guidance on getting started, using the system, research methods, available services, and getting help.  The docs can be found here: https://docs.douglasneuroinformatics.ca
+
 ## To build locally
 
 Follow these steps.
@@ -46,6 +48,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/LuceroGG"><img src="https://avatars.githubusercontent.com/u/43321220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LuceroGG</b></sub></a><br /><a href="#userTesting-LuceroGG" title="User Testing">📓</a> <a href="#ideas-LuceroGG" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/devdinie"><img src="https://avatars.githubusercontent.com/u/54685871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swapna</b></sub></a><br /><a href="#userTesting-devdinie" title="User Testing">📓</a> <a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/issues?q=author%3Adevdinie" title="Bug reports">🐛</a> <a href="#ideas-devdinie" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/raihaan"><img src="https://avatars.githubusercontent.com/u/7913859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>raihaan</b></sub></a><br /><a href="#ideas-raihaan" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/thomasbeaudry"><img src="https://avatars.githubusercontent.com/u/7085398?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Beaudry</b></sub></a><br /><a href="https://github.com/DouglasNeuroInformatics/Douglas_User_Documentation/commits?author=thomasbeaudry" title="Documentation">📖</a> <a href="#content-thomasbeaudry" title="Content">🖋</a></td>
   </tr>
 </table>
 
