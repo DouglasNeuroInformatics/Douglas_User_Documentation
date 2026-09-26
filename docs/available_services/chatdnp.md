@@ -1,8 +1,4 @@
 # ChatDNP  
-```{Important}
-This AI chatbot service is currently free and in beta / demo mode. In the future, it will be a paid service. Your chat prompts will be used for our internal research to improve the DNP's offerings. We do not use or analyze any scientific data you share.
-
-```
 ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat service, powered by Open WebUI and accessible on our on-premise GPU server. It is equipped with:
 
 - 2 × NVIDIA RTX A6000 (each with 48 GB VRAM)
@@ -23,8 +19,7 @@ ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat service
 
 ## How to sign in
 
-1. Navigate to chatDNP: https://chatdnp.douglas.rtss.qc.ca
-2. Accept the privacy warning of the site not being secure (we use self-signed certs not open to the web)
+1. Navigate to chatDNP: https://chatdnp.internal.douglasneuroinformatics.ca
 2. Read the disclaimer and accept our terms of use.
 
 ## Privacy & Data Use
@@ -34,9 +29,8 @@ Your chat prompts and responses are recorded so we can improve the platform. **P
 - **Recorded:** We store chat prompts for usage analytics for quality, security, and capacity planning.
 - **No History:** We use temporary guest accounts, meaning your chat history is not saved. Once you leave this page, your previous conversations will be gone.
 - **Research data:** We do not use or analyze your scientific datasets. You may discuss patient-sensitive or confidential topics because the service runs entirely inside the Douglas network.
-- **Future billing:** The service is free in beta, and will become paid later.
-- **API access:** Disabled by default, it is only available to authorized projects.
-- **Private chat account:** Should you require your own private chat (with history), please contact us detailing the specifics.
+- **API access:** Available through prepaid quota or fixed monthly plans.
+- **Private chat account:** Should you require your own private chat (with history), please contact us for pricing.
 
 ## Open WebUI Quick Start Usage
 
