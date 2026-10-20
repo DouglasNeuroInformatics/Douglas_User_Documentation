@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../terms_of_service/index.md:1
+msgid "Terms of Service v1.1"
+msgstr "Conditions d’utilisation v1.1"
+
+#: ../../terms_of_service/index.md:2
+msgid ""
+"The Douglas Neuroinformatics Platform (DNP) is a computing system "
+"exclusively for use as a tool to store, process and aggregate data for "
+"the Douglas Hospital Research Centre (DRC)."
+msgstr ""
+"La Douglas Neuroinformatics Platform (DNP) est un système informatique "
+"exclusivement destiné à être utilisé comme outil pour stocker, traiter et"
+" agréger des données pour le Centre de recherche de l’Hôpital Douglas "
+"(DRC)."
+
+#: ../../terms_of_service/index.md:4
+msgid "Definitions"
+msgstr "Définitions"
+
+#: ../../terms_of_service/index.md:5
+msgid ""
+"Account Holder: an individual who has a Douglas Neuroinformatics Platform"
+" (DNP) account."
+msgstr ""
+"Titulaire de compte : une personne qui possède un compte de la Douglas "
+"Neuroinformatics Platform (DNP)."
+
+#: ../../terms_of_service/index.md:7
+msgid "Access to Resources<br><Br>"
+msgstr "Accès aux ressources<br><Br>"
+
+#: ../../terms_of_service/index.md:8
+msgid ""
+"1.1 &nbsp;&nbsp;You will never access or attempt to access any DNP "
+"resources (or any other user’s data on the DNP resources) other than "
+"those resources or data to which you have been granted access by a DNP "
+"administrator.<br><br>"
+msgstr ""
+"1.1 &nbsp;&nbsp;Vous n’accéderez jamais, et ne tenterez pas d’accéder, à "
+"des ressources du DNP (ou aux données de tout autre utilisateur sur les "
+"ressources du DNP) autres que les ressources ou données auxquelles un "
+"administrateur du DNP vous a accordé l’accès.<br><br>"
+
+#: ../../terms_of_service/index.md:9
+msgid ""
+"1.2 &nbsp;&nbsp;You will always abide by any policies, protocols, or "
+"requirements that are in effect at institutions with which you are "
+"affiliated, such as an Acceptable Use Policy. In a situation in which a "
+"conflict exists between the DNP Terms of Service and the policies at "
+"institution(s) with which you are affiliated, you must notify the DNP "
+"staff and comply with any requirements identified by the DNP "
+"staff.<br><br>"
+msgstr ""
+"1.2 &nbsp;&nbsp;Vous respecterez toujours les politiques, protocoles ou "
+"exigences en vigueur dans les établissements auxquels vous êtes rattaché,"
+" comme une Politique d’utilisation acceptable. En cas de conflit entre "
+"les Conditions d’utilisation du DNP et les politiques des établissements "
+"auxquels vous êtes rattaché, vous devez aviser le personnel du DNP et "
+"vous conformer à toute exigence cernée par le personnel du DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:10
+msgid ""
+"1.3 &nbsp;&nbsp;You will not allow any other individual to use your "
+"account to access DNP resources. If others require access as part of your"
+" research, these individuals must apply for their own account.<br><br>"
+msgstr ""
+"1.3 &nbsp;&nbsp;Vous ne permettrez à aucune autre personne d’utiliser "
+"votre compte pour accéder aux ressources du DNP. Si d’autres personnes "
+"ont besoin d’un accès dans le cadre de vos recherches, ces personnes "
+"doivent faire une demande pour leur propre compte.<br><br>"
+
+#: ../../terms_of_service/index.md:11
+msgid ""
+"1.4 &nbsp;&nbsp;Any DNP account credentials and information used for "
+"authentication are confidential and you are responsible for keeping them "
+"secure. Failure to do so may result in account suspension, see 4 "
+"below.<br><br>"
+msgstr ""
+"1.4 &nbsp;&nbsp;Tous les identifiants de compte du DNP et toutes les "
+"informations utilisées pour l’authentification sont confidentiels, et "
+"vous êtes responsable de leur sécurité. Le fait de ne pas assurer leur "
+"sécurité peut entraîner la suspension du compte, voir le point 4 ci-"
+"dessous.<br><br>"
+
+#: ../../terms_of_service/index.md:12
+msgid "Conduct Requirements<br><br>"
+msgstr "Exigences relatives à la conduite<br><br>"
+
+#: ../../terms_of_service/index.md:13
+msgid ""
+"2.1 &nbsp;&nbsp;You are responsible for the activities associated with "
+"your account and for the use of resources assigned to you.<br><br>"
+msgstr ""
+"2.1 &nbsp;&nbsp;Vous êtes responsable des activités associées à votre "
+"compte et de l’utilisation des ressources qui vous sont "
+"attribuées.<br><br>"
+
+#: ../../terms_of_service/index.md:14
+msgid ""
+"2.2 &nbsp;&nbsp;You are responsible for understanding and meeting any "
+"privacy, confidentiality and acceptable use policies, requirements, laws "
+"or regulations that apply to your research and data. This includes, for "
+"instance, any provincial privacy laws or ethics board requirements "
+"affecting any data (e.g. clinical or personal health information) that "
+"you store on DNP systems.<br><br>"
+msgstr ""
+"2.2 &nbsp;&nbsp;Vous êtes responsable de comprendre et de respecter toute"
+" politique, toute exigence, toute loi ou tout règlement applicable à vos "
+"recherches et à vos données en matière de protection des renseignements "
+"personnels, de confidentialité et d’utilisation acceptable. Cela "
+"comprend, par exemple, toute loi provinciale sur la protection des "
+"renseignements personnels ou toute exigence d’un comité d’éthique "
+"touchant toute donnée (p. ex. renseignements cliniques ou renseignements "
+"personnels sur la santé) que vous stockez sur les systèmes du "
+"DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:15
+msgid ""
+"2.3 &nbsp;&nbsp;In the event, your account is compromised, or suspicious "
+"activity is detected related to resources assigned to you, you agree to "
+"work with DNP staff and any institution with which you are affiliated to "
+"resolve the issue.<br><br>"
+msgstr ""
+"2.3 &nbsp;&nbsp;Si votre compte est compromis ou si une activité suspecte"
+" est détectée relativement aux ressources qui vous sont attribuées, vous "
+"acceptez de collaborer avec le personnel du DNP et tout établissement "
+"auquel vous êtes rattaché pour régler la question.<br><br>"
+
+#: ../../terms_of_service/index.md:16
+msgid ""
+"2.4 &nbsp;&nbsp;At no time will you use DNP resources for any activity "
+"that contravenes any applicable laws or regulations. You are responsible "
+"for identifying all applicable laws and regulations that may "
+"apply.<br><br>"
+msgstr ""
+"2.4 &nbsp;&nbsp;Vous n’utiliserez jamais les ressources du DNP pour toute"
+" activité qui enfreint toute loi ou tout règlement applicable. Vous êtes "
+"responsable de cerner toutes les lois et tous les règlements qui peuvent "
+"s’appliquer.<br><br>"
+
+#: ../../terms_of_service/index.md:17
+msgid ""
+"2.5 &nbsp;&nbsp;You agree that should you ever be investigated or found "
+"liable for any contravention of Canadian law, or any other applicable "
+"laws, the DNP is in no way responsible or liable for such contraventions "
+"or for any penalties associated with it. If anyone attempts to make the "
+"DNP liable for anything related to your research or your use of DNP "
+"resources, you agree to work with DNP staff to address the issue.<br><br>"
+msgstr ""
+"2.5 &nbsp;&nbsp;Vous acceptez que, si vous êtes jamais enquêté ou tenu "
+"responsable d’une infraction à une loi canadienne ou à toute autre loi "
+"applicable, le DNP n’est en aucun cas responsable de ces infractions ni "
+"des sanctions qui y sont associées. Si quelqu’un tente de tenir le DNP "
+"responsable de quoi que ce soit lié à vos recherches ou à votre "
+"utilisation des ressources du DNP, vous acceptez de collaborer avec le "
+"personnel du DNP pour régler la question.<br><br>"
+
+#: ../../terms_of_service/index.md:18
+msgid ""
+"2.6 &nbsp;&nbsp;You must immediately notify the DNP if you become aware "
+"of any unauthorized access or use of DNP resources or data or of any "
+"event that might affect DNP information security or privacy.<br><br>"
+msgstr ""
+"2.6 &nbsp;&nbsp;Vous devez aviser immédiatement le DNP si vous prenez "
+"connaissance d’un accès non autorisé ou d’une utilisation non autorisée "
+"des ressources ou des données du DNP, ou de tout événement susceptible de"
+" toucher la sécurité de l’information ou la protection des renseignements"
+" personnels au DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:19
+msgid ""
+"2.7 &nbsp;&nbsp;You will complete an annual account renewal process to "
+"retain access to resources assigned to you.<br><br>"
+msgstr ""
+"2.7 &nbsp;&nbsp;Vous devez achever un processus annuel de renouvellement "
+"de compte pour conserver l’accès aux ressources qui vous sont "
+"attribuées.<br><br>"
+
+#: ../../terms_of_service/index.md:20
+msgid ""
+"2.8 &nbsp;&nbsp;The DNP reserves the right to define abuse of resources "
+"and take appropriate action where and if necessary. For example, it has "
+"the right to monitor use of its systems, deactivate an account, or block "
+"access to DNP resources.<br><br>"
+msgstr ""
+"2.8 &nbsp;&nbsp;Le DNP se réserve le droit de définir ce qui constitue un"
+" abus des ressources et de prendre les mesures appropriées, si "
+"nécessaire. Par exemple, il a le droit de surveiller l’utilisation de ses"
+" systèmes, de désactiver un compte ou de bloquer l’accès aux ressources "
+"du DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:21
+msgid ""
+"2.9 &nbsp;&nbsp;On services where you can interact with other users or "
+"staff of DNP, you shall conduct yourself with all due civility.<br><br>"
+msgstr ""
+"2.9 &nbsp;&nbsp;Sur les services où vous pouvez interagir avec d’autres "
+"utilisateurs ou avec le personnel du DNP, vous devez vous conduire avec "
+"toute la courtoisie requise.<br><br>"
+
+#: ../../terms_of_service/index.md:22
+msgid "Use of Resources<br><br>"
+msgstr "Utilisation des ressources<br><br>"
+
+#: ../../terms_of_service/index.md:23
+msgid ""
+"3.1 &nbsp;&nbsp;You will not use the DNP resources in any situation in "
+"which failure or fault of the use of the resources could lead to death or"
+" serious injury of any person or animal, or serious physical or "
+"environmental damage.<br><br>"
+msgstr ""
+"3.1 &nbsp;&nbsp;Vous n’utiliserez pas les ressources du DNP dans toute "
+"situation où une défaillance ou une erreur d’utilisation des ressources "
+"pourrait entraîner la mort ou des blessures graves à toute personne ou "
+"tout animal, ou des dommages physiques ou environnementaux "
+"graves.<br><br>"
+
+#: ../../terms_of_service/index.md:24
+msgid ""
+"3.2 &nbsp;&nbsp;You will not introduce software into the DNP environment "
+"that may damage, interfere with, or capture any system, program, or data "
+"outside of your own assigned resources. The DNP reserves the right to "
+"identify, quarantine or delete any such software, as well as any related "
+"data.<br><br>"
+msgstr ""
+"3.2 &nbsp;&nbsp;Vous n’introduirez pas dans l’environnement du DNP de "
+"logiciels susceptibles d’endommager, d’interférer avec ou de capturer "
+"tout système, programme ou donnée en dehors de vos propres ressources "
+"attribuées. Le DNP se réserve le droit d’identifier, de mettre en "
+"quarantaine ou de supprimer tout logiciel de ce type, ainsi que toute "
+"donnée associée.<br><br>"
+
+#: ../../terms_of_service/index.md:25
+msgid ""
+"3.3 &nbsp;&nbsp;You will not attempt to probe, scan, penetrate or test "
+"any DNP services or systems for vulnerability nor to probe, scan, "
+"penetrate or test any external services or systems.<br><br>"
+msgstr ""
+"3.3 &nbsp;&nbsp;Vous ne tenterez pas de sonder, de scanner, de pénétrer "
+"ou de tester la vulnérabilité de tout service ou système du DNP, ni de "
+"sonder, de scanner, de pénétrer ou de tester tout service ou système "
+"externe.<br><br>"
+
+#: ../../terms_of_service/index.md:26
+msgid ""
+"3.4 &nbsp;&nbsp;You will not try to access or intercept data not intended"
+" for yourself or for the resources that are assigned to you.<br><br>"
+msgstr ""
+"3.4 &nbsp;&nbsp;Vous ne tenterez pas d’accéder à des données ni de les "
+"intercepter si elles ne sont pas destinées à vous-même ni aux ressources "
+"qui vous sont attribuées.<br><br>"
+
+#: ../../terms_of_service/index.md:27
+msgid ""
+"3.5 &nbsp;&nbsp;You will not send or assist with unsolicited bulk "
+"communications.<br><br>"
+msgstr ""
+"3.5 &nbsp;&nbsp;Vous ne devez pas envoyer de communications non "
+"sollicitées en masse ni aider à envoyer de telles communications.<br><br>"
+
+#: ../../terms_of_service/index.md:28
+msgid ""
+"3.6 &nbsp;&nbsp;You will not use applications without valid and "
+"appropriate licensing.<br><br>"
+msgstr ""
+"3.6 &nbsp;&nbsp;Vous ne devez pas utiliser d'applications sans licence "
+"valide et appropriée.<br><br>"
+
+#: ../../terms_of_service/index.md:29
+msgid ""
+"3.7 &nbsp;&nbsp;You will not use software services that would override "
+"DNP authentication or policy enforcement.<br><br>"
+msgstr ""
+"3.7 &nbsp;&nbsp;Vous ne devez pas utiliser de services logiciels qui "
+"contourneraient l'authentification du DNP ou l'application de ses "
+"politiques.<br><br>"
+
+#: ../../terms_of_service/index.md:30
+msgid ""
+"3.8 &nbsp;&nbsp;You will not use software or services that provide "
+"unprotected access to shared DNP resources.<br><br>"
+msgstr ""
+"3.8 &nbsp;&nbsp;Vous ne devez pas utiliser de logiciels ou de services "
+"qui fournissent un accès non protégé aux ressources partagées du "
+"DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:31
+msgid ""
+"3.9 &nbsp;&nbsp;You will not knowingly use DNP resources in a manner that"
+" impedes or denies the ability of others to use the resources to which "
+"they have been granted access.<br><br>"
+msgstr ""
+"3.9 &nbsp;&nbsp;Vous ne devez pas utiliser sciemment les ressources du "
+"DNP d'une manière qui entrave ou empêche les autres d'utiliser les "
+"ressources auxquelles un accès leur a été accordé.<br><br>"
+
+#: ../../terms_of_service/index.md:32
+msgid ""
+"3.10 &nbsp;&nbsp;You are expected to use DNP resources "
+"efficiently.<br><br>"
+msgstr ""
+"3.10 &nbsp;&nbsp;Vous êtes tenu d'utiliser les ressources du DNP de "
+"manière efficace.<br><br>"
+
+#: ../../terms_of_service/index.md:33
+msgid "Suspension of access and Termination<br><br>"
+msgstr "Suspension de l'accès et résiliation<br><br>"
+
+#: ../../terms_of_service/index.md:34
+msgid ""
+"4.1 &nbsp;&nbsp;Failure to abide by these Terms of Service may result in "
+"temporary or permanent revocation of access privileges as well as legal "
+"action against you or your institution.<br><br>"
+msgstr ""
+"4.1 &nbsp;&nbsp;Le non-respect des présentes Conditions d'utilisation "
+"peut entraîner la révocation temporaire ou permanente des droits d'accès "
+"ainsi que des mesures juridiques contre vous ou votre "
+"établissement.<br><br>"
+
+#: ../../terms_of_service/index.md:35
+msgid ""
+"4.2 &nbsp;&nbsp;If access is revoked or expired, the DNP will archive or "
+"retain your data for a one-year period. Temporary data (scratch) will not"
+" be preserved and may be deleted at any time. After a year, if no action "
+"has been taken to reactivate the account, the DNP reserves the right to "
+"permanently delete all of your data.<br><br>"
+msgstr ""
+"4.2 &nbsp;&nbsp;Si l'accès est révoqué ou expiré, le DNP archivera ou "
+"conservera vos données pendant une période d'un an. Les données "
+"temporaires (scratch) ne seront pas conservées et pourront être "
+"supprimées à tout moment. Après un an, si aucune mesure n'a été prise "
+"pour réactiver le compte, le DNP se réserve le droit de supprimer "
+"définitivement l'ensemble de vos données.<br><br>"
+
+#: ../../terms_of_service/index.md:36
+msgid "Provision of Service<br><br>"
+msgstr "Fourniture du service<br><br>"
+
+#: ../../terms_of_service/index.md:37
+msgid ""
+"5.1 &nbsp;&nbsp;The DNP reserves the right to request documentation that "
+"demonstrates that proper authorization is in place for the use of DNP "
+"resources.<br><br>"
+msgstr ""
+"5.1 &nbsp;&nbsp;Le DNP se réserve le droit de demander des documents "
+"démontrant que l'autorisation appropriée est en place pour l'utilisation "
+"des ressources du DNP.<br><br>"
+
+#: ../../terms_of_service/index.md:38
+msgid ""
+"5.2 &nbsp;&nbsp;The DNP reserves the right to audit and monitor the usage"
+" of, performance, and security posture of its systems to manage service "
+"stability, integrity, accessibility, and confidentiality.<br><br>"
+msgstr ""
+"5.2 &nbsp;&nbsp;Le DNP se réserve le droit d'auditer et de surveiller "
+"l'utilisation, les performances et la posture de sécurité de ses systèmes"
+" afin de gérer la stabilité, l'intégrité, l'accessibilité et la "
+"confidentialité du service.<br><br>"
+
+#: ../../terms_of_service/index.md:39
+msgid ""
+"5.3 &nbsp;&nbsp;To maintain overall system performance, the DNP reserves "
+"the right to manage system load. This may include deactivating logins, "
+"killing processes, or deleting jobs without notice to protect operational"
+" stability.<br>"
+msgstr ""
+"5.3 &nbsp;&nbsp;Afin de maintenir les performances globales du système, "
+"le DNP se réserve le droit de gérer la charge du système. Cela peut "
+"inclure la désactivation des connexions, la terminaison de processus ou "
+"la suppression de travaux sans préavis afin de protéger la stabilité "
+"opérationnelle.<br>"
+
+#: ../../terms_of_service/index.md:41
+msgid "Changes"
+msgstr "Modifications"
+
+#: ../../terms_of_service/index.md:42
+msgid "1.0 -> 1.1 Drop DNP WiFi Services"
+msgstr "1.0 -> 1.1 Suppression des services Wi-Fi du DNP"
+

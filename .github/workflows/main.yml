@@ -17,6 +17,8 @@ jobs:
       run: pip install -r docs/requirements.txt
     - name: Build HTML docs
       run: sphinx-build -n -W -b html docs docs/_build
+    - name: Build HTML docs (French)
+      run: sphinx-build -n -W -b html -D language=fr docs docs/_build/fr
   linkcheck:
     runs-on: ubuntu-latest
     steps:

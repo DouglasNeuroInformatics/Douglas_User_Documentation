@@ -1,0 +1,961 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../research_methods/sharing_data.md:1
+msgid "Sharing data"
+msgstr "Partage de données"
+
+#: ../../research_methods/sharing_data.md:3
+msgid ""
+"Publishing research data is an important step in ensuring that your "
+"research outputs are following the [**F**indable **A**ccessible "
+"**I**nteroperable **R**eusable (FAIR) principles](https://www.go-fair.org"
+"/fair-principles/) for scientific data management.  Although making your "
+"work accessible to others involves costs (effort and time, mostly), it  "
+"[considerably increases the reach of your "
+"work](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416)"
+"  and thus also benefits your academic career. You can make the process "
+"of sharing your work, data, and code substantially easier if you [plan it"
+" right from the start of your project](https://book.the-turing-way.org"
+"/project-design/project-design/). A data management plan, good "
+"organization of your data, and good documentation of your actions will "
+"all help make this process much easier, and are also essential for you to"
+" be able to reproduce and understand your own work. In practice, your "
+"closest collaborator is often you from 6 months ago!"
+msgstr ""
+"La publication des données de recherche est une étape importante pour "
+"veiller à ce que vos résultats de recherche suivent les [principes "
+"**F**aciles à trouver **A**ccessibles **I**nteropérables "
+"**R**éutilisables (FAIR)](https://www.go-fair.org/fair-principles/) pour "
+"la gestion des données scientifiques. Bien que rendre vos travaux "
+"accessibles aux autres implique des coûts (effort et temps, surtout), "
+"cela [augmente considérablement la portée de vos "
+"travaux](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416)"
+" et profite donc aussi à votre carrière universitaire. Vous pouvez rendre"
+" le processus de partage de vos travaux, de vos données et de votre code "
+"nettement plus facile si vous [planifiez-le dès le début de votre "
+"projet](https://book.the-turing-way.org/project-design/project-design/). "
+"Un plan de gestion des données, une bonne organisation de vos données et "
+"une bonne documentation de vos actions contribueront tous à rendre ce "
+"processus beaucoup plus facile, et sont également essentiels pour que "
+"vous puissiez reproduire et comprendre vos propres travaux. En pratique, "
+"votre collaborateur le plus proche est souvent vous-même il y a 6 mois !"
+
+#: ../../research_methods/sharing_data.md:18
+msgid "How to read this document"
+msgstr "Comment lire ce document"
+
+#: ../../research_methods/sharing_data.md:21
+msgid ""
+"This document is organized around a series of questions that you can ask "
+"yourself when planning to share data. For each question,  we provide you "
+"with good external resources that provide answers."
+msgstr ""
+"Ce document est organisé autour d'une série de questions que vous pouvez "
+"vous poser lorsque vous planifiez le partage de données. Pour chaque "
+"question, nous vous fournissons de bonnes ressources externes qui "
+"apportent des réponses."
+
+#: ../../research_methods/sharing_data.md:27
+msgid "Check data sharing constraints"
+msgstr "Vérifier les contraintes de partage de données"
+
+#: ../../research_methods/sharing_data.md:28
+msgid ""
+"Your first step should be to ensure that you **can** in fact share the "
+"raw or derivative data you intend to share.  Here are some reasons you "
+"may be constrained in your ability to share your data.  Most of the time "
+"this **does not mean that you cannot share any data**! Often it just "
+"means that someone has already made a decision on **how** you should "
+"share data."
+msgstr ""
+"Votre première étape devrait être de vous assurer que vous **pouvez** "
+"effectivement partager les données brutes ou dérivées que vous avez "
+"l'intention de partager. Voici quelques raisons pour lesquelles votre "
+"capacité à partager vos données peut être limitée. La plupart du temps, "
+"cela **ne signifie pas que vous ne pouvez partager aucune donnée** ! "
+"Souvent, cela signifie simplement que quelqu'un a déjà pris une décision "
+"sur **la manière dont** vous devriez partager les données."
+
+#: ../../research_methods/sharing_data.md:33
+msgid ""
+"Here are some scenarios that could suggest that there are constraints on "
+"how you share data:"
+msgstr ""
+"Voici quelques scénarios qui pourraient indiquer qu'il existe des "
+"contraintes sur la manière dont vous partagez les données :"
+
+#: ../../research_methods/sharing_data.md:35
+msgid ""
+"there is already a [**data management plan**](https://book.the-turing-"
+"way.org/reproducible-research/rdm/rdm-dmp/) that describes  how work "
+"derived from a dataset or project are going to be shared. If a data "
+"management plan exists, you should follow it!"
+msgstr ""
+"il existe déjà un [**plan de gestion des données**](https://book.the-"
+"turing-way.org/reproducible-research/rdm/rdm-dmp/) qui décrit comment les"
+" travaux dérivés d'un jeu de données ou d'un projet seront partagés. Si "
+"un plan de gestion des données existe, vous devriez le suivre !"
+
+#: ../../research_methods/sharing_data.md:40
+msgid ""
+"the data you are working on involves **human participants**.  You are "
+"responsible to ensure that the privacy of your participants is protected "
+"and  identifiable information is not shared."
+msgstr ""
+"les données sur lesquelles vous travaillez impliquent des **participants "
+"humains**. Vous êtes responsable de veiller à ce que la vie privée de vos"
+" participants soit protégée et que les informations identifiables ne "
+"soient pas partagées."
+
+#: ../../research_methods/sharing_data.md:43
+msgid ""
+"you are reusing data that someone else has acquired.  These data may have"
+" a **license or data usage agreement** that you have agreed to and that "
+"you may be bound by."
+msgstr ""
+"vous réutilisez des données acquises par quelqu'un d'autre. Ces données "
+"peuvent être associées à une **licence ou un accord d'utilisation des "
+"données** que vous avez accepté et qui peut vous lier."
+
+#: ../../research_methods/sharing_data.md:47
+msgid ""
+"Data management plans are increasingly becoming a requirement by funding "
+"agencies and if your group.  If your group needs advice on this, you can "
+"reach out to the DNP or the Douglas Open Science group."
+msgstr ""
+"Les plans de gestion des données deviennent de plus en plus une exigence "
+"des organismes de financement et de votre groupe. Si votre groupe a "
+"besoin de conseils à ce sujet, vous pouvez communiquer avec le DNP ou le "
+"groupe Douglas Open Science."
+
+#: ../../research_methods/sharing_data.md:51
+msgid ""
+"These are questions your principal investigator, lab manager,  or someone"
+" responsible for data curation in your group may be able to help answer."
+msgstr ""
+"Ce sont des questions auxquelles votre chercheur principal, votre "
+"gestionnaire de laboratoire ou la personne responsable de la curation des"
+" données dans votre groupe peuvent vous aider à répondre."
+
+#: ../../research_methods/sharing_data.md:54
+#: ../../research_methods/sharing_data.md:214
+msgid "Todo"
+msgstr "À faire"
+
+#: ../../research_methods/sharing_data.md:55
+msgid "Add footnotes for:"
+msgstr "Ajouter des notes de bas de page pour :"
+
+#: ../../research_methods/sharing_data.md:56
+msgid "de-identification,"
+msgstr "désidentification,"
+
+#: ../../research_methods/sharing_data.md:57
+msgid "licensing, and"
+msgstr "licences, et"
+
+#: ../../research_methods/sharing_data.md:58
+msgid "data management plans."
+msgstr "plans de gestion des données."
+
+#: ../../research_methods/sharing_data.md:60
+msgid "Get persistent links for resources from providers (if possible)"
+msgstr ""
+"Obtenir des liens persistants pour les ressources auprès des fournisseurs"
+" (si possible)"
+
+#: ../../research_methods/sharing_data.md:63
+msgid "Additional resources for data sharing constraints"
+msgstr "Ressources supplémentaires pour les contraintes de partage de données"
+
+#: ../../research_methods/sharing_data.md:65
+msgid ""
+"[Tri-Council policy on privacy and "
+"confidentiality](https://ethics.gc.ca/eng/tcps2-eptc2_2018_chapter5-chapitre5.html)"
+msgstr ""
+"[Politique des trois organismes sur la vie privée et la "
+"confidentialité](https://ethics.gc.ca/eng/tcps2-eptc2_2018_chapter5-chapitre5.html)"
+
+#: ../../research_methods/sharing_data.md:66
+msgid ""
+"[Slides by McGill on data sharing constraint "
+"considerations](https://frq.gouv.qc.ca/app/uploads/2021/07/factors-to-"
+"consider-to-inform-decision_v14.pdf)"
+msgstr ""
+"[Diapositives de McGill sur les considérations relatives aux contraintes "
+"de partage de données](https://frq.gouv.qc.ca/app/uploads/2021/07"
+"/factors-to-consider-to-inform-decision_v14.pdf)"
+
+#: ../../research_methods/sharing_data.md:69
+msgid "What is the purpose for sharing the data"
+msgstr "Quel est l'objectif du partage des données"
+
+#: ../../research_methods/sharing_data.md:71
+msgid ""
+"All shared data should be well documented,  well organized,  and follow "
+"community accepted data standards and file formats. But depending on the "
+"main purpose for sharing data,  you may make different decisions on how "
+"and what to share.  Generally,  there are two options:"
+msgstr ""
+"Toutes les données partagées doivent être bien documentées, bien "
+"organisées et suivre les normes de données et les formats de fichiers "
+"acceptés par la communauté. Mais selon l'objectif principal du partage "
+"des données, vous pouvez prendre des décisions différentes sur la manière"
+" et le contenu à partager. En général, il y a deux options :"
+
+#: ../../research_methods/sharing_data.md:79
+msgid ""
+"You are sharing __a dataset__ that you have acquired (e.g. raw data) or "
+"that you have processed (derived data). Your goal here is that someone "
+"else might want to find these data useful, will reuse them and give you "
+"credit for your work."
+msgstr ""
+"Vous partagez __un jeu de données__ que vous avez acquis (p. ex. données "
+"brutes) ou que vous avez traité (données dérivées). Votre objectif ici "
+"est que quelqu'un d'autre puisse trouver ces données utiles, les "
+"réutiliser et vous accorder du crédit pour votre travail."
+
+#: ../../research_methods/sharing_data.md:81
+msgid ""
+"You are sharing __data as part of an empirical manuscript submission__.  "
+"Your goal here is to support your findings and figures with the data that"
+" support your analyses -  and possibly to fulfill the requirements of the"
+" journal."
+msgstr ""
+"Vous partagez __des données dans le cadre de la soumission d'un manuscrit"
+" empirique__. Votre objectif ici est d'étayer vos résultats et vos "
+"figures par les données qui soutiennent vos analyses - et éventuellement "
+"de satisfaire aux exigences de la revue."
+
+#: ../../research_methods/sharing_data.md:85
+msgid ""
+"The main difference between these two options is that option 2. is a "
+"special case of 1.  That is, to share data in support of a publication,  "
+"you should follow the same steps and rigour in sharing a standalone "
+"dataset but you will also want to consider providing your data in a way  "
+"that facilitates reproduction of the analyses described in your "
+"publication."
+msgstr ""
+"La principale différence entre ces deux options est que l'option 2. est "
+"un cas particulier de l'option 1. Autrement dit, pour partager des "
+"données à l'appui d'une publication, vous devriez suivre les mêmes étapes"
+" et la même rigueur lors du partage d'un jeu de données autonome, mais "
+"vous voudrez aussi envisager de fournir vos données d'une manière qui "
+"facilite la reproduction des analyses décrites dans votre publication."
+
+#: ../../research_methods/sharing_data.md:91
+msgid "Sharing a dataset for re-use"
+msgstr "Partage d'un jeu de données pour réutilisation"
+
+#: ../../research_methods/sharing_data.md:92
+msgid "Consider turning your shared dataset into a publication"
+msgstr "Envisager de transformer votre jeu de données partagé en publication"
+
+#: ../../research_methods/sharing_data.md:96
+msgid ""
+"All shared data should have a DOI and be citable. But there are also "
+"dedicated data journals that will allow you to make an in depth "
+"description of your data and clearly show your contribution. [Here is an "
+"overview of some data sharing "
+"journals](https://web.archive.org/web/20240417090406/https://www.fosteropenscience.eu"
+"/foster-taxonomy/open-data-journals)."
+msgstr ""
+"Toutes les données partagées devraient avoir un DOI et pouvoir être "
+"citées. Il existe aussi des revues spécialisées en données qui vous "
+"permettent de décrire vos données en profondeur et de mettre clairement "
+"en valeur votre contribution. [Voici un aperçu de quelques revues de "
+"partage de "
+"données](https://web.archive.org/web/20240417090406/https://www.fosteropenscience.eu"
+"/foster-taxonomy/open-data-journals)."
+
+#: ../../research_methods/sharing_data.md:101
+msgid ""
+"This is a major scientific contribution that stands on its own. The main "
+"goal here is to provide your data in as standardized a form and with as "
+"detailed a description as possible."
+msgstr ""
+"Il s'agit d'une contribution scientifique majeure en soi. L'objectif "
+"principal est de fournir vos données sous une forme aussi standardisée "
+"que possible et avec une description aussi détaillée que possible."
+
+#: ../../research_methods/sharing_data.md:105
+msgid "To prepare your data for sharing, you should:"
+msgstr "Pour préparer vos données au partage, vous devriez :"
+
+#: ../../research_methods/sharing_data.md:106
+msgid "provide a detailed explanation of the data in a README file."
+msgstr "fournir une explication détaillée des données dans un fichier README;"
+
+#: ../../research_methods/sharing_data.md:107
+msgid ""
+"Include information on acquisition, processing, inclusion, and exclusion "
+"criteria"
+msgstr ""
+"Inclure de l'information sur l'acquisition, le traitement ainsi que les "
+"critères d'inclusion et d'exclusion"
+
+#: ../../research_methods/sharing_data.md:108
+msgid ""
+"[Turing way documentation guidelines](https://book.the-turing-way.org"
+"/reproducible-research/rdm/rdm-metadata/)"
+msgstr ""
+"[Lignes directrices de The Turing Way sur la documentation](https://book"
+".the-turing-way.org/reproducible-research/rdm/rdm-metadata/)"
+
+#: ../../research_methods/sharing_data.md:109
+msgid ""
+"[How to make data accessible](https://www.software.ac.uk/how-can-you-"
+"make-research-data-accessible)"
+msgstr ""
+"[Comment rendre les données accessibles](https://www.software.ac.uk/how-"
+"can-you-make-research-data-accessible)"
+
+#: ../../research_methods/sharing_data.md:110
+msgid ""
+"For derivative data, include a reference to the raw data detailed "
+"descriptions of any processing you have done"
+msgstr ""
+"Pour les données dérivées, incluez une référence aux données brutes et "
+"une description détaillée de tout traitement effectué"
+
+#: ../../research_methods/sharing_data.md:111
+msgid ""
+"Provide a reference to the raw data that your dataset is derived from "
+"(publication, DOI, or URL)"
+msgstr ""
+"Fournissez une référence aux données brutes dont votre jeu de données est"
+" dérivé (publication, DOI ou URL)"
+
+#: ../../research_methods/sharing_data.md:112
+msgid ""
+"you should include the exact sequence of processing commands that were "
+"performed"
+msgstr ""
+"vous devriez inclure la séquence exacte des commandes de traitement "
+"exécutées"
+
+#: ../../research_methods/sharing_data.md:113
+msgid "ideally this would be in the form of the actual script files you have run"
+msgstr ""
+"idéalement, sous la forme des fichiers de script que vous avez réellement"
+" exécutés"
+
+#: ../../research_methods/sharing_data.md:114
+msgid ""
+"data files should follow community accepted standards for file formats "
+"and naming"
+msgstr ""
+"les fichiers de données devraient suivre les normes reconnues par la "
+"communauté pour les formats et le nommage des fichiers"
+
+#: ../../research_methods/sharing_data.md:115
+msgid ""
+"e.g. [BIDS](https://bids-specification.readthedocs.io/en/stable/) for "
+"imaging data"
+msgstr ""
+"p. ex. [BIDS](https://bids-specification.readthedocs.io/en/stable/) pour "
+"les données d'imagerie"
+
+#: ../../research_methods/sharing_data.md:116
+msgid ""
+"where no standards exist or are applicable,  make sure that file names "
+"are standardized, human readable, and explained in the README file"
+msgstr ""
+"lorsqu'aucune norme n'existe ou ne s'applique, assurez-vous que les noms "
+"de fichiers sont standardisés, lisibles par un humain et expliqués dans "
+"le fichier README"
+
+#: ../../research_methods/sharing_data.md:118
+msgid ""
+"make sure that data files are organized in a hierarchical directory "
+"structure with human readable directory names. the directories should be "
+"referred to in the README with a brief explanation of their contents"
+msgstr ""
+"assurez-vous que les fichiers de données sont organisés dans une "
+"arborescence hiérarchique avec des noms de répertoires lisibles par un "
+"humain. Les répertoires devraient être mentionnés dans le README avec une"
+" brève explication de leur contenu"
+
+#: ../../research_methods/sharing_data.md:120
+msgid "Share tabular data in a standardized and human readable way"
+msgstr ""
+"Partagez les données tabulaires de façon standardisée et lisible par un "
+"humain"
+
+#: ../../research_methods/sharing_data.md:121
+msgid ""
+"Don't mix tabular and non-tabular data (i.e. don't include images or text"
+" annotations in an excel spreadsheet)"
+msgstr ""
+"Ne mélangez pas données tabulaires et non tabulaires (c.-à-d. n'incluez "
+"pas d'images ni d'annotations textuelles dans un tableur Excel)"
+
+#: ../../research_methods/sharing_data.md:122
+msgid ""
+"Use common data formats, ideally text based ones like `.csv` (comma "
+"separated files) or `.tsv` (tab separated files)"
+msgstr ""
+"Utilisez des formats de données courants, idéalement en texte, comme "
+"`.csv` (valeurs séparées par des virgules) ou `.tsv` (valeurs séparées "
+"par des tabulations)"
+
+#: ../../research_methods/sharing_data.md:123
+msgid "Provide the name of variables in the first row of a table (header row)"
+msgstr ""
+"Indiquez le nom des variables dans la première ligne du tableau (ligne d"
+"'en-tête)"
+
+#: ../../research_methods/sharing_data.md:124
+msgid "Use human readable variable names (and explain them in data dictionaries)"
+msgstr ""
+"Utilisez des noms de variables lisibles par un humain (et expliquez-les "
+"dans des dictionnaires de données)"
+
+#: ../../research_methods/sharing_data.md:125
+msgid ""
+"[Turing way guidelines on tabular data](https://book.the-turing-way.org"
+"/reproducible-research/rdm/rdm-spreadsheets/)"
+msgstr ""
+"[Lignes directrices de The Turing Way sur les données "
+"tabulaires](https://book.the-turing-way.org/reproducible-research/rdm"
+"/rdm-spreadsheets/)"
+
+#: ../../research_methods/sharing_data.md:126
+msgid "Provide explanations for all variables used, e.g. with data dictionaries"
+msgstr ""
+"Expliquez toutes les variables utilisées, p. ex. au moyen de "
+"dictionnaires de données"
+
+#: ../../research_methods/sharing_data.md:127
+msgid ""
+"data dictionaries are tables that map each variable name to a human "
+"readable definition and also provide additional information on things "
+"like allowable values, range of values, unit types."
+msgstr ""
+"les dictionnaires de données sont des tableaux qui associent chaque nom "
+"de variable à une définition lisible par un humain et qui donnent aussi "
+"de l'information comme les valeurs permises, la plage de valeurs et les "
+"unités."
+
+#: ../../research_methods/sharing_data.md:129
+msgid "data dictionaries are very helpful for re-users of your data!"
+msgstr ""
+"les dictionnaires de données sont très utiles pour les personnes qui "
+"réutilisent vos données!"
+
+#: ../../research_methods/sharing_data.md:130
+msgid ""
+"[OSF tutorial on how to create data dictionaries](https://help.osf.io/hc"
+"/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary)"
+msgstr ""
+"[Tutoriel de l'OSF sur la création de dictionnaires de "
+"données](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a"
+"-Data-Dictionary)"
+
+#: ../../research_methods/sharing_data.md:132
+msgid "Sharing data in support of a published manuscript"
+msgstr "Partager des données à l'appui d'un manuscrit publié"
+
+#: ../../research_methods/sharing_data.md:134
+msgid ""
+"Let's assume you have just finished the manuscript for an exciting "
+"research project (congrats!) and now you want to share the data that "
+"support your central findings and figures together with the manuscript. "
+"This is not only a great way to ensure that other can follow and re-use "
+"your research  that will make it more likely your work will have an "
+"impact,  many journals are starting to require the sharing of data with "
+"publication."
+msgstr ""
+"Supposons que vous venez de terminer le manuscrit d'un projet de "
+"recherche passionnant (félicitations!) et que vous souhaitez maintenant "
+"partager, avec le manuscrit, les données qui appuient vos principaux "
+"résultats et figures. C'est une excellente façon de permettre à d'autres "
+"de suivre et de réutiliser vos recherches, ce qui augmente les chances "
+"que votre travail ait un impact; de plus, de nombreuses revues commencent"
+" à exiger le partage des données lors de la publication."
+
+#: ../../research_methods/sharing_data.md:141
+msgid "Consider sharing derivative data on their own"
+msgstr "Envisagez de partager les données dérivées séparément"
+
+#: ../../research_methods/sharing_data.md:143
+msgid ""
+"If your analyses are based on data that you have derived (e.g. through "
+"preprocessing with an image processing pipeline) from an existing "
+"dataset, then you should consider to share these derived data as a "
+"standalone dataset. You can then refer to the shared derived data in your"
+" publication and your publication specific data sharing."
+msgstr ""
+"Si vos analyses reposent sur des données que vous avez dérivées d'un jeu "
+"de données existant (p. ex. par prétraitement avec un pipeline de "
+"traitement d'images), envisagez de partager ces données dérivées comme un"
+" jeu de données autonome. Vous pourrez ensuite faire référence à ces "
+"données dérivées partagées dans votre publication et dans le partage de "
+"données propre à celle-ci."
+
+#: ../../research_methods/sharing_data.md:149
+msgid ""
+"Preparing data to be shared in support of your analyses should follow the"
+" same general principles as when you are {ref}`sharing a dataset for re-"
+"use<research_methods/sharing_data:Sharing a dataset for re-use>`. In "
+"contrast to sharing a standalone dataset,  the focus here is more on "
+"facilitating a reader in reproducing and understanding the specific "
+"analyses you have described in your publication."
+msgstr ""
+"La préparation des données à partager à l'appui de vos analyses devrait "
+"suivre les mêmes principes généraux que lorsque vous {ref}`partagez un "
+"jeu de données pour sa "
+"réutilisation<research_methods/sharing_data:Sharing a dataset for re-"
+"use>`. Contrairement au partage d'un jeu de données autonome, l'accent "
+"est mis ici sur le fait d'aider le lecteur à reproduire et à comprendre "
+"les analyses précises décrites dans votre publication."
+
+#: ../../research_methods/sharing_data.md:155
+msgid "Consider sharing code with data"
+msgstr "Envisagez de partager le code avec les données"
+
+#: ../../research_methods/sharing_data.md:157
+msgid ""
+"Sharing data even with the best annotations and descriptions is not as "
+"easy to understand and reproduce as when you also share your analysis "
+"code.  See this [great overview of \"The Turing Way\"](https://book.the-"
+"turing-way.org/reproducible-research/reproducible-research/)"
+msgstr ""
+"Même avec les meilleures annotations et descriptions, des données "
+"partagées seules sont moins faciles à comprendre et à reproduire que "
+"lorsque vous partagez aussi votre code d'analyse. Consultez cet "
+"[excellent aperçu de « The Turing Way »](https://book.the-turing-way.org"
+"/reproducible-research/reproducible-research/)"
+
+#: ../../research_methods/sharing_data.md:163
+msgid "Here are some questions to get you started"
+msgstr "Voici quelques questions pour vous aider à démarrer"
+
+#: ../../research_methods/sharing_data.md:165
+msgid "What analyses should your readers be able to reproduce and have access to?"
+msgstr ""
+"Quelles analyses vos lecteurs devraient-ils pouvoir reproduire et "
+"consulter?"
+
+#: ../../research_methods/sharing_data.md:166
+msgid "all major figures"
+msgstr "toutes les figures principales"
+
+#: ../../research_methods/sharing_data.md:167
+msgid "the central claims of the publication"
+msgstr "les affirmations centrales de la publication"
+
+#: ../../research_methods/sharing_data.md:168
+msgid "specific pre-processing, inclusion or exclusion steps"
+msgstr "les étapes spécifiques de prétraitement, d'inclusion ou d'exclusion"
+
+#: ../../research_methods/sharing_data.md:169
+msgid "outlier analyses"
+msgstr "les analyses des valeurs aberrantes"
+
+#: ../../research_methods/sharing_data.md:170
+msgid "etc"
+msgstr "etc."
+
+#: ../../research_methods/sharing_data.md:171
+msgid ""
+"What are the steps taken between your raw data and the major outcomes you"
+" want to show your readers"
+msgstr ""
+"Quelles sont les étapes effectuées entre vos données brutes et les "
+"principaux résultats que vous souhaitez présenter à vos lecteurs"
+
+#: ../../research_methods/sharing_data.md:172
+msgid "Here it can be helpful to look at your methods figure"
+msgstr "Il peut être utile, ici, de consulter votre figure des méthodes"
+
+#: ../../research_methods/sharing_data.md:173
+msgid ""
+"Alternatively, draw a flow chart on a piece of paper or write it down as "
+"hierarchical text"
+msgstr ""
+"Sinon, dessinez un diagramme de flux sur une feuille de papier ou "
+"rédigez-le sous forme de texte hiérarchique"
+
+#: ../../research_methods/sharing_data.md:174
+msgid ""
+"If you do share code with your paper, each step should ideally map to a "
+"specific command or script"
+msgstr ""
+"Si vous partagez du code avec votre article, chaque étape devrait "
+"idéalement correspondre à une commande ou à un script spécifique"
+
+#: ../../research_methods/sharing_data.md:175
+msgid "For each step, make a note of the input and output data required"
+msgstr "Pour chaque étape, notez les données d'entrée et de sortie requises"
+
+#: ../../research_methods/sharing_data.md:176
+msgid "What intermediate data do you want to share?"
+msgstr "Quelles données intermédiaires souhaitez-vous partager ?"
+
+#: ../../research_methods/sharing_data.md:177
+msgid ""
+"Some analyses steps take too long, results are too large,  or require too"
+" many resources for a reader to reasonably re-run them"
+msgstr ""
+"Certaines étapes d'analyse prennent trop de temps, produisent des "
+"résultats trop volumineux ou nécessitent trop de ressources pour qu'un "
+"lecteur puisse raisonnablement les relancer"
+
+#: ../../research_methods/sharing_data.md:179
+msgid ""
+"Other times, raw data may not be possible to share due to privacy "
+"concerns,  whereas derivative summary data may be uncomplicated"
+msgstr ""
+"D'autres fois, il peut être impossible de partager les données brutes "
+"pour des raisons de confidentialité, alors que les données "
+"récapitulatives dérivées peuvent être simples à partager"
+
+#: ../../research_methods/sharing_data.md:181
+msgid "In these cases it may make sense to just share intermediate data"
+msgstr ""
+"Dans ces cas, il peut être pertinent de partager uniquement les données "
+"intermédiaires"
+
+#: ../../research_methods/sharing_data.md:182
+msgid ""
+"Here the flow-chart will come in very handy to inform you on what data "
+"are needed to reproduce a given analysis step"
+msgstr ""
+"Ici, le diagramme de flux sera très utile pour vous indiquer les données "
+"nécessaires pour reproduire une étape d'analyse donnée"
+
+#: ../../research_methods/sharing_data.md:183
+msgid "Make a data sharing plan"
+msgstr "Élaborez un plan de partage de données"
+
+#: ../../research_methods/sharing_data.md:184
+msgid ""
+"Based on the previous decisions and information, you should now make a "
+"plan on what to share and how"
+msgstr ""
+"À partir des décisions et des informations précédentes, vous devriez "
+"maintenant établir un plan indiquant quoi partager et comment le faire"
+
+#: ../../research_methods/sharing_data.md:185
+msgid ""
+"Start a text document and write down each data file you want to share and"
+" what name you plan to give it and in what  directory you plan to store "
+"it"
+msgstr ""
+"Créez un document texte et notez chaque fichier de données que vous "
+"souhaitez partager, le nom que vous prévoyez de lui donner et le "
+"répertoire dans lequel vous prévoyez de le stocker"
+
+#: ../../research_methods/sharing_data.md:187
+msgid ""
+"This can become the foundation for your README file and your data "
+"dictionaries"
+msgstr ""
+"Cela peut devenir la base de votre fichier README et de vos dictionnaires"
+" de données"
+
+#: ../../research_methods/sharing_data.md:188
+msgid ""
+"This plan will also help you make sure that you are using file names "
+"consistently, e.g. across your README file, in your data availability "
+"statement, and in your scripts"
+msgstr ""
+"Ce plan vous aidera également à vous assurer que vous utilisez des noms "
+"de fichiers de manière cohérente, p. ex. dans votre fichier README, dans "
+"votre déclaration de disponibilité des données et dans vos scripts"
+
+#: ../../research_methods/sharing_data.md:190
+msgid "Can my readers understand the intermediate data files"
+msgstr ""
+"Mes lecteurs peuvent-ils comprendre les fichiers de données "
+"intermédiaires ?"
+
+#: ../../research_methods/sharing_data.md:191
+msgid "Make sure that intermediate data also have human readable names"
+msgstr ""
+"Assurez-vous que les données intermédiaires ont également des noms "
+"lisibles par un humain"
+
+#: ../../research_methods/sharing_data.md:192
+msgid "They should also be described in the documentation of your shared data"
+msgstr ""
+"Elles doivent également être décrites dans la documentation de vos "
+"données partagées"
+
+#: ../../research_methods/sharing_data.md:193
+msgid "Do the data really work with my analysis code or descriptions"
+msgstr ""
+"Les données fonctionnent-elles réellement avec mon code d'analyse ou mes "
+"descriptions ?"
+
+#: ../../research_methods/sharing_data.md:194
+msgid "Once you have all of this, you should review it"
+msgstr "Une fois que vous disposez de tout cela, vous devriez le passer en revue"
+
+#: ../../research_methods/sharing_data.md:195
+msgid ""
+"If you have code to be shared with the publication and data, make sure it"
+" runs and produces the expected outcomes"
+msgstr ""
+"Si vous avez du code à partager avec la publication et les données, "
+"assurez-vous qu'il s'exécute et produit les résultats attendus"
+
+#: ../../research_methods/sharing_data.md:196
+msgid ""
+"Go over your data sharing plan with a colleague to check if it makes "
+"sense or things are missing"
+msgstr ""
+"Examinez votre plan de partage de données avec un collègue pour vérifier "
+"s'il est cohérent ou s'il manque des éléments"
+
+#: ../../research_methods/sharing_data.md:197
+msgid ""
+"Ask someone to review the documents to see if they can follow your "
+"analyses given the data and documentation"
+msgstr ""
+"Demandez à quelqu'un de relire les documents pour voir s'il peut suivre "
+"vos analyses à partir des données et de la documentation"
+
+#: ../../research_methods/sharing_data.md:199
+msgid ""
+"At the end of this process,  you should have a directory with description"
+" files (README, data dictionaries) and data that you want to share."
+msgstr ""
+"À la fin de ce processus, vous devriez disposer d'un répertoire contenant"
+" des fichiers de description (README, dictionnaires de données) et les "
+"données que vous souhaitez partager."
+
+#: ../../research_methods/sharing_data.md:203
+msgid "What repository should the data be shared on"
+msgstr "Sur quel dépôt les données doivent-elles être partagées ?"
+
+#: ../../research_methods/sharing_data.md:205
+msgid ""
+"Once you are clear on what data you want to share and for what purpose, "
+"you can make a decision on the data publishing repository you want to "
+"use.  A data repository primarily serves two purposes:"
+msgstr ""
+"Une fois que vous savez clairement quelles données vous souhaitez "
+"partager et dans quel but, vous pouvez décider du dépôt de publication de"
+" données que vous souhaitez utiliser. Un dépôt de données remplit "
+"principalement deux fonctions :"
+
+#: ../../research_methods/sharing_data.md:209
+msgid ""
+"to provide the storage space for your data to be hosted (so you don't "
+"have to pay for or worry about it)"
+msgstr ""
+"fournir l'espace de stockage nécessaire pour héberger vos données (afin "
+"que vous n'ayez pas à le payer ni à vous en inquiéter)"
+
+#: ../../research_methods/sharing_data.md:210
+msgid ""
+"mint a **D**igital**O**bject**I**dentifier for your dataset,  a permanent"
+" record and link that will forever point to your dataset and that others "
+"can use to access your data. This is often also required by journals for "
+"data accessibility requirements."
+msgstr ""
+"attribuer un **D**igital**O**bject**I**dentifier (DOI) à votre jeu de "
+"données, un enregistrement et un lien permanents qui pointeront pour "
+"toujours vers votre jeu de données et que d'autres pourront utiliser pour"
+" accéder à vos données. Cela est souvent également requis par les revues "
+"pour répondre aux exigences d'accessibilité des données."
+
+#: ../../research_methods/sharing_data.md:215
+msgid "Say more things about ways to choose and differences in scope of platforms"
+msgstr ""
+"Présentez davantage d'informations sur les façons de choisir et sur les "
+"différences de portée des plateformes"
+
+#: ../../research_methods/sharing_data.md:218
+msgid ""
+"The Nature Publishing Group maintains a repository of recommended  "
+"[subfield specific](https://www.nature.com/sdata/policies/repositories) "
+"and  [domain general data "
+"repositories](https://www.nature.com/sdata/policies/repositories) that "
+"you can take a look at."
+msgstr ""
+"Le Nature Publishing Group maintient un répertoire de [dépôts spécifiques"
+" à un sous-domaine](https://www.nature.com/sdata/policies/repositories) "
+"et de [dépôts de données généraux par "
+"domaine](https://www.nature.com/sdata/policies/repositories) recommandés "
+"que vous pouvez consulter."
+
+#: ../../research_methods/sharing_data.md:222
+msgid ""
+"Another great resource is the  [data publishing guideline of the F1000 "
+"publishing platform](https://f1000research.com/for-authors/data-"
+"guidelines)."
+msgstr ""
+"Une autre excellente ressource est le [guide de publication de données de"
+" la plateforme d'édition F1000](https://f1000research.com/for-authors"
+"/data-guidelines)."
+
+#: ../../research_methods/sharing_data.md:225
+msgid ""
+"A good domain general data repository is "
+"[Zenodo.org](https://zenodo.org/).  Zenodo is funded by the "
+"[CERN](https://home.cern/),  and apart from points for coolness this also"
+" means a high level of confidence that it will remain accessible long "
+"into the future. We can recommend Zenodo for basic data sharing needs."
+msgstr ""
+"Un bon dépôt de données général par domaine est "
+"[Zenodo.org](https://zenodo.org/). Zenodo est financé par le "
+"[CERN](https://home.cern/), et, outre l'aspect attrayant, cela signifie "
+"aussi un haut niveau de confiance dans le fait qu'il restera accessible "
+"longtemps à l'avenir. Nous pouvons recommander Zenodo pour les besoins de"
+" base en matière de partage de données."
+
+#: ../../research_methods/sharing_data.md:230
+msgid ""
+"Another great platform for data sharing is the "
+"[**O**pen**S**cience**F**ramework](https://osf.io/).  This is maintained "
+"by the [Center for Open Science](https://www.cos.io/about/mission)"
+msgstr ""
+"Une autre excellente plateforme de partage de données est le "
+"[**O**pen**S**cience**F**ramework](https://osf.io/). Elle est maintenue "
+"par le [Center for Open Science](https://www.cos.io/about/mission)"
+
+#: ../../research_methods/sharing_data.md:233
+msgid ""
+"Often these data repositories allow you to generate a DOI before you "
+"publish your data. This can be very helpful if you want to include the "
+"DOI in your manuscript submission, but also still want to make changes to"
+" the data you intend to share."
+msgstr ""
+"Souvent, ces dépôts de données vous permettent de générer un DOI avant de"
+" publier vos données. Cela peut être très utile si vous souhaitez inclure"
+" le DOI dans la soumission de votre manuscrit, mais que vous souhaitez "
+"encore apporter des modifications aux données que vous avez l'intention "
+"de partager."
+
+#: ../../research_methods/sharing_data.md:237
+msgid "What license to share data with"
+msgstr "Quelle licence utiliser pour partager les données ?"
+
+#: ../../research_methods/sharing_data.md:238
+msgid ""
+"Generally you should share your data with as open and permissive a "
+"license as you can.  A good starting point are the Creative Common "
+"Licenses,  e.g. [CC BY "
+"4](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1). You can "
+"make choices on permissions for commercial use, how data users should "
+"cite you and so on.  Here is a [Creative Commons License selector "
+"tool](https://creativecommons.org/chooser/)."
+msgstr ""
+"En général, vous devriez partager vos données sous la licence la plus "
+"ouverte et la plus permissive possible. Un bon point de départ est de "
+"choisir parmi les licences Creative Commons, p. ex. [CC BY "
+"4](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1). Vous "
+"pouvez définir les autorisations relatives à l'utilisation commerciale, "
+"la façon dont les utilisateurs de données doivent vous citer, etc. Voici "
+"un [outil de sélection de licence Creative "
+"Commons](https://creativecommons.org/chooser/)."
+
+#: ../../research_methods/sharing_data.md:244
+msgid "There may also be constraints on the type of license you can choose."
+msgstr ""
+"Il peut également y avoir des contraintes sur le type de licence que vous"
+" pouvez choisir."
+
+#: ../../research_methods/sharing_data.md:245
+msgid ""
+"your data may be based on data that already came with a license and you "
+"may be bound to re-share under the same terms"
+msgstr ""
+"vos données peuvent être fondées sur des données qui étaient déjà "
+"assorties d'une licence et vous pouvez être tenu de les repartager selon "
+"les mêmes conditions"
+
+#: ../../research_methods/sharing_data.md:246
+msgid ""
+"your group, or the project you work on may have a data management plan "
+"that specifies a license"
+msgstr ""
+"votre groupe, ou le projet sur lequel vous travaillez, peut avoir un plan"
+" de gestion des données qui précise une licence"
+
+#: ../../research_methods/sharing_data.md:247
+msgid "your data repository may require that you use a certain type of license"
+msgstr ""
+"votre dépôt de données peut exiger que vous utilisiez un certain type de "
+"licence"
+
+#: ../../research_methods/sharing_data.md:248
+msgid "the journal you are publishing to may require a certain license"
+msgstr "la revue dans laquelle vous publiez peut exiger une certaine licence"
+
+#: ../../research_methods/sharing_data.md:250
+msgid "These are good things to check with your PI or lab manager."
+msgstr ""
+"Ce sont de bons points à vérifier avec votre directeur de recherche ou "
+"votre gestionnaire de laboratoire."
+
+#: ../../research_methods/sharing_data.md:252
+msgid "Additional resources for selecting a license"
+msgstr "Ressources supplémentaires pour choisir une licence"
+
+#: ../../research_methods/sharing_data.md:254
+msgid ""
+"[Turing Way data licenses](https://book.the-turing-way.org/reproducible-"
+"research/licensing/licensing-data/)"
+msgstr ""
+"[Licences de données de The Turing Way](https://book.the-turing-way.org"
+"/reproducible-research/licensing/licensing-data/)"
+
+#: ../../research_methods/sharing_data.md:255
+msgid "[Guide to Open Data Licensing](http://opendefinition.org/guide/data/)"
+msgstr ""
+"[Guide des licences de données "
+"ouvertes](http://opendefinition.org/guide/data/)"
+
+#: ../../research_methods/sharing_data.md:256
+msgid ""
+"[OSF guide on licenses](https://help.osf.io/hc/en-"
+"us/articles/360019739014-Licensing)"
+msgstr ""
+"[Guide OSF sur les licences](https://help.osf.io/hc/en-"
+"us/articles/360019739014-Licensing)"
+
+#: ../../research_methods/sharing_data.md:259
+msgid "Additional resources"
+msgstr "Ressources supplémentaires"
+
+#: ../../research_methods/sharing_data.md:260
+msgid "[OSF guidelines](https://help.osf.io/hc/en-us)"
+msgstr "[Directives OSF](https://help.osf.io/hc/en-us)"
+
+#: ../../research_methods/sharing_data.md:261
+msgid "[The Turing Way](https://book.the-turing-way.org/)"
+msgstr "[The Turing Way](https://book.the-turing-way.org/)"
+
+#: ../../research_methods/sharing_data.md:262
+msgid ""
+"[Data sharing resources of the McGill "
+"library](https://www.mcgill.ca/libraries/research-services/data-"
+"services/sharing)"
+msgstr ""
+"[Ressources de partage de données de la bibliothèque de "
+"McGill](https://www.mcgill.ca/libraries/research-services/data-"
+"services/sharing)"
+

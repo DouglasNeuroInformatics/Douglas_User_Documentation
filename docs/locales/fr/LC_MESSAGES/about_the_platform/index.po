@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../about_the_platform/index.md:1
+msgid "About the platform"
+msgstr "À propos de la plateforme"
+
+#: ../../about_the_platform/index.md:3
+msgid ""
+"The Douglas Neuroinformatics Platform is a single-sign-on Ubuntu Linux "
+"based computer system. Originally the computing platform of the Douglas "
+"**Cerebral Imaging Centre** (CIC), it has grown and generalized to meet "
+"the informatics needs of the **Douglas Research Centre** (DRC) as a "
+"whole."
+msgstr ""
+"La Douglas Neuroinformatics Platform est un système informatique basé sur"
+" Ubuntu Linux avec authentification unique. À l'origine la plateforme de "
+"calcul du Douglas **Cerebral Imaging Centre** (CIC), elle a évolué et "
+"s'est généralisée pour répondre aux besoins en informatique du **Centre "
+"de recherche Douglas** (DRC) dans son ensemble."
+
+#: ../../about_the_platform/index.md:8
+msgid "Hardware"
+msgstr "Matériel"
+
+#: ../../about_the_platform/index.md:10
+msgid ""
+"As of early 2026, the platform infrastructure consists of a Linux-based "
+"environment featuring single-sign-on (SSO) user management and the "
+"following core components:"
+msgstr ""
+"Au début de 2026, l'infrastructure de la plateforme est constituée d'un "
+"environnement basé sur Linux offrant une gestion des utilisateurs avec "
+"authentification unique (SSO) et les composants principaux suivants :"
+
+#: ../../about_the_platform/index.md:11
+msgid ""
+"**Storage**: A 1 PB primary storage system providing unified access "
+"across the network via NFS."
+msgstr ""
+"**Stockage** : un système de stockage principal de 1 Po offrant un accès "
+"unifié sur le réseau via NFS."
+
+#: ../../about_the_platform/index.md:12
+msgid ""
+"**Workstations**: Over 60 machines, each ranging from 8-24 CPU cores and "
+"32-128 GB of RAM. These systems provide entry to mid-level GPU "
+"acceleration for CUDA and OpenCL applications."
+msgstr ""
+"**Postes de travail** : plus de 60 machines, chacune disposant de 8 à 24 "
+"cœurs de processeur et de 32 à 128 Go de RAM. Ces systèmes offrent une "
+"accélération GPU d'entrée de gamme à milieu de gamme pour les "
+"applications CUDA et OpenCL."
+
+#: ../../about_the_platform/index.md:13
+msgid "**Compute Nodes**: 13 nodes, with 12–24 CPU cores and 24–48 GB of RAM."
+msgstr ""
+"**Nœuds de calcul** : 13 nœuds, avec 12 à 24 cœurs de processeur et 24 à "
+"48 Go de RAM."
+
+#: ../../about_the_platform/index.md:14
+msgid ""
+"**GPU Server**: A dual NVIDIA RTX A6000 (48 GB VRAM each) server equipped"
+" with a Dual Intel Xeon Gold 6526Y CPU (32 cores / 64 threads) and 500 GB"
+" of RAM."
+msgstr ""
+"**Serveur GPU** : un serveur équipé de deux NVIDIA RTX A6000 (48 Go de "
+"VRAM chacun) et d'un processeur double Intel Xeon Gold 6526Y (32 cœurs / "
+"64 threads) avec 500 Go de RAM."
+
+#: ../../about_the_platform/index.md:16
+msgid ""
+"Primary servers are replicated across two sites for disaster recovery. "
+"Unified storage across systems is provided via NFS from the primary "
+"storage server to all systems. A heterogeneous cluster compute "
+"environment is provided via a SLURM batch system providing access to the "
+"compute cluster as well as opportunistic scheduling on workstations."
+msgstr ""
+"Les serveurs principaux sont répliqués sur deux sites pour la reprise "
+"après sinistre. Le stockage unifié entre les systèmes est fourni via NFS "
+"depuis le serveur de stockage principal vers tous les systèmes. Un "
+"environnement de calcul en grappe hétérogène est fourni via un système de"
+" traitement par lots SLURM offrant l'accès à la grappe de calcul ainsi "
+"qu'un ordonnancement opportuniste sur les postes de travail."
+
+#: ../../about_the_platform/index.md:18
+msgid "Software"
+msgstr "Logiciels"
+
+#: ../../about_the_platform/index.md:20
+msgid ""
+"The platform workstations run Ubuntu Linux variants, with full "
+"productivity software (LibreOffice, GIMP, Inkscape, etc), modern web "
+"browsers (Chrome, Firefox), and a large suite of scientific software. "
+"Servers run Ubuntu Linux server, as well as compute nodes. Limited "
+"Windows workstations are available to provide access to proprietary "
+"software such as E-Prime. Scientific software is available in the "
+"{ref}`software quarantine<using_the_system/access_to_software:accessing "
+"scientific software (quarantine aka modules)>`."
+msgstr ""
+"Les postes de travail de la plateforme exécutent des variantes d'Ubuntu "
+"Linux, avec une suite complète de logiciels de productivité (LibreOffice,"
+" GIMP, Inkscape, etc.), des navigateurs Web modernes (Chrome, Firefox) et"
+" une grande suite de logiciels scientifiques. Les serveurs exécutent "
+"Ubuntu Linux server, tout comme les nœuds de calcul. Un nombre limité de "
+"postes de travail Windows sont disponibles pour fournir l'accès à des "
+"logiciels propriétaires tels qu'E-Prime. Les logiciels scientifiques sont"
+" disponibles dans la {ref}`quarantaine des "
+"logiciels<using_the_system/access_to_software:accessing scientific "
+"software (quarantine aka modules)>`."
+
+#: ../../about_the_platform/index.md:27
+msgid "Services"
+msgstr "Services"
+
+#: ../../about_the_platform/index.md:29
+msgid ""
+"Beyond core computing, the platform hosts a suite of specialized web-"
+"based services designed to streamline data collection and management. "
+"These include **ChatDNP**, a privacy-focused local AI assistant; the "
+"**Open Data Bank (ODB)** for versioning and sharing tabular datasets; and"
+" **Open Data Capture (ODC)** for the digital administration of clinical "
+"research instruments."
+msgstr ""
+"Au-delà du calcul de base, la plateforme héberge une suite de services "
+"Web spécialisés conçus pour rationaliser la collecte et la gestion des "
+"données. Ceux-ci comprennent **ChatDNP**, un assistant d'IA local axé sur"
+" la confidentialité ; la **Open Data Bank (ODB)** pour le versionnement "
+"et le partage de jeux de données tabulaires ; et **Open Data Capture "
+"(ODC)** pour l'administration numérique d'instruments de recherche "
+"clinique."
+
+#: ../../about_the_platform/index.md:31
+msgid ""
+"For more details on these tools and how to access them, please see the "
+"{ref}`Available Services <available_services/index:Available Services>` "
+"section."
+msgstr ""
+"Pour plus de détails sur ces outils et sur la façon d'y accéder, veuillez"
+" consulter la section {ref}`Services disponibles "
+"<available_services/index:Available Services>`."
+

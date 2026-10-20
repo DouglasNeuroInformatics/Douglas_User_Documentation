@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../using_the_system/running_docker.md:5
+msgid "Running Docker"
+msgstr "Utiliser Docker"
+
+#: ../../using_the_system/running_docker.md:7
+msgid ""
+"Docker is installed on the DNP system. However, for security reasons, it "
+"must be configured to run in non-root mode."
+msgstr ""
+"Docker est installé sur le système du DNP. Toutefois, pour des raisons de"
+" sécurité, il doit être configuré pour fonctionner en mode non root."
+
+#: ../../using_the_system/running_docker.md:9
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../../using_the_system/running_docker.md:11
+msgid ""
+"First, run the install script `dockerd-rootless-setuptool.sh`, located in"
+" `/usr/bin`, to set up the daemon:"
+msgstr ""
+"Exécutez d'abord le script d'installation `dockerd-rootless-"
+"setuptool.sh`, situé dans `/usr/bin`, pour configurer le démon :"
+
+#: ../../using_the_system/running_docker.md:17
+msgid ""
+"Next, it is necessary to specify an alternative path for docker to store "
+"data. The default directory for this is `~/.local/share/docker`. However,"
+" as user directories are on a Network File System (NFS), this must be "
+"changed."
+msgstr ""
+"Il faut ensuite indiquer un autre chemin où Docker stockera ses données. "
+"Le répertoire par défaut est `~/.local/share/docker`. Toutefois, comme "
+"les répertoires des utilisateurs se trouvent sur un système de fichiers "
+"réseau (NFS), il faut le changer."
+
+#: ../../using_the_system/running_docker.md:19
+msgid ""
+"This is set in the file `.config/docker/daemon.json`, which for a new "
+"user should not exist. If it does exist, adjust the following procedure "
+"as needed. Otherwise, we can create a new directory in `/scratch` as "
+"follows:"
+msgstr ""
+"Ce réglage se trouve dans le fichier `.config/docker/daemon.json`, qui ne"
+" devrait pas exister pour un nouvel utilisateur. S'il existe, adaptez la "
+"procédure suivante au besoin. Sinon, créez un nouveau répertoire dans "
+"`/scratch` comme suit :"
+
+#: ../../using_the_system/running_docker.md:21
+msgid "Before Continuing"
+msgstr "Avant de continuer"
+
+#: ../../using_the_system/running_docker.md:25
+msgid ""
+"Be aware that /scratch only exists on the local system you're using and "
+"it will therefore not be accessible from other workstations."
+msgstr ""
+"Notez que /scratch existe seulement sur le système local que vous "
+"utilisez; il ne sera donc pas accessible à partir des autres postes de "
+"travail."
+
+#: ../../using_the_system/running_docker.md:34
+msgid ""
+"Please note, if for any reason, the docker was already running on your "
+"user account prior to adjusting the daemon configuration, you must "
+"restart the daemon for these changes to take effect."
+msgstr ""
+"Veuillez noter que si, pour une raison quelconque, Docker était déjà en "
+"cours d'exécution sur votre compte avant la modification de la "
+"configuration du démon, vous devez redémarrer le démon pour que les "
+"changements prennent effet."
+
+#: ../../using_the_system/running_docker.md:40
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../../using_the_system/running_docker.md:42
+msgid ""
+"Docker provides a tutorial image that we can use to test the above "
+"configuration. First, start the docker daemon:"
+msgstr ""
+"Docker fournit une image de tutoriel qui permet de tester la "
+"configuration ci-dessus. Démarrez d'abord le démon Docker :"
+
+#: ../../using_the_system/running_docker.md:48
+msgid "Now, docker should be ready for use. You can test this as follows:"
+msgstr ""
+"Docker devrait maintenant être prêt à l'emploi. Vous pouvez le tester "
+"comme suit :"
+
+#: ../../using_the_system/running_docker.md:54
+msgid "Troubleshooting"
+msgstr "Dépannage"
+
+#: ../../using_the_system/running_docker.md:56
+msgid ""
+"If you encounter any errors throughout this process, please refer to the "
+"[official "
+"documentation](https://docs.docker.com/engine/security/rootless/) for "
+"running docker in non-root mode."
+msgstr ""
+"Si vous rencontrez des erreurs au cours de ce processus, consultez la "
+"[documentation "
+"officielle](https://docs.docker.com/engine/security/rootless/) sur "
+"l'exécution de Docker en mode non root."
+

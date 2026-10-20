@@ -23,6 +23,41 @@ Also check out
 - [MyST docs](https://myst-parser.readthedocs.io/en/latest/)
 - [SPHINX docs](https://www.sphinx-doc.org/en/master/usage/quickstart.html)
 
+## Translations (French)
+
+English markdown files are the source. French translations use the standard
+[Sphinx gettext workflow](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html):
+each page has a matching `.po` file under `docs/locales/fr/LC_MESSAGES/`
+(e.g. `docs/available_services/chatdnp.md` ->
+`docs/locales/fr/LC_MESSAGES/available_services/chatdnp.po`).
+Any string that has no translation falls back to English, so pages can be translated one at a time.
+
+1. `cd docs`
+2. `pip install sphinx-intl`
+3. Extract the English strings: `make gettext`
+4. Create or update the French `.po` files: `sphinx-intl update -p _build/gettext -l fr`.
+5. Fill in the `msgstr ""` entries in the `.po` file. Remove any `#, fuzzy` flag once a string is checked.
+6. Build both languages side by side:
+   - `sphinx-build -b html . _build/html/en`
+   - `sphinx-build -b html -D language=fr . _build/html/fr`
+7. Open `docs/_build/html/en/index.html` and use the **Français** / **English** link
+   under the project title in the sidebar to switch languages.
+
+When the English text of a page changes, re-run steps 3 and 4.
+Changed strings are marked `#, fuzzy` and show in English until the translation is reviewed.
+
+### Switching languages
+
+The **Français** / **English** link in the sidebar (`docs/_templates/layout.html`) swaps the
+`/en/` or `/fr/` part of the current page's URL, so it opens the same page in the other language.
+It matches the Read the Docs URL layout (`/en/latest/...` and `/fr/latest/...`)
+and the local `_build/html/en` and `_build/html/fr` layout above.
+The link is hidden when the URL has no language part (e.g. a plain `make html` build).
+
+On Read the Docs, French is published as a separate translation project
+(language `fr`) that points to this same repository and is linked to the main project
+under *Admin > Translations*. Read the Docs then also lists both languages in its flyout menu.
+
 ## Contributing
 
 If you want to contribute your expertise to this documentation,

@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../available_services/odc.md:1
+msgid "Open Data Capture"
+msgstr "Open Data Capture"
+
+#: ../../available_services/odc.md:2
+msgid ""
+"Open Data Capture (https://opendatacapture.org/) is the platform of "
+"choice for the collection of clinical research instruments, ranging from "
+"simple surveys to complex interactive testing.  Platform Features "
+"include:"
+msgstr ""
+"Open Data Capture (https://opendatacapture.org/) est la plateforme de "
+"choix pour la collecte d'instruments de recherche clinique, allant de "
+"simples questionnaires à des tests interactifs complexes. Les "
+"fonctionnalités de la plateforme comprennent :"
+
+#: ../../available_services/odc.md:4
+msgid "Multi-Modal Administration:"
+msgstr "Administration multimodale :"
+
+#: ../../available_services/odc.md:5
+msgid ""
+"Conduct questionnaires and interactive tasks both in-person (via clinical"
+" workstations) and remotely (via a secure participant gateway)."
+msgstr ""
+"Administrer des questionnaires et des tâches interactives en personne (au"
+" moyen de postes de travail cliniques) et à distance (au moyen d'une "
+"passerelle sécurisée pour les participants)."
+
+#: ../../available_services/odc.md:7
+msgid "Anonymity and Longitudinal Tracking:"
+msgstr "Anonymat et suivi longitudinal :"
+
+#: ../../available_services/odc.md:8
+msgid ""
+"Utilize hash-based identification to follow patient trajectories over "
+"time without storing personal demographic data."
+msgstr ""
+"Utiliser une identification basée sur des empreintes de hachage pour "
+"suivre les trajectoires des patients au fil du temps sans stocker de "
+"données démographiques personnelles."
+
+#: ../../available_services/odc.md:10
+msgid "Instrument Flexibility:"
+msgstr "Flexibilité des instruments :"
+
+#: ../../available_services/odc.md:11
+msgid ""
+"Access an ever-growing library of implemented instruments or develop "
+"bespoke ones using the flexible JSON and JavaScript-based build system."
+msgstr ""
+"Accéder à une bibliothèque d'instruments implémentés en croissance "
+"constante ou développer des instruments sur mesure à l'aide du système de"
+" génération flexible basé sur JSON et JavaScript."
+
+#: ../../available_services/odc.md:13
+msgid "Secure Data Export:"
+msgstr "Exportation sécurisée des données :"
+
+#: ../../available_services/odc.md:14
+msgid ""
+"Export your collected data at any time in CSV or TSV formats for analysis"
+" in external statistical software."
+msgstr ""
+"Exporter vos données collectées à tout moment aux formats CSV ou TSV pour"
+" une analyse dans un logiciel statistique externe."
+
+#: ../../available_services/odc.md:16
+msgid "Research Access:"
+msgstr "Accès pour la recherche :"
+
+#: ../../available_services/odc.md:17
+msgid ""
+"The paid platform is available to any Douglas researcher upon request. A "
+"public demo is available for evaluation at "
+"https://demo.opendatacapture.org"
+msgstr ""
+"La plateforme payante est accessible sur demande à tout chercheur du "
+"Centre de recherche Douglas. Une démonstration publique est disponible "
+"pour une évaluation à l'adresse https://demo.opendatacapture.org"
+

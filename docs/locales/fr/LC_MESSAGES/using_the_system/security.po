@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../using_the_system/security.md:1
+msgid "Safety and Security"
+msgstr "Sécurité et sûreté"
+
+#: ../../using_the_system/security.md:3
+msgid ""
+"The safety and security of data stored at the DNP is of utmost "
+"importance. We implement a number of security features to provide "
+"defense-in-depth for access to the computer systems and data."
+msgstr ""
+"La sécurité et la protection des données stockées sur le DNP revêtent une"
+" importance primordiale. Nous mettons en œuvre un certain nombre de "
+"fonctionnalités de sécurité afin d'assurer une défense en profondeur pour"
+" l'accès aux systèmes informatiques et aux données."
+
+#: ../../using_the_system/security.md:6
+msgid "Physical Access and Safety"
+msgstr "Accès physique et sûreté"
+
+#: ../../using_the_system/security.md:8
+msgid ""
+"All DNP servers and workstations are located within locked areas of the "
+"Douglas Research Centre. Servers are stored in locked and access "
+"restricted server rooms within the Douglas."
+msgstr ""
+"Tous les serveurs et postes de travail du DNP sont situés dans des zones "
+"verrouillées du Centre de recherche Douglas. Les serveurs sont entreposés"
+" dans des salles de serveurs verrouillées et à accès restreint au sein du"
+" Douglas."
+
+#: ../../using_the_system/security.md:11
+msgid ""
+"All workstations auto-lock when users leave them unattended for more than"
+" 5 minutes. No data is stored directly on workstations, ensuring data-"
+"exfiltration risk from theft is minimized."
+msgstr ""
+"Tous les postes de travail se verrouillent automatiquement lorsque les "
+"utilisateurs les laissent sans surveillance pendant plus de 5 minutes. "
+"Aucune donnée n'est stockée directement sur les postes de travail, ce qui"
+" minimise le risque d'exfiltration de données en cas de vol."
+
+#: ../../using_the_system/security.md:14
+msgid ""
+"Servers are physically separated across the Douglas campus with "
+"continuous backups between them for disaster recovery."
+msgstr ""
+"Les serveurs sont physiquement répartis sur le campus du Douglas, avec "
+"des sauvegardes continues entre eux pour la reprise après sinistre."
+
+#: ../../using_the_system/security.md:16
+msgid "System Security"
+msgstr "Sécurité du système"
+
+#: ../../using_the_system/security.md:18
+msgid ""
+"DNP compute infrastructure within the Douglas Research Centre is separate"
+" from DNP web services, which are hosted externally. All DNP systems run "
+"Ubuntu Long Term Support (LTS) releases, and root access on all machines "
+"is restricted to authorized DNP system administration staff."
+msgstr ""
+"L'infrastructure de calcul du DNP au sein du Centre de recherche Douglas "
+"est séparée des services Web du DNP, qui sont hébergés à l'externe. Tous "
+"les systèmes du DNP exécutent des versions Ubuntu Long Term Support "
+"(LTS), et l'accès root sur toutes les machines est réservé au personnel "
+"autorisé d'administration système du DNP."
+
+#: ../../using_the_system/security.md:22
+msgid ""
+"DNP has an active project to harden default system configurations toward "
+"alignment with ISO/IEC 27001. This work is ongoing and is not yet "
+"complete."
+msgstr ""
+"Le DNP a un projet actif visant à durcir les configurations système par "
+"défaut en vue de les aligner sur la norme ISO/IEC 27001. Ces travaux sont"
+" en cours et ne sont pas encore terminés."
+
+#: ../../using_the_system/security.md:25
+msgid "Data Safety and Security"
+msgstr "Sécurité et protection des données"
+
+#: ../../using_the_system/security.md:27
+msgid ""
+"Network File System (NFS) security is managed via IP limits that restrict"
+" access to authorized DNP workstations, relying on the access controls to"
+" the network managed by Douglas IT. Storage allocations are mounted on-"
+"demand providing some obfuscation for mount names. All mount exports are "
+"exported with `root_squash` to enforce minimal permissions to "
+"workstations in the event of local compromise."
+msgstr ""
+"La sécurité du Network File System (NFS) est gérée au moyen de limites "
+"d'adresses IP qui restreignent l'accès aux postes de travail autorisés du"
+" DNP, en s'appuyant sur les contrôles d'accès au réseau gérés par le "
+"service informatique du Douglas. Les allocations de stockage sont montées"
+" à la demande, ce qui fournit une certaine obfuscation des noms de points"
+" de montage. Toutes les exportations de points de montage sont exportées "
+"avec `root_squash` afin d'appliquer des autorisations minimales aux "
+"postes de travail en cas de compromission locale."
+
+#: ../../using_the_system/security.md:32
+msgid ""
+"Permissions for all storage allocations are user and research-group based"
+" (UNIX users/groups), with default permissions for newly created files "
+"owned by the user and group, and default read-only access for research "
+"group members. Access Control Lists (ACLs) advanced permissions are "
+"available to provide additional targeted access for other groups or users"
+" in addition to the owning user and research group."
+msgstr ""
+"Les autorisations pour toutes les allocations de stockage sont fondées "
+"sur les utilisateurs et les groupes de recherche (utilisateurs/groupes "
+"UNIX), avec des autorisations par défaut pour les nouveaux fichiers "
+"appartenant à l'utilisateur et au groupe, et un accès en lecture seule "
+"par défaut pour les membres du groupe de recherche. Les autorisations "
+"avancées des listes de contrôle d'accès (ACL) sont disponibles pour "
+"fournir un accès ciblé supplémentaire à d'autres groupes ou utilisateurs,"
+" en plus de l'utilisateur et du groupe de recherche propriétaires."
+
+#: ../../using_the_system/security.md:37
+msgid ""
+"All data storage has fine-to-coarse historical snapshots enabled, "
+"allowing recovery of deleted or modified files out to 6 months prior."
+msgstr ""
+"Tous les stockages de données ont des instantanés historiques, du plus "
+"fin au plus grossier, activés, ce qui permet de récupérer des fichiers "
+"supprimés ou modifiés jusqu'à 6 mois en arrière."
+
+#: ../../using_the_system/security.md:40
+msgid "User Account Security"
+msgstr "Sécurité des comptes utilisateurs"
+
+#: ../../using_the_system/security.md:42
+msgid ""
+"User accounts are password protected with minimum complexity requirements"
+" based on entropy measurements of passwords. Passwords are regularly "
+"audited for weaknesses against compromised password wordlists. User "
+"accounts on creation are set to expire on timeframes appropriate with the"
+" student or employment position of the users. Accounts are regularly "
+"audited for inactivity and disabled when idle."
+msgstr ""
+"Les comptes utilisateurs sont protégés par mot de passe avec des "
+"exigences minimales de complexité fondées sur des mesures d'entropie des "
+"mots de passe. Les mots de passe sont régulièrement audités pour détecter"
+" les faiblesses par rapport aux listes de mots de passe compromis. À la "
+"création, les comptes utilisateurs sont configurés pour expirer selon des"
+" échéances appropriées au statut d'étudiant ou d'emploi des utilisateurs."
+" Les comptes sont régulièrement audités pour inactivité et désactivés "
+"lorsqu'ils sont inactifs."
+
+#: ../../using_the_system/security.md:47
+msgid ""
+"Authentication is achieved via centralized Network Information Service "
+"(NIS). NIS security is similarly managed via IP limits that restrict "
+"access to authorized DNP workstations."
+msgstr ""
+"L'authentification est réalisée au moyen du Network Information Service "
+"(NIS) centralisé. La sécurité du NIS est également gérée au moyen de "
+"limites d'adresses IP qui restreignent l'accès aux postes de travail "
+"autorisés du DNP."
+
+#: ../../using_the_system/security.md:50
+msgid "Administrative Access and Remote Access Policy"
+msgstr "Politique d'accès administratif et d'accès à distance"
+
+#: ../../using_the_system/security.md:51
+msgid ""
+"**No `sudo` Access**\\ Administrative privileges (`sudo`) are strictly "
+"prohibited on all DNP machines. Users must run software within their own "
+"user space or load required packages via the environment module system / "
+"software quarantine. <br><br>"
+msgstr ""
+"**Aucun accès `sudo`**\\ Les privilèges administratifs (`sudo`) sont "
+"strictement interdits sur toutes les machines du DNP. Les utilisateurs "
+"doivent exécuter les logiciels dans leur propre espace utilisateur ou "
+"charger les paquets requis au moyen du système de modules d'environnement"
+" / de la quarantaine logicielle. <br><br>"
+
+#: ../../using_the_system/security.md:54
+msgid ""
+"**Prohibited Software**\\ Installing or running unapproved third-party "
+"remote access tools (such as AnyDesk, TeamViewer, Chrome Remote Desktop, "
+"or VNC servers) is not permitted under any circumstances. <br><br>"
+msgstr ""
+"**Logiciels interdits**\\ L'installation ou l'exécution d'outils d'accès "
+"à distance tiers non approuvés (tels que AnyDesk, TeamViewer, Chrome "
+"Remote Desktop ou des serveurs VNC) n'est permise en aucune circonstance."
+" <br><br>"
+
+#: ../../using_the_system/security.md:57
+msgid ""
+"**Approved Remote Access Methods**\\ All remote connections to DNP "
+"systems must be established exclusively through official, approved "
+"channels:"
+msgstr ""
+"**Méthodes d'accès à distance approuvées**\\ Toutes les connexions à "
+"distance aux systèmes du DNP doivent être établies exclusivement par "
+"l'entremise de canaux officiels approuvés :"
+
+#: ../../using_the_system/security.md:59
+msgid ""
+"**SSH (Secure Shell):** Standard command-line terminal access. Refer to "
+"our [DNP remote access instructions](remote_access.md) for setup and host"
+" details."
+msgstr ""
+"**SSH (Secure Shell) :** Accès standard au terminal en ligne de commande."
+" Consultez nos [instructions d'accès à distance au DNP](remote_access.md)"
+" pour la configuration et les détails des hôtes."
+
+#: ../../using_the_system/security.md:60
+msgid ""
+"**X2Go Client:** Graphical desktop access. Download the client installer "
+"from the official [X2Go Download "
+"Page](https://wiki.x2go.org/doku.php/download:start) or review our "
+"{ref}`DNP X2Go Configuration Guide <remote-desktop-access-with-x2go>`."
+msgstr ""
+"**Client X2Go :** Accès au bureau graphique. Téléchargez le programme "
+"d'installation du client depuis la [page de téléchargement "
+"X2Go](https://wiki.x2go.org/doku.php/download:start) officielle ou "
+"consultez notre {ref}`DNP X2Go Configuration Guide <remote-desktop-"
+"access-with-x2go>`."
+
