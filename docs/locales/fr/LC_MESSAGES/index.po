@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../index.md:23
 msgid "Things we know about"
-msgstr "Sujets que nous connaissons"
+msgstr "Sujets couverts"
 
 #: ../../index.md:1
 msgid "Douglas Neuroinformatics Platform Documentation"
@@ -43,10 +43,10 @@ msgid ""
 " your home folder.**"
 msgstr ""
 "**Quota du dossier personnel : 50 Go** <br/>Les dossiers personnels "
-"doivent être utilisés pour le code, les fichiers de configuration et les "
-"petits fichiers de test.   <br/>**Toutes les données d'imagerie et de "
-"projet doivent être stockées dans les emplacements de stockage "
-"partagés/projets, _non_ dans votre dossier personnel.**"
+"doivent servir au code, aux fichiers de configuration et aux petits "
+"fichiers de test.   <br/>**Toutes les données d'imagerie et de projet "
+"doivent être stockées dans les emplacements de stockage partagés ou de "
+"projet, _pas_ dans votre dossier personnel.**"
 
 #: ../../index.md:8
 msgid ""

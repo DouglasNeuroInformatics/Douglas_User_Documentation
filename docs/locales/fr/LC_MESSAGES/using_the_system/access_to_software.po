@@ -75,9 +75,8 @@ msgid ""
 "The software quarantine (aka modules) is available on workstation systems"
 " (`cicwsNN`) and the compute nodes (`ciccsNN`)."
 msgstr ""
-"La quarantaine de logiciels (également appelée modules) est disponible "
-"sur les systèmes de stations de travail (`cicwsNN`) et sur les nœuds de "
-"calcul (`ciccsNN`)."
+"La quarantaine logicielle (également appelée modules) est disponible sur "
+"les postes de travail (`cicwsNN`) et sur les nœuds de calcul (`ciccsNN`)."
 
 #: ../../using_the_system/access_to_software.md:22
 msgid ""

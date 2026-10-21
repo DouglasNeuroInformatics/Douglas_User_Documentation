@@ -43,7 +43,7 @@ msgstr ""
 msgid "Requests must be submitted by the **supervising principal investigator**."
 msgstr ""
 "Les demandes doivent être soumises par le **chercheur principal "
-"superviseur**."
+"responsable**."
 
 #: ../../getting_started/index.md:12
 msgid ""
@@ -59,6 +59,6 @@ msgid ""
 "person (or via video chat) to set a password for their accounts."
 msgstr ""
 "Une fois les comptes créés, les nouveaux utilisateurs seront invités à "
-"une rencontre en personne (ou par clavardage vidéo) afin de définir un "
-"mot de passe pour leurs comptes."
+"une rencontre en personne (ou par visioconférence) afin de définir le mot"
+" de passe de leur compte."
 

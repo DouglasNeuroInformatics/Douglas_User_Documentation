@@ -45,11 +45,10 @@ msgid ""
 "Douglas CIC, contact the CIC Administrative Assistant (Louis Théroux) "
 "<louis.theroux.comtl@ssss.gouv.qc.ca> for keycard access."
 msgstr ""
-"L'accès physique à un ensemble de postes de travail est disponible à "
-"l'intérieur du CIC du Douglas ; veuillez communiquer avec l'adjoint "
-"administratif du CIC (Louis Théroux) "
-"<louis.theroux.comtl@ssss.gouv.qc.ca> pour obtenir un accès par carte "
-"d'accès."
+"L'accès physique à un ensemble de postes de travail est offert à "
+"l'intérieur du CIC du Douglas; communiquez avec l'adjoint administratif "
+"du CIC (Louis Théroux) <louis.theroux.comtl@ssss.gouv.qc.ca> pour obtenir"
+" une carte d'accès."
 
 #: ../../using_the_system/access_to_system.md:13
 msgid "Remote Access within the Douglas"
@@ -70,7 +69,7 @@ msgstr ""
 
 #: ../../using_the_system/access_to_system.md:20
 msgid "Playing nice"
-msgstr "Bien se comporter"
+msgstr "Règles de courtoisie"
 
 #: ../../using_the_system/access_to_system.md:21
 msgid ""
@@ -151,8 +150,8 @@ msgid ""
 msgstr ""
 "Lorsque vous vous connectez directement à la passerelle, vous êtes "
 "automatiquement redirigé vers `cicus03`.   Pour accéder à un autre hôte "
-"(p. ex., `cicwsXX`), vous **devez** utiliser l'option d'hôte de saut "
-"(`-J`) et spécifier explicitement la destination souhaitée dans votre "
+"(p. ex. `cicwsXX`), vous **devez** utiliser l'option d'hôte de rebond "
+"(`-J`) et indiquer explicitement la destination souhaitée dans votre "
 "commande SSH."
 
 #: ../../using_the_system/access_to_system.md:52

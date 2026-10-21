@@ -168,7 +168,7 @@ msgstr "Démarrage rapide avec Open WebUI"
 msgid "Start a new chat by clicking the **New chat** button (top left pane)."
 msgstr ""
 "Démarrez une nouvelle discussion en cliquant sur le bouton **New chat** "
-"(Nouvelle discussion) (panneau supérieur gauche)."
+"(Nouvelle discussion), dans le panneau supérieur gauche."
 
 #: ../../available_services/chatdnp.md:38
 msgid ""
@@ -207,7 +207,7 @@ msgid ""
 " Overview\")"
 msgstr ""
 "Itérez. Si la réponse n’est pas bonne, demandez-lui d’essayer à nouveau "
-"(p. ex. \"Simplifiez et résumez cela en 100 mots\"). ![Texte alternatif"
+"(p. ex. « Simplifie et résume en 100 mots »). ![Texte alternatif"
 "](chatdnp-howto.png \"Aperçu de ChatDNP\")"
 
 #: ../../available_services/chatdnp.md:42
