@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../resources/index.md:1
+msgid "Useful Resources"
+msgstr "Ressources utiles"
+
+#: ../../resources/index.md:3
+msgid ""
+"Explore these curated resources designed to enhance your skills in shell "
+"scripting, Linux, computing, and more:"
+msgstr ""
+"Explorez ces ressources sélectionnées, conçues pour améliorer vos "
+"compétences en scripts shell, en Linux, en informatique et plus encore :"
+
+#: ../../resources/index.md:5
+msgid ""
+"<a href=\"https://swcarpentry.github.io/shell-novice\" "
+"target=_blank>Shell Novice (Software Carpentry)</a>\\  A beginner-"
+"friendly guide that introduces you to the Unix shell and basic command-"
+"line operations. <br><br>"
+msgstr ""
+"<a href=\"https://swcarpentry.github.io/shell-novice\" "
+"target=_blank>Shell pour débutants (Software Carpentry)</a>\\  Un guide "
+"accessible aux débutants qui vous initie au shell Unix et aux opérations "
+"de base en ligne de commande. <br><br>"
+
+#: ../../resources/index.md:8
+msgid ""
+"<a href=\"https://researchcomputing.princeton.edu/education/external-"
+"online-resources/linux\" target=_blank>Princeton Linux Educational "
+"Resources</a>\\  A collection of Linux tutorials and materials curated by"
+" Princeton's Research Computing team for academic and research purposes. "
+"<br><br>"
+msgstr ""
+"<a href=\"https://researchcomputing.princeton.edu/education/external-"
+"online-resources/linux\" target=_blank>Ressources éducatives Linux de "
+"Princeton</a>\\  Une collection de tutoriels et de ressources Linux "
+"sélectionnés par l'équipe de calcul de recherche de Princeton à des fins "
+"d'enseignement et de recherche. <br><br>"
+
+#: ../../resources/index.md:11
+msgid ""
+"<a href=\"https://www.calculquebec.ca/en/academic-research-"
+"services/training\" target=_blank>Calcul Quebec Academic & Research "
+"Training</a>\\  Courses and workshops aimed at enhancing computing skills"
+" and supporting academic research initiatives. <br><br>"
+msgstr ""
+"<a href=\"https://www.calculquebec.ca/en/academic-research-"
+"services/training\" target=_blank>Formation en recherche de Calcul "
+"Québec</a>\\  Des cours et des ateliers visant à améliorer les "
+"compétences en informatique et à soutenir les projets de recherche "
+"universitaire. <br><br>"
+
+#: ../../resources/index.md:14
+msgid ""
+"<a href=\"https://www.youtube.com/@alliancecan\" "
+"target=_blank>AllianceCan YouTube Channe</a>\\  A YouTube channel "
+"featuring a range of educational videos and tutorials on technology and "
+"research innovations. <br><br>"
+msgstr ""
+"<a href=\"https://www.youtube.com/@alliancecan\" target=_blank>Chaîne "
+"YouTube AllianceCan</a>\\  Une chaîne YouTube proposant une gamme de "
+"vidéos éducatives et de tutoriels sur les technologies et les innovations"
+" en recherche. <br><br>"
+

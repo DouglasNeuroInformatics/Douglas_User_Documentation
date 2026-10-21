@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../available_services/chatdnp.md:1
+msgid "ChatDNP"
+msgstr "ChatDNP"
+
+#: ../../available_services/chatdnp.md:2
+msgid ""
+"ChatDNP is the Douglas Neuroinformatics Platform’s (DNP) local AI chat "
+"service, powered by Open WebUI and accessible on our on-premise GPU "
+"server. It is equipped with:"
+msgstr ""
+"ChatDNP est le service local de clavardage par IA de la Douglas "
+"Neuroinformatics Platform (DNP), propulsé par Open WebUI et accessible "
+"sur notre serveur GPU sur place. Il est équipé de :"
+
+#: ../../available_services/chatdnp.md:4
+msgid "2 × NVIDIA RTX A6000 (each with 48 GB VRAM)"
+msgstr "2 × NVIDIA RTX A6000 (chacun avec 48 Go de VRAM)"
+
+#: ../../available_services/chatdnp.md:5
+msgid "500 GB system RAM"
+msgstr "500 Go de RAM système"
+
+#: ../../available_services/chatdnp.md:6
+msgid "Dual Intel Xeon Gold 6526Y (32 cores / 54 threads)"
+msgstr "Double Intel Xeon Gold 6526Y (32 cœurs / 54 threads)"
+
+#: ../../available_services/chatdnp.md:7
+msgid "2 NUMA nodes"
+msgstr "2 nœuds NUMA"
+
+#: ../../available_services/chatdnp.md:9
+msgid "Why have a local (Institution) chat?"
+msgstr "Pourquoi avoir un service de clavardage local (institutionnel) ?"
+
+#: ../../available_services/chatdnp.md:11
+msgid ""
+"**Privacy:** Keeps sensitive discussion inside the institutional "
+"boundary. Ability to include anonymized participant info and files in "
+"chats."
+msgstr ""
+"**Confidentialité :** Garde les discussions sensibles à l’intérieur des "
+"limites institutionnelles. Possibilité d’inclure des renseignements "
+"anonymisés sur les participants et des fichiers dans les discussions."
+
+#: ../../available_services/chatdnp.md:12
+msgid "**Performance:** Dedicated GPUs for low-latency responses."
+msgstr "**Performance :** GPU dédiés pour des réponses à faible latence."
+
+#: ../../available_services/chatdnp.md:13
+msgid ""
+"**Control:** Model selection, updates, and administration are managed by "
+"DNP."
+msgstr ""
+"**Contrôle :** La sélection des modèles, les mises à jour et "
+"l’administration sont gérées par le DNP."
+
+#: ../../available_services/chatdnp.md:15
+msgid "Who can use it"
+msgstr "Qui peut l’utiliser"
+
+#: ../../available_services/chatdnp.md:17
+msgid "Anyone on the Douglas Research Centre internal network."
+msgstr "Toute personne sur le réseau interne du Centre de recherche Douglas."
+
+#: ../../available_services/chatdnp.md:18
+msgid "External access is not available."
+msgstr "L’accès externe n’est pas disponible."
+
+#: ../../available_services/chatdnp.md:20
+msgid "How to sign in"
+msgstr "Comment se connecter"
+
+#: ../../available_services/chatdnp.md:22
+msgid "Navigate to chatDNP: https://chatdnp.internal.douglasneuroinformatics.ca"
+msgstr "Accédez à chatDNP : https://chatdnp.internal.douglasneuroinformatics.ca"
+
+#: ../../available_services/chatdnp.md:23
+msgid "Read the disclaimer and accept our terms of use."
+msgstr "Lisez l’avertissement et acceptez nos conditions d’utilisation."
+
+#: ../../available_services/chatdnp.md:25
+msgid "Privacy & Data Use"
+msgstr "Confidentialité et utilisation des données"
+
+#: ../../available_services/chatdnp.md:27
+msgid ""
+"Your chat prompts and responses are recorded so we can improve the "
+"platform. **Please do not paste credentials, tokens, or personal "
+"passwords.** Some important things to consider:"
+msgstr ""
+"Vos invites de discussion et vos réponses sont enregistrées afin que nous"
+" puissions améliorer la plateforme. **Veuillez ne pas coller "
+"d’identifiants, de jetons ou de mots de passe personnels.** Quelques "
+"points importants à considérer :"
+
+#: ../../available_services/chatdnp.md:29
+msgid ""
+"**Recorded:** We store chat prompts for usage analytics for quality, "
+"security, and capacity planning."
+msgstr ""
+"**Enregistrées :** Nous conservons les invites de discussion à des fins "
+"d’analyse de l’utilisation pour la qualité, la sécurité et la "
+"planification de la capacité."
+
+#: ../../available_services/chatdnp.md:30
+msgid ""
+"**No History:** We use temporary guest accounts, meaning your chat "
+"history is not saved. Once you leave this page, your previous "
+"conversations will be gone."
+msgstr ""
+"**Aucun historique :** Nous utilisons des comptes invités temporaires, ce"
+" qui signifie que votre historique de discussion n’est pas enregistré. "
+"Une fois que vous quittez cette page, vos conversations précédentes "
+"seront perdues."
+
+#: ../../available_services/chatdnp.md:31
+msgid ""
+"**Research data:** We do not use or analyze your scientific datasets. You"
+" may discuss patient-sensitive or confidential topics because the service"
+" runs entirely inside the Douglas network."
+msgstr ""
+"**Données de recherche :** Nous n’utilisons ni n’analysons vos jeux de "
+"données scientifiques. Vous pouvez discuter de sujets sensibles ou "
+"confidentiels concernant les patients, car le service fonctionne "
+"entièrement à l’intérieur du réseau Douglas."
+
+#: ../../available_services/chatdnp.md:32
+msgid "**API access:** Available through prepaid quota or fixed monthly plans."
+msgstr ""
+"**Accès API :** Offert au moyen d’un quota prépayé ou de forfaits "
+"mensuels fixes."
+
+#: ../../available_services/chatdnp.md:33
+msgid ""
+"**Private chat account:** Should you require your own private chat (with "
+"history), please contact us for pricing."
+msgstr ""
+"**Compte de discussion privé :** Si vous avez besoin de votre propre "
+"discussion privée (avec historique), veuillez nous contacter pour "
+"connaître les tarifs."
+
+#: ../../available_services/chatdnp.md:35
+msgid "Open WebUI Quick Start Usage"
+msgstr "Démarrage rapide avec Open WebUI"
+
+#: ../../available_services/chatdnp.md:37
+msgid "Start a new chat by clicking the **New chat** button (top left pane)."
+msgstr ""
+"Démarrez une nouvelle discussion en cliquant sur le bouton **New chat** "
+"(Nouvelle discussion), dans le panneau supérieur gauche."
+
+#: ../../available_services/chatdnp.md:38
+msgid ""
+"**Select a model** from the drop-down list (top centre of the chat "
+"window)."
+msgstr ""
+"**Sélectionnez un modèle** dans la liste déroulante (partie supérieure "
+"centrale de la fenêtre de discussion)."
+
+#: ../../available_services/chatdnp.md:39
+msgid "Ask one thing at a time using short, specific prompts."
+msgstr ""
+"Demandez une seule chose à la fois en utilisant des invites courtes et "
+"précises."
+
+#: ../../available_services/chatdnp.md:40
+msgid ""
+"Provide context for the chat by describing your task or **attaching "
+"files**."
+msgstr ""
+"Fournissez du contexte à la discussion en décrivant votre tâche ou en "
+"**joignant des fichiers**."
+
+#: ../../available_services/chatdnp.md:41
+msgid ""
+"Toggle the **web search** integration on/off depending on if your model "
+"needs it."
+msgstr ""
+"Activez ou désactivez l’intégration **web search** (recherche sur le Web)"
+" selon les besoins de votre modèle."
+
+#: ../../available_services/chatdnp.md:42
+msgid ""
+"Iterate. If the answer isn’t right, ask it to try again (e.g. \"Simplify "
+"and summarize it in 100 words\"). ![Alt text](chatdnp-howto.png \"ChatDNP"
+" Overview\")"
+msgstr ""
+"Itérez. Si la réponse n’est pas bonne, demandez-lui d’essayer à nouveau "
+"(p. ex. « Simplifie et résume en 100 mots »). ![Texte alternatif"
+"](chatdnp-howto.png \"Aperçu de ChatDNP\")"
+
+#: ../../available_services/chatdnp.md:42
+msgid "Alt text"
+msgstr "Texte alternatif"
+
+#: ../../available_services/chatdnp.md:45
+msgid ""
+"**For a deeper look into all of Open WebUI’s features, consult their "
+"docs:** https://docs.openwebui.com"
+msgstr ""
+"**Pour un aperçu plus approfondi de toutes les fonctionnalités d’Open "
+"WebUI, consultez leur documentation :** https://docs.openwebui.com"
+

@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../using_the_system/access_to_software.md:1
+msgid "Access to Software"
+msgstr "Accès aux logiciels"
+
+#: ../../using_the_system/access_to_software.md:3
+msgid "Accessing Scientific Software (quarantine aka modules)"
+msgstr "Accès aux logiciels scientifiques (quarantaine, également appelée modules)"
+
+#: ../../using_the_system/access_to_software.md:5
+msgid ""
+"All computer systems have installed a standard suite of desktop "
+"productivity software (office, image manipulation, web browser, etc.). If"
+" a readily available productivity software package is not installed and "
+"you wish to use it, please contact us at  "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+" to request installation."
+msgstr ""
+"Tous les systèmes informatiques ont une suite standard de logiciels de "
+"productivité de bureau installée (bureautique, manipulation d'images, "
+"navigateur Web, etc.). Si un logiciel de productivité couramment "
+"disponible n'est pas installé et que vous souhaitez l'utiliser, veuillez "
+"nous contacter à  "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+" pour demander son installation."
+
+#: ../../using_the_system/access_to_software.md:11
+msgid ""
+"Scientific software is deployed across all computers in the platform via "
+"shared network drive, ensuring the same version of software is run on all"
+" machines during any kind of cluster processing. To make multiple "
+"versions of software available, software is isolated in separate "
+"installation directories and access is managed via the "
+"[`module`](https://modules.readthedocs.io/en/latest/) system. The "
+"`module` system allows for multiple versions to live side-by-side, for "
+"dependencies between software to be specified, and for conflicting "
+"versions to be specified."
+msgstr ""
+"Les logiciels scientifiques sont déployés sur tous les ordinateurs de la "
+"plateforme via un lecteur réseau partagé, ce qui garantit que la même "
+"version du logiciel est exécutée sur toutes les machines pendant tout "
+"type de traitement sur la grappe de calcul. Pour rendre plusieurs "
+"versions de logiciels disponibles, les logiciels sont isolés dans des "
+"répertoires d'installation distincts et l'accès est géré via le système "
+"[`module`](https://modules.readthedocs.io/en/latest/). Le système "
+"`module` permet à plusieurs versions de coexister, de spécifier les "
+"dépendances entre logiciels et de spécifier les versions conflictuelles."
+
+#: ../../using_the_system/access_to_software.md:19
+msgid "On which machines is the quarantine available?"
+msgstr "Sur quelles machines la quarantaine est-elle disponible ?"
+
+#: ../../using_the_system/access_to_software.md:20
+msgid ""
+"The software quarantine (aka modules) is available on workstation systems"
+" (`cicwsNN`) and the compute nodes (`ciccsNN`)."
+msgstr ""
+"La quarantaine logicielle (également appelée modules) est disponible sur "
+"les postes de travail (`cicwsNN`) et sur les nœuds de calcul (`ciccsNN`)."
+
+#: ../../using_the_system/access_to_software.md:22
+msgid ""
+"It is not available on the login or storage servers as scientific "
+"processing should not take place there."
+msgstr ""
+"Elle n'est pas disponible sur les serveurs de connexion ou de stockage, "
+"car le traitement scientifique ne doit pas y avoir lieu."
+
+#: ../../using_the_system/access_to_software.md:27
+msgid ""
+"The obtain a list of available software, run `module avail`, below is an "
+"example generated on 2022-11-01, the format of the naming below is "
+"`<modulename>/<moduleversion>`:"
+msgstr ""
+"Pour obtenir une liste des logiciels disponibles, exécutez `module "
+"avail`. L'exemple ci-dessous a été généré le 2022-11-01 ; le format de "
+"nommage ci-dessous est `<modulename>/<moduleversion>` :"
+
+#: ../../using_the_system/access_to_software.md:51
+msgid ""
+"To load a module, use the load command, `module load <modulename>` which "
+"will load the default version `(D)` if it is specified in the module "
+"system, otherwise it will load the latest version. To load a specific "
+"version of a module, specify the version during loading, `module load "
+"<modulename>/<moduleversion>`."
+msgstr ""
+"Pour charger un module, utilisez la commande de chargement, `module load "
+"<modulename>`, qui chargera la version par défaut `(D)` si elle est "
+"spécifiée dans le système de modules ; sinon, elle chargera la dernière "
+"version. Pour charger une version spécifique d'un module, spécifiez la "
+"version lors du chargement, `module load <modulename>/<moduleversion>`."
+
+#: ../../using_the_system/access_to_software.md:55
+msgid "Module Dependencies"
+msgstr "Dépendances des modules"
+
+#: ../../using_the_system/access_to_software.md:56
+msgid ""
+"If you try to load a module which has dependencies you have not yet "
+"satisfied, you will receive an error that will specify the dependencies "
+"and modules available that would satisfy it, each missing dependency "
+"stops the module loading so this may occur several times as you load all "
+"dependencies:"
+msgstr ""
+"Si vous essayez de charger un module dont les dépendances ne sont pas "
+"encore satisfaites, vous recevrez une erreur qui précisera les "
+"dépendances et les modules disponibles qui permettraient de les "
+"satisfaire. Chaque dépendance manquante arrête le chargement du module, "
+"ce qui peut donc se produire plusieurs fois lorsque vous chargez toutes "
+"les dépendances :"
+

@@ -86,6 +86,17 @@ linkcheck_ignore = [
 ]
 
 
+# -- Internationalization ----------------------------------------------------
+
+# English is the source language. Translations live in locales/<lang>/LC_MESSAGES
+# as one .po file per page (gettext_compact = False). See README.md for the
+# translation workflow.
+language = 'en'
+locale_dirs = ['locales/']
+gettext_compact = False
+gettext_uuid = False
+
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

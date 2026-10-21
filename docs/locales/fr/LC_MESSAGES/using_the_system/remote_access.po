@@ -1,0 +1,677 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../using_the_system/remote_access.md:1
+msgid "Remote Access (from outside the Douglas)"
+msgstr "Accès à distance (depuis l'extérieur du Douglas)"
+
+#: ../../using_the_system/remote_access.md:3
+msgid ""
+"This page describes how to work with the Douglas Neuroinformatics "
+"Platform (DNP/CIC) **from outside the Douglas Research Centre network** "
+"from any off-site location."
+msgstr ""
+"Cette page explique comment travailler avec la Douglas Neuroinformatics "
+"Platform (DNP/CIC) **depuis l'extérieur du réseau du Centre de recherche "
+"Douglas**, à partir de n'importe quel endroit hors site."
+
+#: ../../using_the_system/remote_access.md:6
+msgid ""
+"If you are connecting from a machine already on the Douglas network, "
+"**you do not need the gateway**. Follow {ref}`Accessing the "
+"System<using_the_system/access_to_system:accessing the system>` instead."
+msgstr ""
+"Si vous vous connectez à partir d'un ordinateur déjà sur le réseau "
+"Douglas, **vous n'avez pas besoin de la passerelle**. Suivez plutôt "
+"{ref}`Accès au système<using_the_system/access_to_system:accessing the "
+"system>`."
+
+#: ../../using_the_system/remote_access.md:10
+msgid "Your gateway address and port"
+msgstr "Adresse et port de votre passerelle"
+
+#: ../../using_the_system/remote_access.md:13
+msgid ""
+"Throughout this page, `GatewayHost` and `portNumber` are "
+"**placeholders**. The real gateway hostname and SSH port were sent to you"
+" in the **onboarding email you received when your account was created**"
+msgstr ""
+"Dans cette page, `GatewayHost` et `portNumber` sont des **paramètres "
+"fictifs**. Le vrai nom d'hôte de la passerelle et le port SSH vous ont "
+"été envoyés dans le **courriel d'accueil reçu lors de la création de "
+"votre compte**"
+
+#: ../../using_the_system/remote_access.md:18
+msgid "How remote access works"
+msgstr "Fonctionnement de l'accès à distance"
+
+#: ../../using_the_system/remote_access.md:20
+msgid ""
+"From outside the Douglas, the platform is reached through a single public"
+" **gateway** that listens for `ssh` on a non-standard port "
+"(`portNumber`). Logging in to the gateway places you on the user server "
+"`cicus03`. From there, you should then log in to an available "
+"**workstation** (ideally the one you usually sit at), named "
+"cicwsXX/dnpwsXX.  Its hostname can be found in the terminal or on a "
+"sticker located on the physical machine."
+msgstr ""
+"Depuis l'extérieur du Douglas, on accède à la plateforme par une seule "
+"**passerelle** publique qui écoute `ssh` sur un port non standard "
+"(`portNumber`). La connexion à la passerelle vous place sur le serveur "
+"utilisateur `cicus03`. De là, connectez-vous à un **poste de travail** "
+"disponible (idéalement celui que vous utilisez habituellement), nommé "
+"cicwsXX/dnpwsXX. Son nom d'hôte se trouve dans le terminal ou sur un "
+"autocollant apposé sur l'ordinateur."
+
+#: ../../using_the_system/remote_access.md:26
+msgid "![Login Workflow](login-workflow.png \"Login Workflow\")"
+msgstr "![Processus de connexion](login-workflow.png \"Processus de connexion\")"
+
+#: ../../using_the_system/remote_access.md:26
+msgid "Login Workflow"
+msgstr "Processus de connexion"
+
+#: ../../using_the_system/remote_access.md:28
+msgid "Prerequisites:  SSH Client"
+msgstr "Prérequis : client SSH"
+
+#: ../../using_the_system/remote_access.md:30
+msgid ""
+"In order to access machines remotely, you need a `ssh`/`rsync` client "
+"installed on your local machine."
+msgstr ""
+"Pour accéder aux ordinateurs à distance, vous avez besoin d'un client "
+"`ssh`/`rsync` installé sur votre ordinateur local."
+
+#: ../../using_the_system/remote_access.md:32
+msgid ""
+"**Linux**: `ssh` and `rsync` are available out of the box, and graphical "
+"(X11) support is included."
+msgstr ""
+"**Linux** : `ssh` et `rsync` sont disponibles d'emblée, et la prise en "
+"charge graphique (X11) est incluse."
+
+#: ../../using_the_system/remote_access.md:34
+msgid ""
+"**MacOS**: `ssh` and `rsync` are available in the Terminal. For remote "
+"graphics, install [XQuartz](https://www.xquartz.org/)."
+msgstr ""
+"**MacOS** : `ssh` et `rsync` sont disponibles dans le Terminal. Pour "
+"l'affichage graphique à distance, installez "
+"[XQuartz](https://www.xquartz.org/)."
+
+#: ../../using_the_system/remote_access.md:35
+msgid ""
+"**Windows**: install [MobaXterm (Home "
+"Edition)](https://mobaxterm.mobatek.net/download-home-edition.html), "
+"which provides a Linux-like terminal with `ssh` and `rsync` and built-in "
+"graphics support."
+msgstr ""
+"**Windows** : installez [MobaXterm (Home "
+"Edition)](https://mobaxterm.mobatek.net/download-home-edition.html), qui "
+"fournit un terminal de type Linux avec `ssh` et `rsync` et une prise en "
+"charge graphique intégrée."
+
+#: ../../using_the_system/remote_access.md:39
+msgid ""
+"Use **\"Start local terminal\"** in MobaXterm — **do not use the "
+"graphical \"SSH\" session option**."
+msgstr ""
+"Utilisez **« Start local terminal »** (Démarrer un terminal local) dans "
+"MobaXterm — **n'utilisez pas l'option de session graphique « SSH »**."
+
+#: ../../using_the_system/remote_access.md:40
+msgid ""
+"Depending on the version you installed, MobaXterm may prompt you to "
+"install a missing plugin the first time; allow it."
+msgstr ""
+"Selon la version installée, MobaXterm peut vous demander d'installer un "
+"module d'extension manquant la première fois; acceptez."
+
+#: ../../using_the_system/remote_access.md:43
+msgid "Connecting to the gateway via a terminal (SSH)"
+msgstr "Se connecter à la passerelle dans un terminal (SSH)"
+
+#: ../../using_the_system/remote_access.md:45
+msgid ""
+"Log in to the gateway using the alternate port to get onto cicus03, and "
+"then SSH into your workstation with the following command:"
+msgstr ""
+"Connectez-vous à la passerelle avec le port alternatif pour arriver sur "
+"cicus03, puis connectez-vous en SSH à votre poste de travail avec la "
+"commande suivante :"
+
+#: ../../using_the_system/remote_access.md:53
+msgid ""
+"*Replace `<username>`, `cicwsXX`, `GatewayHost`, and `portNumber` with "
+"your own values.*"
+msgstr ""
+"*Remplacez `<username>`, `cicwsXX`, `GatewayHost` et `portNumber` par vos"
+" propres valeurs.*"
+
+#: ../../using_the_system/remote_access.md:55
+msgid "Streamlining with ProxyJump"
+msgstr "Simplifier avec ProxyJump"
+
+#: ../../using_the_system/remote_access.md:57
+msgid ""
+"If your SSH client is recent enough, you can reach your workstation in a "
+"single command using `-J` (ProxyJump), which uses the gateway purely as a"
+" jump host:"
+msgstr ""
+"Si votre client SSH est assez récent, vous pouvez atteindre votre poste "
+"de travail en une seule commande avec `-J` (ProxyJump), qui utilise la "
+"passerelle uniquement comme hôte de rebond :"
+
+#: ../../using_the_system/remote_access.md:64
+msgid "Pro tip - save it in your SSH config"
+msgstr "Astuce : enregistrez-le dans votre configuration SSH"
+
+#: ../../using_the_system/remote_access.md:67
+msgid ""
+"To avoid retyping the jump host every time, on your personal machine, add"
+" the following to `~/.ssh/config`:"
+msgstr ""
+"Pour éviter de retaper l'hôte de rebond chaque fois, ajoutez ce qui suit "
+"à `~/.ssh/config` sur votre ordinateur personnel :"
+
+#: ../../using_the_system/remote_access.md:76
+msgid "Then simply run `ssh cic`."
+msgstr "Exécutez ensuite simplement `ssh cic`."
+
+#: ../../using_the_system/remote_access.md:79
+msgid "Transferring data remotely"
+msgstr "Transférer des données à distance"
+
+#: ../../using_the_system/remote_access.md:81
+msgid ""
+"Data transfers are easiest with "
+"[`rsync`](https://linux.die.net/man/1/rsync), which supports resuming "
+"interrupted transfers. The following are example commands to be **run on "
+"your personal computer** to send data to and from the DNP:"
+msgstr ""
+"Les transferts de données sont plus simples avec "
+"[`rsync`](https://linux.die.net/man/1/rsync), qui permet de reprendre les"
+" transferts interrompus. Voici des exemples de commandes à **exécuter sur"
+" votre ordinateur personnel** pour envoyer des données vers le DNP et en "
+"récupérer :"
+
+#: ../../using_the_system/remote_access.md:93
+msgid ""
+"Note: Regular globbing (`*`) and other shell tricks work as expected over"
+" `rsync`."
+msgstr ""
+"Remarque : les caractères génériques habituels (`*`) et les autres "
+"astuces du shell fonctionnent normalement avec `rsync`."
+
+#: ../../using_the_system/remote_access.md:95
+msgid "External data transfers to the DNP must be initiated from the DNP"
+msgstr ""
+"Les transferts de données externes vers le DNP doivent être lancés à "
+"partir du DNP"
+
+#: ../../using_the_system/remote_access.md:98
+msgid ""
+"Do not log into an external system, such as a [Digital Research Alliance "
+"of Canada (DRAC)](https://www.alliancecan.ca/en) server, and PUSH data to"
+" DNP using rsync or similar tools."
+msgstr ""
+"Ne vous connectez pas à un système externe, comme un serveur de "
+"l'[Alliance de recherche numérique du Canada "
+"(DRAC)](https://www.alliancecan.ca/en), pour POUSSER des données vers le "
+"DNP avec rsync ou un outil semblable."
+
+#: ../../using_the_system/remote_access.md:100
+msgid ""
+"Any data transfer between an external system and the DNP must be "
+"initiated from a DNP computer. **In practice, this means you should log "
+"into a DNP workstation or server and run the transfer from there**."
+msgstr ""
+"Tout transfert de données entre un système externe et le DNP doit être "
+"lancé à partir d'un ordinateur du DNP. **En pratique, connectez-vous à un"
+" poste de travail ou à un serveur du DNP et lancez le transfert à partir "
+"de là**."
+
+#: ../../using_the_system/remote_access.md:110
+msgid "Graphical transfer tools (Windows)"
+msgstr "Outils de transfert graphiques (Windows)"
+
+#: ../../using_the_system/remote_access.md:113
+msgid ""
+"Windows users who prefer a graphical interface can use "
+"[WinSCP](https://winscp.net/eng/download.php) or [FileZilla](https"
+"://filezilla-project.org/) (remember to set the custom port "
+"`portNumber`). If you use MobaXterm to reach files on your local Windows "
+"machine, see the [MobaXterm documentation on "
+"paths](https://mobaxterm.mobatek.net/documentation.html#2_2_3)."
+msgstr ""
+"Les utilisateurs de Windows qui préfèrent une interface graphique peuvent"
+" utiliser [WinSCP](https://winscp.net/eng/download.php) ou "
+"[FileZilla](https://filezilla-project.org/) (n'oubliez pas de configurer "
+"le port personnalisé `portNumber`). Si vous utilisez MobaXterm pour "
+"accéder aux fichiers de votre ordinateur Windows local, consultez la "
+"[documentation de MobaXterm sur les "
+"chemins](https://mobaxterm.mobatek.net/documentation.html#2_2_3)."
+
+#: ../../using_the_system/remote_access.md:120
+msgid "Running software remotely"
+msgstr "Exécuter des logiciels à distance"
+
+#: ../../using_the_system/remote_access.md:122
+msgid ""
+"Once you are on your workstation, the terminal and the {ref}`software "
+"modules<using_the_system/access_to_software:access to software>` behave "
+"exactly as they would if you were sitting at the machine. Run individual "
+"commands directly, or submit jobs with `qbatch`."
+msgstr ""
+"Une fois sur votre poste de travail, le terminal et les {ref}`modules "
+"logiciels<using_the_system/access_to_software:access to software>` se "
+"comportent exactement comme si vous étiez devant l'ordinateur. Exécutez "
+"des commandes directement ou soumettez des tâches avec `qbatch`."
+
+#: ../../using_the_system/remote_access.md:127
+msgid "Keep long jobs alive with tmux or screen"
+msgstr "Garder les longues tâches actives avec tmux ou screen"
+
+#: ../../using_the_system/remote_access.md:130
+msgid ""
+"A dropped network connection will kill any foreground command. Run long "
+"jobs inside a terminal multiplexer with the "
+"['tmux'](https://linuxize.com/post/getting-started-with-tmux/) or "
+"['screen'](https://linuxize.com/post/how-to-use-linux-screen/) commands "
+"(both are installed) - so they keep running after you disconnect, and you"
+" can reconnect to them later."
+msgstr ""
+"Une coupure de la connexion réseau interrompt toute commande au premier "
+"plan. Exécutez les longues tâches dans un multiplexeur de terminal avec "
+"les commandes ['tmux'](https://linuxize.com/post/getting-started-with-"
+"tmux/) ou ['screen'](https://linuxize.com/post/how-to-use-linux-screen/) "
+"(les deux sont installées), afin qu'elles continuent après votre "
+"déconnexion et que vous puissiez vous y reconnecter plus tard."
+
+#: ../../using_the_system/remote_access.md:136
+msgid "For MATLAB without the GUI, start it with:  `matlab -nodesktop`"
+msgstr ""
+"Pour lancer MATLAB sans interface graphique, utilisez : `matlab "
+"-nodesktop`"
+
+#: ../../using_the_system/remote_access.md:138
+msgid "Remote graphics (X11 forwarding)"
+msgstr "Graphiques à distance (transmission X11)"
+
+#: ../../using_the_system/remote_access.md:140
+msgid ""
+"Linux can forward graphical applications back to your machine over SSH, "
+"but a number of moving parts must be coordinated:"
+msgstr ""
+"Linux peut renvoyer les applications graphiques vers votre machine via "
+"SSH, mais un certain nombre d'éléments doivent être coordonnés :"
+
+#: ../../using_the_system/remote_access.md:143
+msgid ""
+"You need a local X server: **MobaXterm** on Windows, **XQuartz** on "
+"macOS; Linux has everything already."
+msgstr ""
+"Vous avez besoin d'un serveur X local : **MobaXterm** sur Windows, "
+"**XQuartz** sur macOS ; Linux a déjà tout ce qu'il faut."
+
+#: ../../using_the_system/remote_access.md:145
+msgid ""
+"Connect **directly to your workstation** through the gateway as a jump "
+"host, adding `-Y` to enable trusted X11 forwarding:"
+msgstr ""
+"Connectez-vous **directement à votre poste de travail** via la passerelle"
+" comme hôte de rebond, en ajoutant `-Y` pour activer la transmission X11 "
+"de confiance :"
+
+#: ../../using_the_system/remote_access.md:152
+msgid ""
+"If you are on an older SSH version, you may need the [workaround "
+"described here](https://superuser.com/a/1204734/1113768)."
+msgstr ""
+"Si vous utilisez une version plus ancienne de SSH, vous devrez peut-être "
+"utiliser la [solution de contournement décrite "
+"ici](https://superuser.com/a/1204734/1113768)."
+
+#: ../../using_the_system/remote_access.md:155
+msgid ""
+"For 3D/OpenGL software (like `Display` from the minc-toolkit), after "
+"opening your terminal run `module load remotemesa`. However, if you "
+"connected with X2Go, don't load the module and use the `vglrun <command>`"
+" instead."
+msgstr ""
+"Pour les logiciels 3D/OpenGL (comme `Display` de minc-toolkit), après "
+"avoir ouvert votre terminal, exécutez `module load remotemesa`. "
+"Cependant, si vous vous êtes connecté avec X2Go, ne chargez pas le module"
+" et utilisez plutôt `vglrun <command>`."
+
+#: ../../using_the_system/remote_access.md:158
+msgid "Expect it to be slow"
+msgstr "Attendez-vous à ce que ce soit lent"
+
+#: ../../using_the_system/remote_access.md:161
+msgid ""
+"X11 forwarding sends rendering instructions over the network and will be "
+"slow regardless of your connection. For an interactive desktop, use "
+"**X2Go** instead."
+msgstr ""
+"La transmission X11 envoie les instructions de rendu sur le réseau et "
+"sera lente, quelle que soit votre connexion. Pour un bureau interactif, "
+"utilisez plutôt **X2Go**."
+
+#: ../../using_the_system/remote_access.md:166
+msgid "Remote desktop access with X2Go"
+msgstr "Accès au bureau à distance avec X2Go"
+
+#: ../../using_the_system/remote_access.md:168
+msgid ""
+"[X2Go](https://wiki.x2go.org/doku.php) gives you a full graphical desktop"
+" on your workstation and is far more responsive/faster than raw X11 "
+"forwarding. To use it, Install the [X2Go "
+"client](https://wiki.x2go.org/doku.php/doc:installation:x2goclient) on "
+"your personal computer, and then create a new session with the settings "
+"highlighted below (use **your** username and workstation):"
+msgstr ""
+"[X2Go](https://wiki.x2go.org/doku.php) vous fournit un bureau graphique "
+"complet sur votre poste de travail et est beaucoup plus réactif/rapide "
+"que la transmission X11 brute. Pour l'utiliser, installez le [client "
+"X2Go](https://wiki.x2go.org/doku.php/doc:installation:x2goclient) sur "
+"votre ordinateur personnel, puis créez une nouvelle session avec les "
+"paramètres mis en évidence ci-dessous (utilisez **votre** nom "
+"d'utilisateur et votre poste de travail) :"
+
+#: ../../using_the_system/remote_access.md:173
+msgid ""
+"![X2Go session preferences, with the gateway entered as the proxy "
+"server](x2go_session_preferences.png \"X2Go session preferences\")"
+msgstr ""
+"![Préférences de session X2Go, avec la passerelle saisie comme serveur "
+"proxy](x2go_session_preferences.png \"Préférences de session X2Go\")"
+
+#: ../../using_the_system/remote_access.md:173
+msgid "X2Go session preferences, with the gateway entered as the proxy server"
+msgstr "Préférences de session X2Go, avec la passerelle saisie comme serveur proxy"
+
+#: ../../using_the_system/remote_access.md:175
+msgid ""
+"**Pick a workstation you normally use and set the Display resolution "
+"(1024×768 or higher) for a usable desktop.**"
+msgstr ""
+"**Choisissez un poste de travail que vous utilisez normalement et "
+"définissez Display resolution (Résolution d'affichage) (1024×768 ou plus)"
+" pour un bureau utilisable.**"
+
+#: ../../using_the_system/remote_access.md:177
+msgid "Sessions survive disconnects"
+msgstr "Les sessions survivent aux déconnexions"
+
+#: ../../using_the_system/remote_access.md:180
+msgid ""
+"If your connection drops or you close the X2Go window, your session and "
+"programs keep running on the workstation — just reconnect to resume where"
+" you left off."
+msgstr ""
+"Si votre connexion est interrompue ou si vous fermez la fenêtre X2Go, "
+"votre session et vos programmes continuent de s'exécuter sur le poste de "
+"travail — il suffit de vous reconnecter pour reprendre là où vous vous "
+"êtes arrêté."
+
+#: ../../using_the_system/remote_access.md:184
+msgid ""
+"For 3D software in a fresh install, launch it with `vglrun <command>`. "
+"Personal tunnel users (see below) should instead set the **Server** to "
+"`localhost` port `19999` and **skip** \"Use Proxy server\"."
+msgstr ""
+"Pour les logiciels 3D dans une installation neuve, lancez-les avec "
+"`vglrun <command>`. Les utilisateurs d'un tunnel personnel (voir ci-"
+"dessous) doivent plutôt régler **Server** (Serveur) sur `localhost`, port"
+" `19999`, et **ne pas cocher** « Use Proxy server » (Utiliser un serveur "
+"proxy)."
+
+#: ../../using_the_system/remote_access.md:188
+msgid "Opening a terminal inside the X2Go desktop"
+msgstr "Ouvrir un terminal dans le bureau X2Go"
+
+#: ../../using_the_system/remote_access.md:190
+msgid ""
+"Once the LXDE desktop loads, open the application menu in the bottom-left"
+" corner:"
+msgstr ""
+"Une fois le bureau LXDE chargé, ouvrez le menu des applications dans le "
+"coin inférieur gauche :"
+
+#: ../../using_the_system/remote_access.md:192
+msgid ""
+"![Opening the LXDE application menu in X2Go](x2go_open_terminal_menu.png "
+"\"X2Go application menu\")"
+msgstr ""
+"![Ouverture du menu des applications LXDE dans "
+"X2Go](x2go_open_terminal_menu.png \"Menu des applications X2Go\")"
+
+#: ../../using_the_system/remote_access.md:192
+msgid "Opening the LXDE application menu in X2Go"
+msgstr "Ouverture du menu des applications LXDE dans X2Go"
+
+#: ../../using_the_system/remote_access.md:194
+msgid "Then choose **System Tools → LXTerminal** to get a command-line terminal:"
+msgstr ""
+"Choisissez ensuite **System Tools → LXTerminal** (Outils système → "
+"LXTerminal) pour obtenir un terminal en ligne de commande :"
+
+#: ../../using_the_system/remote_access.md:196
+msgid ""
+"![Selecting the terminal under System "
+"Tools](x2go_open_terminal_submenu.png \"X2Go System Tools menu\")"
+msgstr ""
+"![Sélection du terminal sous System Tools](x2go_open_terminal_submenu.png"
+" \"Menu System Tools de X2Go\")"
+
+#: ../../using_the_system/remote_access.md:196
+msgid "Selecting the terminal under System Tools"
+msgstr "Sélection du terminal sous System Tools"
+
+#: ../../using_the_system/remote_access.md:198
+msgid "Working on your own machine"
+msgstr "Travailler sur votre propre machine"
+
+#: ../../using_the_system/remote_access.md:200
+msgid ""
+"If you would rather process data locally, a couple of options approximate"
+" the CIC environment:"
+msgstr ""
+"Si vous préférez traiter les données localement, quelques options se "
+"rapprochent de l'environnement CIC :"
+
+#: ../../using_the_system/remote_access.md:203
+msgid ""
+"**[MINC-VM](https://github.com/CoBrALab/MINC-VM)** is a virtual machine "
+"(a \"computer in a box\") that contains an approximation of the CIC "
+"modules. Run it with "
+"[VirtualBox](https://www.virtualbox.org/wiki/Downloads); prebuilt images "
+"are at [packages.bic.mni.mcgill.ca](https://packages.bic.mni.mcgill.ca"
+"/virtual-machines/). Additional packages such as AFNI and FSL can be "
+"installed inside the VM via NeuroDebian (`apt-get install ...`)."
+msgstr ""
+"**[MINC-VM](https://github.com/CoBrALab/MINC-VM)** est une machine "
+"virtuelle (« ordinateur dans une boîte ») qui contient une approximation "
+"des modules CIC. Exécutez-la avec "
+"[VirtualBox](https://www.virtualbox.org/wiki/Downloads) ; les images "
+"préconstruites se trouvent sur "
+"[packages.bic.mni.mcgill.ca](https://packages.bic.mni.mcgill.ca/virtual-"
+"machines/). Des paquets supplémentaires tels que AFNI et FSL peuvent être"
+" installés dans la machine virtuelle via NeuroDebian (`apt-get install "
+"...`)."
+
+#: ../../using_the_system/remote_access.md:209
+msgid ""
+"**MATLAB** is available to McGill members through the [TAH "
+"portal](https://www.mathworks.com/academia/tah-portal/mcgill-"
+"university-30521249.html)."
+msgstr ""
+"**MATLAB** est disponible pour les membres de McGill via le [portail "
+"TAH](https://www.mathworks.com/academia/tah-portal/mcgill-"
+"university-30521249.html)."
+
+#: ../../using_the_system/remote_access.md:212
+msgid "Support for personal machines is limited"
+msgstr "L'assistance pour les machines personnelles est limitée"
+
+#: ../../using_the_system/remote_access.md:215
+msgid ""
+"Personal machines vary enormously, so support is limited. **Most "
+"neuroscience software is not available on Windows**. Email "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+" to get help finding software."
+msgstr ""
+"Les machines personnelles varient énormément, donc l'assistance est "
+"limitée. **La plupart des logiciels de neurosciences ne sont pas "
+"disponibles sur Windows**. Envoyez un courriel à "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+" pour obtenir de l'aide afin de trouver des logiciels."
+
+#: ../../using_the_system/remote_access.md:218
+msgid "Verify your setup"
+msgstr "Vérifiez votre configuration"
+
+#: ../../using_the_system/remote_access.md:220
+msgid "As a quick test that everything is working end to end:"
+msgstr ""
+"Pour un test rapide permettant de vérifier que tout fonctionne de bout en"
+" bout :"
+
+#: ../../using_the_system/remote_access.md:222
+msgid ""
+"Log in to your workstation:  `ssh -p portNumber <username>@GatewayHost` "
+"then `ssh cicwsXX`"
+msgstr ""
+"Connectez-vous à votre poste de travail :  `ssh -p portNumber "
+"<username>@GatewayHost` puis `ssh cicwsXX`"
+
+#: ../../using_the_system/remote_access.md:224
+msgid "Create and edit a text file:  `nano /scratch/$USER/test.txt`"
+msgstr "Créez et modifiez un fichier texte :  `nano /scratch/$USER/test.txt`"
+
+#: ../../using_the_system/remote_access.md:226
+msgid ""
+"Copy the file to your home machine (rsync, WinSCP, or FileZilla) and edit"
+" it   with a local editor."
+msgstr ""
+"Copiez le fichier vers votre machine locale (rsync, WinSCP ou FileZilla) "
+"et modifiez-le   avec un éditeur local."
+
+#: ../../using_the_system/remote_access.md:228
+msgid ""
+"Copy the file back to the DNP and confirm your changes with  `cat "
+"/scratch/$USER/test.txt`."
+msgstr ""
+"Copiez le fichier de nouveau sur le DNP et confirmez vos modifications "
+"avec  `cat /scratch/$USER/test.txt`."
+
+#: ../../using_the_system/remote_access.md:231
+msgid "Using the Alliance / Compute Canada"
+msgstr "Utilisation de l'Alliance / Compute Canada"
+
+#: ../../using_the_system/remote_access.md:233
+msgid ""
+"If your lab has a DRAC / Compute Canada account, remote work can also be "
+"done there using the Alliance modules; access and data copying use the "
+"same `ssh`/`rsync` tools described above."
+msgstr ""
+"Si votre laboratoire possède un compte DRAC / Compute Canada, le travail "
+"à distance peut également y être effectué à l'aide des modules de "
+"l'Alliance ; l'accès et la copie de données utilisent les mêmes outils "
+"`ssh`/`rsync` décrits ci-dessus."
+
+#: ../../using_the_system/remote_access.md:236
+msgid ""
+"CIC-like tools are hosted on Trillium via the `mchakrav` group. For "
+"access and assistance in getting software set up there, contact "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+msgstr ""
+"Des outils semblables à ceux du CIC sont hébergés sur Trillium par "
+"l'intermédiaire du groupe `mchakrav`. Pour obtenir un accès ou de l'aide "
+"pour y configurer des logiciels, écrivez à "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)"
+
+#: ../../using_the_system/remote_access.md:240
+msgid "Advanced: your own personal DNP tunnel"
+msgstr "Avancé : votre propre tunnel personnel DNP"
+
+#: ../../using_the_system/remote_access.md:242
+msgid "For experienced Linux users"
+msgstr "Pour les utilisateurs Linux expérimentés"
+
+#: ../../using_the_system/remote_access.md:245
+msgid ""
+"External users share a single tunnel into the CIC. The CIC has plenty of "
+"*outgoing* bandwidth, so if you run **Linux at home** you can set up a "
+"dedicated outgoing tunnel just for yourself. This is a fairly technical "
+"solution — attempt it only if you are comfortable with Linux networking."
+msgstr ""
+"Les utilisateurs externes partagent un seul tunnel vers le CIC. Le CIC "
+"dispose de beaucoup de bande passante *sortante*; si vous utilisez "
+"**Linux à domicile**, vous pouvez donc mettre en place un tunnel sortant "
+"dédié rien que pour vous. C'est une solution assez technique — ne "
+"l'essayez que si vous êtes à l'aise avec la configuration réseau sous "
+"Linux."
+
+#: ../../using_the_system/remote_access.md:251
+msgid ""
+"**1. Prepare your home machine** to accept SSH and make it reachable from"
+" the internet:"
+msgstr ""
+"**1. Préparez votre machine à domicile** pour accepter SSH et la rendre "
+"accessible depuis Internet :"
+
+#: ../../using_the_system/remote_access.md:260
+msgid ""
+"Configure your router to forward port `22` to that local IP, and find "
+"your external (internet) IP address (e.g. ask a search engine \"what is "
+"my ip address\")."
+msgstr ""
+"Configurez votre routeur pour rediriger le port `22` vers cette adresse "
+"IP locale, puis trouvez votre adresse IP externe (Internet) (p. ex. "
+"demandez à un moteur de recherche « quelle est mon adresse IP »)."
+
+#: ../../using_the_system/remote_access.md:263
+msgid ""
+"**2. From your CIC workstation, open a reverse tunnel** back to your home"
+" machine. Run it inside `tmux`/`screen` so it survives disconnects:"
+msgstr ""
+"**2. Depuis votre poste de travail CIC, ouvrez un tunnel inverse** vers "
+"votre machine à domicile. Exécutez-le dans `tmux`/`screen` afin qu'il "
+"survive aux déconnexions :"
+
+#: ../../using_the_system/remote_access.md:272
+msgid "**3. Use the tunnel from your home machine** via local port `19999`:"
+msgstr ""
+"**3. Utilisez le tunnel depuis votre machine à domicile** via le port "
+"local `19999` :"
+
+#: ../../using_the_system/remote_access.md:281
+msgid ""
+"Personal tunnel users can also point the X2Go client at `localhost` port "
+"`19999` (with the proxy server disabled) for a remote desktop."
+msgstr ""
+"Les utilisateurs de tunnels personnels peuvent également diriger le "
+"client X2Go vers `localhost` sur le port `19999` (avec le serveur proxy "
+"désactivé) pour un bureau à distance."
+

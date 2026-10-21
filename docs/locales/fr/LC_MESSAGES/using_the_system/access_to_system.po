@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../using_the_system/access_to_system.md:1
+msgid "Accessing the System"
+msgstr "Accès au système"
+
+#: ../../using_the_system/access_to_system.md:3
+msgid "The platform can be accessed in a number of ways:"
+msgstr "La plateforme est accessible de plusieurs façons :"
+
+#: ../../using_the_system/access_to_system.md:5
+msgid "Physical access"
+msgstr "Accès physique"
+
+#: ../../using_the_system/access_to_system.md:6
+msgid "Remote access within the Douglas"
+msgstr "Accès à distance au sein du Centre de recherche Douglas"
+
+#: ../../using_the_system/access_to_system.md:8
+msgid "Physical Access"
+msgstr "Accès physique"
+
+#: ../../using_the_system/access_to_system.md:10
+msgid ""
+"Physical access to a suite of workstations is available inside the "
+"Douglas CIC, contact the CIC Administrative Assistant (Louis Théroux) "
+"<louis.theroux.comtl@ssss.gouv.qc.ca> for keycard access."
+msgstr ""
+"L'accès physique à un ensemble de postes de travail est offert à "
+"l'intérieur du CIC du Douglas; communiquez avec l'adjoint administratif "
+"du CIC (Louis Théroux) <louis.theroux.comtl@ssss.gouv.qc.ca> pour obtenir"
+" une carte d'accès."
+
+#: ../../using_the_system/access_to_system.md:13
+msgid "Remote Access within the Douglas"
+msgstr "Accès à distance au sein du Centre de recherche Douglas"
+
+#: ../../using_the_system/access_to_system.md:15
+msgid ""
+"All platform hardware is accessible within the Douglas Research Centre "
+"network via `ssh`. The main user server is available at `cicus03`, the "
+"storage server at `cicss05` and workstations are available in the range "
+"`cicws[01..48]` and `dnpws[01..12]`."
+msgstr ""
+"Tout le matériel de la plateforme est accessible au sein du réseau du "
+"Centre de recherche Douglas via `ssh`. Le serveur d'utilisateurs "
+"principal est disponible à `cicus03`, le serveur de stockage à `cicss05` "
+"et les postes de travail sont disponibles dans les plages `cicws[01..48]`"
+" et `dnpws[01..12]`."
+
+#: ../../using_the_system/access_to_system.md:20
+msgid "Playing nice"
+msgstr "Règles de courtoisie"
+
+#: ../../using_the_system/access_to_system.md:21
+msgid ""
+"Neuroinformatics workstations all allow for multiple simultaneous users, "
+"please make a best effort to choose a workstation not already being used "
+"by others."
+msgstr ""
+"Les postes de travail de neuroinformatique permettent tous plusieurs "
+"utilisateurs simultanés ; veuillez faire de votre mieux pour choisir un "
+"poste de travail qui n'est pas déjà utilisé par d'autres."
+
+#: ../../using_the_system/access_to_system.md:24
+msgid ""
+"The command [`who`](https://linuxize.com/post/who-command-in-linux/) can "
+"list currently logged-in users, while [`htop`](https://htop.dev/) will "
+"show a graphical display of the current state of CPU and Memory "
+"utilization."
+msgstr ""
+"La commande [`who`](https://linuxize.com/post/who-command-in-linux/) "
+"permet de lister les utilisateurs actuellement connectés, tandis que "
+"[`htop`](https://htop.dev/) présente un affichage graphique de l'état "
+"actuel de l'utilisation du processeur et de la mémoire."
+
+#: ../../using_the_system/access_to_system.md:28
+msgid ""
+"In general, fewer users is better, as well as low CPU and memory "
+"utilization (represented by the length of the horizontal coloured bars in"
+" `htop`)"
+msgstr ""
+"En général, il est préférable d'avoir moins d'utilisateurs, ainsi qu'une "
+"faible utilisation du processeur et de la mémoire (représentée par la "
+"longueur des barres horizontales colorées dans `htop`)"
+
+#: ../../using_the_system/access_to_system.md:34
+msgid "Graphical Access"
+msgstr "Accès graphique"
+
+#: ../../using_the_system/access_to_system.md:36
+msgid ""
+"In addition to shell access on workstations via SSH, access to a full "
+"graphical desktop is available via [X2GO](https://wiki.x2go.org/doku.php)"
+" which rides on SSH. Install the local client, create a connection to a "
+"workstation and specify the LXDE desktop type for a minimal-graphical-"
+"features remote desktop with features equivalent to sitting at a "
+"workstation."
+msgstr ""
+"En plus de l'accès au shell sur les postes de travail via SSH, l'accès à "
+"un bureau graphique complet est disponible via "
+"[X2GO](https://wiki.x2go.org/doku.php), qui s'appuie sur SSH. Installez "
+"le client local, créez une connexion vers un poste de travail et "
+"spécifiez le type de bureau LXDE pour un bureau distant à fonctionnalités"
+" graphiques minimales, offrant des fonctionnalités équivalentes à celles "
+"d'une utilisation directe à un poste de travail."
+
+#: ../../using_the_system/access_to_system.md:43
+msgid "Connecting via VS CODE"
+msgstr "Connexion via VS CODE"
+
+#: ../../using_the_system/access_to_system.md:45
+msgid ""
+"To use VS Code’s **Remote-SSH** feature to connect to internal hosts, it "
+"is **imperative that you avoid connecting directly to** `cicus03`."
+msgstr ""
+"Pour utiliser la fonctionnalité **Remote-SSH** (SSH à distance) de VS "
+"Code afin de vous connecter à des hôtes internes, **il est impératif "
+"d'éviter de vous connecter directement à** `cicus03`."
+
+#: ../../using_the_system/access_to_system.md:47
+msgid "Notes on Connecting via the Gateway"
+msgstr "Notes sur la connexion via la passerelle"
+
+#: ../../using_the_system/access_to_system.md:48
+msgid ""
+"When connecting to the gateway directly, you are automatically redirected"
+" to `cicus03`.   To access a different host (e.g., `cicwsXX`), you "
+"**must** use the jump host flag (`-J`) and explicitly specify the desired"
+" destination in your SSH command."
+msgstr ""
+"Lorsque vous vous connectez directement à la passerelle, vous êtes "
+"automatiquement redirigé vers `cicus03`.   Pour accéder à un autre hôte "
+"(p. ex. `cicwsXX`), vous **devez** utiliser l'option d'hôte de rebond "
+"(`-J`) et indiquer explicitement la destination souhaitée dans votre "
+"commande SSH."
+
+#: ../../using_the_system/access_to_system.md:52
+msgid ""
+"Please follow these steps to properly configure VS Code’s Remote SSH "
+"extension:"
+msgstr ""
+"Veuillez suivre ces étapes pour configurer correctement l'extension "
+"Remote SSH de VS Code :"
+
+#: ../../using_the_system/access_to_system.md:54
+msgid "Open **Visual Studio Code**"
+msgstr "Ouvrez **Visual Studio Code**"
+
+#: ../../using_the_system/access_to_system.md:55
+msgid "Press `F1` (or `Ctrl+Shift+P`) to open the **Command Palette**"
+msgstr ""
+"Appuyez sur `F1` (ou `Ctrl+Shift+P`) pour ouvrir la **Command Palette** "
+"(Palette de commandes)"
+
+#: ../../using_the_system/access_to_system.md:56
+msgid ""
+"Type and select: `Remote-SSH: Connect to Host...` ![Alt "
+"text](vscode_command_palette.png \"VSCODE command palette\")"
+msgstr ""
+"Saisissez et sélectionnez : `Remote-SSH: Connect to Host...` ![Texte "
+"alternatif](vscode_command_palette.png \"Palette de commandes VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:56
+#: ../../using_the_system/access_to_system.md:58
+#: ../../using_the_system/access_to_system.md:71
+#: ../../using_the_system/access_to_system.md:73
+#: ../../using_the_system/access_to_system.md:75
+#: ../../using_the_system/access_to_system.md:77
+#: ../../using_the_system/access_to_system.md:79
+msgid "Alt text"
+msgstr "Texte alternatif"
+
+#: ../../using_the_system/access_to_system.md:58
+msgid ""
+"Click on: `Add New SSH Host...` ![Alt text](vscode_add_new_host.png "
+"\"VSCODE configure host\")"
+msgstr ""
+"Cliquez sur : `Add New SSH Host...` ![Texte "
+"alternatif](vscode_add_new_host.png \"Configurer un hôte VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:60
+msgid "When prompted, enter the following command:"
+msgstr "À l'invite, entrez la commande suivante :"
+
+#: ../../using_the_system/access_to_system.md:64
+msgid "OR"
+msgstr "OU"
+
+#: ../../using_the_system/access_to_system.md:69
+msgid ""
+"Replace `yourUserName`, `GatewayHost`, and `portNumber` with your desired"
+" values."
+msgstr ""
+"Remplacez `yourUserName`, `GatewayHost` et `portNumber` par les valeurs "
+"souhaitées."
+
+#: ../../using_the_system/access_to_system.md:71
+msgid ""
+"Select a file to store this configuration to. ![Alt "
+"text](vscode_config_file.png \"VSCODE file config\")"
+msgstr ""
+"Sélectionnez un fichier dans lequel enregistrer cette configuration. "
+"![Texte alternatif](vscode_config_file.png \"Fichier de configuration "
+"VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:73
+msgid ""
+"Click on the **Open a Remote Window** icon located at the bottom left of "
+"the editor. ![Alt text](vscode_open_remote.png \"VSCODE open remote "
+"connection\")"
+msgstr ""
+"Cliquez sur l'icône **Open a Remote Window** (Ouvrir une fenêtre "
+"distante) située en bas à gauche de l'éditeur. ![Texte "
+"alternatif](vscode_open_remote.png \"Connexion distante VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:75
+msgid ""
+"Select **Connect to Host...** ![Alt text](vscode_connect_host.png "
+"\"VSCODE connect to host\")"
+msgstr ""
+"Sélectionnez **Connect to Host...** (Se connecter à un hôte...) ![Texte "
+"alternatif](vscode_connect_host.png \"Connexion à un hôte VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:77
+msgid ""
+"When prompted, select **Linux** as the platform, and answer fingerprint "
+"and password prompts. ![Alt text](vscode_fingerprint.png \"VSCODE "
+"fingerprint\")"
+msgstr ""
+"À l'invite, sélectionnez **Linux** comme plateforme, puis répondez aux "
+"invites d'empreinte et de mot de passe. ![Texte "
+"alternatif](vscode_fingerprint.png \"Empreinte VSCODE\")"
+
+#: ../../using_the_system/access_to_system.md:79
+msgid ""
+"You can verify that you are connected to a host in the bottom left-hand "
+"corner. ![Alt text](vscode_connected.png \"VSCODE connected\")"
+msgstr ""
+"Vous pouvez vérifier que vous êtes connecté à un hôte dans le coin "
+"inférieur gauche. ![Texte alternatif](vscode_connected.png \"Connecté "
+"VSCODE\")"
+

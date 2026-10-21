@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, The Douglas Neuroinformatics Platform
+# This file is distributed under the same license as the Douglas
+# Neuroinformatics Platform Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Douglas Neuroinformatics Platform Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:24-0400\n"
+"PO-Revision-Date: 2026-10-20 15:00-0400\n"
+"Last-Translator: Douglas Neuroinformatics Platform\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../getting_help/index.md:1
+msgid "Getting Help"
+msgstr "Obtenir de l'aide"
+
+#: ../../getting_help/index.md:3
+msgid "Solving things yourself"
+msgstr "Résoudre les problèmes par soi-même"
+
+#: ../../getting_help/index.md:5
+msgid ""
+"Before asking for help, it's very important for you to try to solve your "
+"own problems."
+msgstr ""
+"Avant de demander de l'aide, il est très important d'essayer de résoudre "
+"vos propres problèmes."
+
+#: ../../getting_help/index.md:7
+msgid ""
+"The most important thing you can do is read your log files, and look for "
+"things which are out of the ordinary compared to rest of the pattern. A "
+"good place to start is at the end of the file, however due to use of "
+"parallel processing, this is not always the where you'll find the "
+"problem."
+msgstr ""
+"La chose la plus importante que vous puissiez faire est de lire vos "
+"fichiers journaux et d'y rechercher ce qui sort de l'ordinaire par "
+"rapport au reste. La fin du fichier est un bon point de départ; "
+"toutefois, en raison du traitement parallèle, ce n'est pas toujours là "
+"que vous trouverez le problème."
+
+#: ../../getting_help/index.md:11
+msgid "Words to look for to isolate a problem:"
+msgstr "Mots à rechercher pour isoler un problème :"
+
+#: ../../getting_help/index.md:12
+msgid "`segmentation fault`"
+msgstr "`segmentation fault`"
+
+#: ../../getting_help/index.md:13
+msgid "`killed`"
+msgstr "`killed`"
+
+#: ../../getting_help/index.md:14
+msgid "`error`"
+msgstr "`error`"
+
+#: ../../getting_help/index.md:15
+msgid "`fail`"
+msgstr "`fail`"
+
+#: ../../getting_help/index.md:16
+msgid "`warning` -- sometimes"
+msgstr "`warning` -- parfois"
+
+#: ../../getting_help/index.md:18
+msgid "Be sure to check case."
+msgstr "Assurez-vous de vérifier la casse."
+
+#: ../../getting_help/index.md:20
+msgid ""
+"You can use `less` to browse a log file and `/` inside `less` to search. "
+"Use the keyboard to move around."
+msgstr ""
+"Vous pouvez utiliser `less` pour parcourir un fichier journal et `/` dans"
+" `less` pour effectuer une recherche. Utilisez le clavier pour vous "
+"déplacer."
+
+#: ../../getting_help/index.md:22
+msgid "Asking for help"
+msgstr "Demander de l'aide"
+
+#: ../../getting_help/index.md:24
+msgid ""
+"If you are unable to solve the issue yourself, please contact us at "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)."
+" When contacting us for help, it is important to fully explain the "
+"problem you're having, this means explaining:"
+msgstr ""
+"Si vous n'arrivez pas à résoudre le problème vous-même, veuillez nous "
+"contacter à "
+"[support@douglasneuroinformatics.ca](mailto:support@douglasneuroinformatics.ca)."
+" Lorsque vous nous contactez pour obtenir de l'aide, il est important "
+"d'expliquer complètement le problème que vous rencontrez, ce qui signifie"
+" expliquer :"
+
+#: ../../getting_help/index.md:27
+msgid "what you're doing, including anything out of the ordinary"
+msgstr "ce que vous faites, y compris tout élément inhabituel"
+
+#: ../../getting_help/index.md:28
+msgid ""
+"where you're doing it (what computer, and how you're accessing it, i.e. "
+"locally/remotely, SSH, X2Go, wifi, ethernet, inside/outside Douglas "
+"network)"
+msgstr ""
+"où vous le faites (quel ordinateur, et comment vous y accédez, c.-à-d. en"
+" local/à distance, SSH, X2Go, Wi-Fi, Ethernet, à l'intérieur/à "
+"l'extérieur du réseau Douglas)"
+
+#: ../../getting_help/index.md:29
+msgid "what the error/problem/unexpected result you're getting"
+msgstr "l'erreur, le problème ou le résultat inattendu que vous obtenez"
+
+#: ../../getting_help/index.md:30
+msgid "the complete paths/access to the inputs, outputs, and logs"
+msgstr "les chemins d'accès complets ou l'accès aux entrées, sorties et journaux"
+
+#: ../../getting_help/index.md:31
+msgid "what you tried to do to solve your problem (in detail) and the results"
+msgstr ""
+"ce que vous avez essayé de faire pour résoudre votre problème (en détail)"
+" et les résultats obtenus"
+
+#: ../../getting_help/index.md:33
+msgid ""
+"For more background on getting help, these documents are excellent in "
+"understanding how to communicate you needs with maximum useful "
+"information:"
+msgstr ""
+"Pour plus de contexte sur la façon d'obtenir de l'aide, ces documents "
+"sont excellents pour comprendre comment communiquer vos besoins avec un "
+"maximum d'informations utiles :"
+
+#: ../../getting_help/index.md:36
+msgid ""
+"[How to Report Bugs "
+"Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)"
+msgstr ""
+"[Comment signaler efficacement les "
+"bogues](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)"
+
+#: ../../getting_help/index.md:37
+msgid ""
+"[How To Ask Questions The Smart Way -- Be "
+"Precise](http://www.catb.org/~esr/faqs/smart-questions.html#beprecise)"
+msgstr ""
+"[Comment poser des questions de façon intelligente -- Soyez "
+"précis](http://www.catb.org/~esr/faqs/smart-questions.html#beprecise)"
+
+#: ../../getting_help/index.md:38
+msgid "[The XY Problem](https://en.wikipedia.org/wiki/XY_problem)"
+msgstr "[Le problème XY](https://en.wikipedia.org/wiki/XY_problem)"
+
+#: ../../getting_help/index.md:39
+msgid ""
+"[Minimal Reproducible Example](https://stackoverflow.com/help/minimal-"
+"reproducible-example)"
+msgstr ""
+"[Exemple minimal reproductible](https://stackoverflow.com/help/minimal-"
+"reproducible-example)"
+
