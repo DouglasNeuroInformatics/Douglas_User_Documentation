@@ -41,7 +41,7 @@ Any string that has no translation falls back to English, so pages can be transl
    - `sphinx-build -b html . _build/html/en`
    - `sphinx-build -b html -D language=fr . _build/html/fr`
 7. Open `docs/_build/html/en/index.html` and use the **Français** / **English** link
-   under the project title in the sidebar to switch languages.
+   at the bottom of the sidebar menu to switch languages.
 
 When the English text of a page changes, re-run steps 3 and 4.
 Changed strings are marked `#, fuzzy` and show in English until the translation is reviewed.

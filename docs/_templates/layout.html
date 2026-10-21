@@ -1,16 +1,16 @@
 {% extends "!layout.html" %}
 
 {#
-  English/French switch in the sidebar.
+  English/French switch at the bottom of the sidebar menu.
   Read the Docs serves each language at /<lang>/<version>/<page>.html, so the
   link swaps the /en/ or /fr/ path segment of the current page. Locally, build
   into _build/html/en and _build/html/fr (see README.md) for the same layout.
   The link stays hidden when the URL has no language segment.
 #}
-{% block sidebartitle %}
+{% block menu %}
   {{ super() }}
   {% set other_lang = 'en' if language == 'fr' else 'fr' %}
-  <div class="dnp-lang-switch" style="display:none; margin-top: .5em;">
+  <div class="dnp-lang-switch" style="display:none; margin: 1.5em 0 2em;">
     <a id="dnp-lang-link" href="#" lang="{{ other_lang }}" hreflang="{{ other_lang }}"
        style="color: #fcfcfc; font-weight: bold;">
       {{ 'English' if other_lang == 'en' else 'Français' }}
